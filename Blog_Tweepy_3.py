@@ -32,10 +32,10 @@ import sys
 
 print ("Twitter Authentification ...")
 
-consumer_key = "SUzS76myMblKwcqITIjT74vWH"
-consumer_secret = "10SxYJB5109kpHlKaXJUgBmNOue9wqPYlw0yiENzGC0okberM9"
-access_token = "2539847237-jLJzRJsAd4OVN92vypXp5BLGCWK8KK2IsmNndj7"
-access_secret = "aHbIT1paj7v29eGQHZW4NTDqpuGRkQHa9XfHgevoy1FZM"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_secret = ""
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
