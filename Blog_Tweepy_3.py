@@ -59,8 +59,7 @@ args = parser.parse_args()
 
 print ("Download Tweet ...")
 tweet_country = {}
-#args.user
-for tweet in tweepy.Cursor(api.user_timeline,screen_name='SolomonJnr' ,tweet_mode='extended').items(12000):
+for tweet in tweepy.Cursor(api.user_timeline,screen_name=args.user ,tweet_mode='extended').items(12000):
 
     if tweet.place == None:
         pass
