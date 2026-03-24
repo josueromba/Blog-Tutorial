@@ -1,0 +1,31 @@
+{
+  "name": "blog-tutorial",
+  "version": "1.0.0",
+  "description": "Source code to support blog posts on josueromba.wordpress.com",
+  "main": "index.js",
+  "scripts": {
+    "preview": "remotion preview src/remotion-rssi/index.ts",
+    "render": "remotion render src/remotion-rssi/index.ts RSSIAfrique out/rssi-afrique.mp4",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:43393/git/josueromba/Blog-Tutorial"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.438",
+    "@remotion/cli": "^4.0.438",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.438"
+  },
+  "devDependencies": {
+    "@puppeteer/browsers": "^2.13.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.2"
+  }
+}
