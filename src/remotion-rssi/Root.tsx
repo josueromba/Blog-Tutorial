@@ -8,7 +8,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="RSSIAfrique"
         component={RSSIVideo}
-        durationInFrames={300}
+        durationInFrames={1300}
         fps={30}
         width={1920}
         height={1080}
