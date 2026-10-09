@@ -27,11 +27,19 @@ scripts/studio/demo-001/finalize-audio.sh jobs/demo-001/qa/raw-renders/demo-001-
 Regenerate the score (deterministic): `node scripts/studio/demo-001/synth-score.mts`
 Check a file: `npx remotion ffprobe -v error -show_streams -show_format -of json <file>`
 
+### Render demo-002 (Claude Dashboards + Motion, unofficial explainer)
+```bash
+npx remotion render src/studio/index.ts Demo002Landscape jobs/demo-002/qa/raw-renders/demo-002-16x9.raw.mp4 --codec=h264 --pixel-format=yuv420p --audio-codec=aac --color-space=bt709
+# then the finalize-audio step listed in jobs/demo-002/qa/logs/render-cmd.txt -> jobs/demo-002/out/demo-002-16x9.mp4
+# Vertical: Demo002Vertical -> demo-002-9x16
+```
+
 ### Example prompts
 - **New video:** "New job jobs/acme-001: 15 s launch video for Acme (inputs in ~/acme/). Write the brief, have motion-maker storyboard it, consult the advisor, then build, render 16:9 + 9:16, run the worker ffprobe check and the scene review."
 - **Revise demo-001:** "Revise demo-001: make the hook 'Ship your launch in motion.' and slow scene 3 by 15 frames. Send it to the same motion-maker, re-render, re-run the acceptance check."
 - **Find clients:** "Run the client search again: up to 4 studio-workers on public sources, merge up to 10 into leads.csv, mark unverified items, and draft no more than 3 proposals. Don't send anything."
 
 ### Outputs
-- Demo: `jobs/demo-001/out/` · QA: `jobs/demo-001/qa/` · report: `jobs/demo-001/REPORT.md`
+- Demo: `jobs/demo-001/out/`, `jobs/demo-002/out/` (report: `jobs/demo-002/REPORT.md`)
+- Demo-001: · QA: `jobs/demo-001/qa/` · report: `jobs/demo-001/REPORT.md`
 - Leads: `leads.csv` (notes in `research/leads/`) · proposals: `proposals/` (drafts, not sent)

@@ -15,7 +15,7 @@
 - **Copy check (main):** all 7 cards match the claims table character for character in both formats. The corner disclaimer is present in every scene. No added claims, digits or third-party names, no logos, and no claude.ai look-alike UI.
 - **Scene review (motion-maker, 54 frames from the final MP4s):** no issues. Minor: in 16:9 the decorative dashboard card goes about 30 px past the safe line for frames 60-65 while sliding in.
 - **Revision rounds used:** 0 of 2.
-- **demo-001 integrity:** motion-maker reports both demo-001 MP4s and its WAV have unchanged sha256, and the Demo001 stills are byte-identical (`qa/logs/demo001-integrity.log`).
+- **demo-001 integrity:** main verified with git: `git diff --stat 19e7411 HEAD -- jobs/demo-001/out public/studio/demo-001/score.wav` is empty. The only shared-source change is `src/studio/demo-001/components/TimelineStrip.tsx` (+5/-2, the optional `cuts` prop). motion-maker also reports the Demo001 stills are byte-identical (`qa/logs/demo001-integrity.log`).
 - **Playback was NOT reviewed.** Sync was measured numerically (0 samples late at all 7 cuts) and relies on the player honouring the MP4 edit list.
 
 ## Models: configured vs observed (transcript metadata)

@@ -15,3 +15,10 @@ Method: I extracted the last frame of each of the 7 scenes (f59, 119, 179, 239, 
 Result: PASS, with no added claims, digits or third-party names. The disclaimer is readable on the end card in both formats.
 UI: generic ink/stroke surfaces only, no logo, no cream surfaces, no send button. It doesn't read as claude.ai.
 Note: this is a still check, not a playback review.
+
+## Source grep (main, 2026-10-09)
+The sheets were downscaled, so I also grepped `src/studio/demo-002/` for each exact claims-table string. All are found literally except two, which are found in split form:
+- "Dashboards + Motion" is rendered as three word spans, 'Dashboards' '+' 'Motion' (HookScene.tsx:77).
+- "Motion: Team & Enterprise" is written as `Team &amp; Enterprise` in JSX, which renders as "&" (BetaScene.tsx:68).
+
+The middle dot "·" in the disclaimer and the source line "Source: claude.com, Oct 8, 2026" match exactly.
