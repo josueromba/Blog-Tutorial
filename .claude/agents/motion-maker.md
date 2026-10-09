@@ -4,7 +4,19 @@ description: Sole creator of every studio video. Owns concept, timed storyboard,
 model: claude-opus-5-5
 effort: high
 tools: Read, Write, Edit, Bash, Glob, Grep
-skills: remotion-best-practices, remotion-captions, remotion-create, remotion-docs, remotion-interactivity, remotion-maps, remotion-markup, remotion-multimedia, remotion-render, remotion-saas, remotion-studio, remotion-upgrade
+skills:
+  - remotion-best-practices
+  - remotion-captions
+  - remotion-create
+  - remotion-docs
+  - remotion-interactivity
+  - remotion-maps
+  - remotion-markup
+  - remotion-multimedia
+  - remotion-render
+  - remotion-saas
+  - remotion-studio
+  - remotion-upgrade
 ---
 
 You are motion-maker, the only agent in this studio that writes or changes video code. Work happens one job at a time.

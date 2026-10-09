@@ -8,18 +8,26 @@
 | 3. Project settings + launchers | Done: `.claude/settings.json`, `start.sh`, `start.ps1` |
 | 4. Agents | Done: `motion-maker`, `studio-worker` |
 | 5. CLAUDE.md + this file | Done |
-| 6. Gate | **STOPPED** - setup session ran on Opus 5.5 (not Sonnet 5.5), without the advisor, and started before `.claude/agents/` existed. Restart required. |
+| 6. Gate | **STOPPED** - setup session observed as `claude-opus-5-5` (get_session: `session_context.model` and `last_served_model`), not Sonnet 5.5; the advisor tool only attached mid-session; the session started before `.claude/agents/` existed. Writing `.claude/settings.json` did not change this session's model. Restart required (see Restart below). |
 | Job demo-001 | Not started |
 | Clients (leads, proposals) | Not started |
 | Deliver | Not started |
 
 ### Environment check
-- Claude Code 2.1.295 (>= 2.1.293): OK
+- Claude Code: `claude --version` and `/opt/claude-code/bin/claude --version` both report 2.1.295 (>= 2.1.293), and get_session reports container 2.1.295: OK. The env var `CLAUDE_CODE_VERSION=2.1.42` disagrees. It looks stale; noted, not relied on.
 - Node v22.22.0, npm 10.9.4, ffprobe 6.1.1: OK
 - Provider: Anthropic API (`ANTHROPIC_BASE_URL=https://api.anthropic.com`, no Bedrock/Vertex/Foundry vars): OK
 - DISABLE_TELEMETRY, CLAUDE_CODE_DISABLE_ADVISOR_TOOL, CLAUDE_CODE_EFFORT_LEVEL, ANTHROPIC_MODEL: not set - OK
 - availableModels: no user/managed settings restrict it - OK
 - Note: this runs in a Claude Code cloud container; the desktop app's environment may differ, re-check there.
+
+### Advisor log (setup)
+- 2026-10-09, gate review: the advisor confirmed the stop at the gate and asked for branch-aware restart steps, accurate gate wording, a version note, and a check of the agent frontmatter against the sub-agents docs. All were applied; `skills` is now a YAML list.
+
+## Restart
+1. Get this branch: `git fetch origin claude/beautiful-dirac-48xhh5 && git checkout claude/beautiful-dirac-48xhh5` (or pick that branch when starting a session).
+2. Open the repo root. In the desktop app, open the folder, choose Sonnet 5.5, and run `/advisor opus`. In a terminal, run `./start.sh`.
+3. Paste: `Read STUDIO_STATE.md and CLAUDE.md. Continue the studio setup and first job.`
 
 ## Prompt (verbatim)
 
