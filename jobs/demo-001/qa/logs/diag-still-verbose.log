@@ -1,0 +1,55 @@
+Remotion root directory: /home/user/Blog-Tutorial
+Applied configuration from /home/user/Blog-Tutorial/remotion.config.ts.
+Checking if /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/bundle is the entry file
+Entry point = /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/bundle (argument passed - found in cwd)
+Ensuring browser executable
+Getting composition
+Created directory for temporary files /tmp/remotion-v4.0.438-assetsxhoj98cd3s
+Ensured browser is available.
+[openBrowser()] Opening browser: gl = null, executable = /home/user/Blog-Tutorial/node_modules/.remotion/chrome-headless-shell/linux64/chrome-headless-shell-linux64/chrome-headless-shell, enableMultiProcessOnLinux = true
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020423.24 MB
+Memory reported by /proc/meminfo: 15283.89 MB
+Memory reported by Node: 15283.89 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+[compositor] Starting Rust process. Max video cache size: 7619MB, max threads = 2
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020338.57 MB
+Memory reported by /proc/meminfo: 15212.96 MB
+Memory reported by Node: 15212.96 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+[Tab 0, delayRender()] "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 1ms
+[Tab 0, delayRender()] "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 22ms
+[selectComposition()] Running calculateMetadata()...
+[Tab 0, delayRender()] "Running the calculateMetadata() function for composition Demo001Landscape" handle was cleared after 1ms
+[selectComposition()] calculateMetadata() took 4ms
+Composition = Demo001Landscape (Passed as argument)
+Format = png (Out name extension)
+Output = /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/diag-still.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020328.03 MB
+Memory reported by /proc/meminfo: 15174.63 MB
+Memory reported by Node: 15174.63 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 0/1
+Rendered 0/1
+Rendered 0/1
+Rendered 0/1
+Rendered 0/1
+Rendered 0/1
+Rendered 0/1
+Rendered 0/1
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/diag-still.png
+Cleaning up...
+Cleanup job "Close server" done
+Cleanup job "Cleanup bundle" done
+Received SIGTERM signal. Killing browser process
+Trying to kill browser process group -20886
+Cleanup job "Close browser" done
+Cleanup done in 31ms

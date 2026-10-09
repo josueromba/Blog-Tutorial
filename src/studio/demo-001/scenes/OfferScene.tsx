@@ -1,4 +1,5 @@
 import React from 'react';
+import {useStudioFonts} from '../fonts';
 import {AbsoluteFill, interpolate, useCurrentFrame} from 'remotion';
 import {Backdrop} from '../components/Backdrop';
 import {Line} from '../components/Line';
@@ -7,11 +8,12 @@ import {SCENE} from '../timing';
 import {C, CLAMP, EASE, useFormat} from '../theme';
 
 export const OfferScene: React.FC = () => {
+  useStudioFonts();
   const frame = useCurrentFrame();
   const {portrait, width, height, mx, my} = useFormat();
   const dur = SCENE.offer.duration;
 
-  const cardIn = interpolate(frame, [3, 21], [0, 1], {...CLAMP, easing: EASE});
+  const cardIn = interpolate(frame, [-4, 18], [0, 1], {...CLAMP, easing: EASE});
   const grow = interpolate(frame, [21, 45], [0, 1], {...CLAMP, easing: EASE});
   const draw = interpolate(frame, [30, 60], [0, 1], {...CLAMP, easing: EASE});
   const timer = interpolate(frame, [0, dur - 1], [0, 1], CLAMP);

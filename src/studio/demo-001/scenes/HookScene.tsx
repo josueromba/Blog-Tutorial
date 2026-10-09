@@ -1,4 +1,5 @@
 import React from 'react';
+import {useStudioFonts} from '../fonts';
 import {AbsoluteFill, interpolate, useCurrentFrame} from 'remotion';
 import {Backdrop} from '../components/Backdrop';
 import {SCENE} from '../timing';
@@ -47,7 +48,7 @@ const Orbit: React.FC<{readonly cx: number; readonly cy: number; readonly r: num
 }) => {
   const frame = useCurrentFrame();
   const a = phase + frame * speed;
-  const intro = interpolate(frame, [0, 12], [0, 1], {...CLAMP, easing: EASE});
+  const intro = interpolate(frame, [0, 12], [0.55, 1], {...CLAMP, easing: EASE});
   return (
     <>
       <div
@@ -94,6 +95,7 @@ const Orbit: React.FC<{readonly cx: number; readonly cy: number; readonly r: num
 };
 
 export const HookScene: React.FC = () => {
+  useStudioFonts();
   const frame = useCurrentFrame();
   const {portrait, width, height, mx} = useFormat();
   const drift = interpolate(frame, [0, SCENE.hook.duration], [1, 1.04], CLAMP);

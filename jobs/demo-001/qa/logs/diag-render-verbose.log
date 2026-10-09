@@ -1,0 +1,1539 @@
+Remotion root directory: /home/user/Blog-Tutorial
+Applied configuration from /home/user/Blog-Tutorial/remotion.config.ts.
+Checking if src/studio/index.ts is the entry file
+Entry point = /home/user/Blog-Tutorial/src/studio/index.ts (argument passed - found in cwd)
+Ensuring browser executable
+Ensured browser is available.
+[openBrowser()] Opening browser: gl = null, executable = /home/user/Blog-Tutorial/node_modules/.remotion/chrome-headless-shell/linux64/chrome-headless-shell-linux64/chrome-headless-shell, enableMultiProcessOnLinux = true
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020437.55 MB
+Memory reported by /proc/meminfo: 15319.87 MB
+Memory reported by Node: 15319.87 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Bundling 6%
+Bundling 19%
+Bundling 64%
+Bundling 69%
+Bundling 74%
+Bundling 80%
+Bundling 85%
+Bundling 90%
+Bundling 95%
+Bundling 100%
+Bundling done in 1662ms
+Copying done in 0ms
+Getting composition
+Bundled under /tmp/remotion-webpack-bundle-cWy6IT
+Created directory for temporary files /tmp/remotion-v4.0.438-assetsz77gdqxoa5
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020149.70 MB
+Memory reported by /proc/meminfo: 14977.58 MB
+Memory reported by Node: 14977.58 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+[compositor] Starting Rust process. Max video cache size: 7484MB, max threads = 2
+[Tab 0, delayRender()] "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 1ms
+[Tab 0, delayRender()] "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 17ms
+[selectComposition()] Running calculateMetadata()...
+[Tab 0, delayRender()] "Running the calculateMetadata() function for composition Demo001Landscape" handle was cleared after 0ms
+[selectComposition()] calculateMetadata() took 3ms
+Composition = Demo001Landscape (Passed as argument)
+Codec = h264 (from --codec flag)
+Output = /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/diag-verbose.mp4
+Concurrency = 2x
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020142.98 MB
+Memory reported by /proc/meminfo: 14960.04 MB
+Memory reported by Node: 14960.04 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+[renderMedia()] Free memory: 15686742016 Estimated usage parallel encoding 2073600000
+[renderMedia()] Using concurrency: 2
+[renderMedia()] delayRender() timeout: 30000
+[renderMedia()] Codec supports parallel rendering: true
+[renderMedia()] Parallel encoding is enabled.
+[renderMedia()] Rendering frames 0-449
+[stitchFramesToVideo()] Encoder: libx264, hardware accelerated: false
+[prespawnFfmpeg()] Generated FFMPEG command:
+[prespawnFfmpeg()] -r,30 -f,image2pipe -s,1920x1080 -vcodec,mjpeg -i,- -c:v,libx264 -pix_fmt,yuv420p -video_track_timescale,90000 -crf,18 -y /tmp/react-motion-renderZhttAH/pre-encode.mp4
+Rendered 0/450
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020123.59 MB
+Memory reported by /proc/meminfo: 14938.57 MB
+Memory reported by Node: 14938.57 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020123.45 MB
+Memory reported by /proc/meminfo: 14937.56 MB
+Memory reported by Node: 14937.56 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+[Tab 1, delayRender()] "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 1ms
+[Tab 0, delayRender()] "Loading root component - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 1ms
+[Tab 0, delayRender()] "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 3ms
+[Tab 1, delayRender()] "Waiting for root component to load - See https://remotion.dev/docs/troubleshooting/loading-root-component if you experience a timeout" handle was cleared after 21ms
+[Tab 0, @remotion/media] Using cache size set based on available memory (50% of available memory): 7469.3 MB
+[Tab 1, @remotion/media] Using cache size set based on available memory (50% of available memory): 7468.8 MB
+[Tab 0, @remotion/media] Sink for /public/studio/demo-001/score.wav was not found, creating new sink
+[Tab 1, delayRender()] "Waiting for Composition "Demo001Landscape"" handle was cleared after 22ms
+[Tab 0, delayRender()] "Waiting for Composition "Demo001Landscape"" handle was cleared after 19ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.000...0.043
+[Tab 0, delayRender()] "Extracting audio for frame 0" handle was cleared after 34ms
+[Tab 0, delayRender()] "Setting the current frame to 0" handle was cleared after 0ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.000...0.043
+[Tab 1, delayRender()] "Extracting audio for frame 1" handle was cleared after 216ms
+Rendered 1/450, time remaining: 4m 1s
+[Tab 1, delayRender()] "Setting the current frame to 1" handle was cleared after 0ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.000...0.128
+[Tab 0, delayRender()] "Extracting audio for frame 2" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 2" handle was cleared after 8ms
+Rendered 2/450, time remaining: 2m 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.000...0.128
+[Tab 0, delayRender()] "Extracting audio for frame 3" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 3" handle was cleared after 11ms
+Rendered 3/450, time remaining: 1m 47s
+[Tab 1, delayRender()] "Setting the current frame to 4" handle was cleared after 4ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.000...0.128
+[Tab 1, delayRender()] "Extracting audio for frame 4" handle was cleared after 4ms
+Rendered 4/450, time remaining: 1m 33s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.000...0.213
+[Tab 0, delayRender()] "Extracting audio for frame 5" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 5" handle was cleared after 18ms
+Rendered 5/450, time remaining: 1m 20s
+[Tab 1, delayRender()] "Setting the current frame to 6" handle was cleared after 4ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.000...0.213
+[Tab 1, delayRender()] "Extracting audio for frame 6" handle was cleared after 7ms
+Rendered 6/450, time remaining: 1m 14s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.000...0.299
+[Tab 0, delayRender()] "Extracting audio for frame 7" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 7" handle was cleared after 15ms
+Rendered 7/450, time remaining: 1m 6s
+[Tab 1, delayRender()] "Setting the current frame to 8" handle was cleared after 5ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.000...0.299
+[Tab 1, delayRender()] "Extracting audio for frame 8" handle was cleared after 10ms
+Rendered 8/450, time remaining: 1m 3s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.000...0.299
+[Tab 0, delayRender()] "Extracting audio for frame 9" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 9" handle was cleared after 14ms
+Rendered 9/450, time remaining: 58s
+[Tab 1, delayRender()] "Setting the current frame to 10" handle was cleared after 5ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.128...0.384
+[Tab 1, delayRender()] "Extracting audio for frame 10" handle was cleared after 6ms
+Rendered 10/450, time remaining: 57s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.128...0.384
+[Tab 0, delayRender()] "Extracting audio for frame 11" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 11" handle was cleared after 13ms
+Rendered 11/450, time remaining: 53s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.171...0.469
+[Tab 1, delayRender()] "Extracting audio for frame 12" handle was cleared after 6ms
+[Tab 1, delayRender()] "Setting the current frame to 12" handle was cleared after 9ms
+Rendered 12/450, time remaining: 52s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.171...0.469
+[Tab 0, delayRender()] "Extracting audio for frame 13" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 13" handle was cleared after 3ms
+Rendered 13/450, time remaining: 49s
+[Tab 1, delayRender()] "Setting the current frame to 14" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.171...0.469
+[Tab 1, delayRender()] "Extracting audio for frame 14" handle was cleared after 4ms
+Rendered 14/450, time remaining: 47s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.299...0.555
+[Tab 0, delayRender()] "Extracting audio for frame 15" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 15" handle was cleared after 4ms
+Rendered 15/450, time remaining: 46s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.299...0.555
+[Tab 1, delayRender()] "Extracting audio for frame 16" handle was cleared after 3ms
+[Tab 1, delayRender()] "Setting the current frame to 16" handle was cleared after 15ms
+Rendered 16/450, time remaining: 44s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.341...0.640
+[Tab 0, delayRender()] "Extracting audio for frame 17" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 17" handle was cleared after 4ms
+Rendered 17/450, time remaining: 44s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.341...0.640
+[Tab 1, delayRender()] "Extracting audio for frame 18" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 18" handle was cleared after 14ms
+Rendered 18/450, time remaining: 43s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.341...0.640
+[Tab 0, delayRender()] "Extracting audio for frame 19" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 19" handle was cleared after 2ms
+Rendered 19/450, time remaining: 43s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.427...0.725
+[Tab 1, delayRender()] "Extracting audio for frame 20" handle was cleared after 4ms
+[Tab 1, delayRender()] "Setting the current frame to 20" handle was cleared after 23ms
+Rendered 20/450, time remaining: 42s
+[Tab 0, delayRender()] "Setting the current frame to 21" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.427...0.725
+[Tab 0, delayRender()] "Extracting audio for frame 21" handle was cleared after 1ms
+Rendered 21/450, time remaining: 42s
+[Tab 1, delayRender()] "Setting the current frame to 22" handle was cleared after 4ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.427...0.725
+[Tab 1, delayRender()] "Extracting audio for frame 22" handle was cleared after 4ms
+Rendered 22/450, time remaining: 41s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.555...0.811
+[Tab 0, delayRender()] "Extracting audio for frame 23" handle was cleared after 3ms
+[Tab 0, delayRender()] "Setting the current frame to 23" handle was cleared after 5ms
+Rendered 23/450, time remaining: 41s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.555...0.811
+[Tab 1, delayRender()] "Extracting audio for frame 24" handle was cleared after 3ms
+[Tab 1, delayRender()] "Setting the current frame to 24" handle was cleared after 16ms
+Rendered 24/450, time remaining: 40s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.597...0.896
+[Tab 0, delayRender()] "Extracting audio for frame 25" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 25" handle was cleared after 3ms
+Rendered 25/450, time remaining: 41s
+Rendered 26/450, time remaining: 39s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.597...0.896
+[Tab 0, delayRender()] "Extracting audio for frame 27" handle was cleared after 0ms
+[Tab 1, delayRender()] "Setting the current frame to 26" handle was cleared after 3ms
+[Tab 0, delayRender()] "Setting the current frame to 27" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.597...0.896
+[Tab 1, delayRender()] "Extracting audio for frame 26" handle was cleared after 13ms
+Rendered 27/450, time remaining: 40s
+Rendered 28/450, time remaining: 38s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.725...0.981
+[Tab 0, delayRender()] "Extracting audio for frame 28" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 28" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.725...0.981
+[Tab 1, delayRender()] "Setting the current frame to 29" handle was cleared after 2ms
+[Tab 1, delayRender()] "Extracting audio for frame 29" handle was cleared after 3ms
+Rendered 29/450, time remaining: 39s
+Rendered 30/450, time remaining: 38s
+[Tab 1, delayRender()] "Setting the current frame to 31" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.768...1.067
+[Tab 0, delayRender()] "Extracting audio for frame 30" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 30" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.768...1.067
+[Tab 1, delayRender()] "Extracting audio for frame 31" handle was cleared after 7ms
+Rendered 31/450, time remaining: 38s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.768...1.067
+[Tab 0, delayRender()] "Extracting audio for frame 32" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 32" handle was cleared after 24ms
+Rendered 32/450, time remaining: 38s
+[Tab 1, delayRender()] "Setting the current frame to 33" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.896...1.152
+[Tab 1, delayRender()] "Extracting audio for frame 33" handle was cleared after 10ms
+Rendered 33/450, time remaining: 37s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.896...1.152
+[Tab 0, delayRender()] "Extracting audio for frame 34" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 34" handle was cleared after 17ms
+Rendered 34/450, time remaining: 37s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.939...1.237
+[Tab 1, delayRender()] "Setting the current frame to 35" handle was cleared after 2ms
+[Tab 1, delayRender()] "Extracting audio for frame 35" handle was cleared after 5ms
+Rendered 35/450, time remaining: 37s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.939...1.237
+[Tab 0, delayRender()] "Extracting audio for frame 36" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 36" handle was cleared after 23ms
+Rendered 36/450, time remaining: 36s
+[Tab 1, delayRender()] "Setting the current frame to 37" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 0.939...1.237
+[Tab 1, delayRender()] "Extracting audio for frame 37" handle was cleared after 6ms
+Rendered 37/450, time remaining: 36s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.067...1.323
+[Tab 0, delayRender()] "Extracting audio for frame 38" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 38" handle was cleared after 19ms
+Rendered 38/450, time remaining: 36s
+[Tab 1, delayRender()] "Setting the current frame to 39" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.067...1.323
+[Tab 1, delayRender()] "Extracting audio for frame 39" handle was cleared after 5ms
+Rendered 39/450, time remaining: 36s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.109...1.408
+[Tab 0, delayRender()] "Extracting audio for frame 40" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 40" handle was cleared after 11ms
+Rendered 40/450, time remaining: 36s
+[Tab 1, delayRender()] "Setting the current frame to 41" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.109...1.408
+[Tab 1, delayRender()] "Extracting audio for frame 41" handle was cleared after 5ms
+Rendered 41/450, time remaining: 35s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.109...1.408
+[Tab 0, delayRender()] "Extracting audio for frame 42" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 42" handle was cleared after 16ms
+Rendered 42/450, time remaining: 35s
+[Tab 1, delayRender()] "Setting the current frame to 43" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.195...1.493
+[Tab 1, delayRender()] "Extracting audio for frame 43" handle was cleared after 5ms
+Rendered 43/450, time remaining: 35s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.195...1.493
+[Tab 0, delayRender()] "Extracting audio for frame 44" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 44" handle was cleared after 10ms
+Rendered 44/450, time remaining: 35s
+[Tab 1, delayRender()] "Setting the current frame to 45" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.195...1.493
+[Tab 1, delayRender()] "Extracting audio for frame 45" handle was cleared after 10ms
+Rendered 45/450, time remaining: 35s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.323...1.579
+[Tab 0, delayRender()] "Extracting audio for frame 46" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 46" handle was cleared after 30ms
+Rendered 46/450, time remaining: 35s
+[Tab 1, delayRender()] "Setting the current frame to 47" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.323...1.579
+[Tab 1, delayRender()] "Extracting audio for frame 47" handle was cleared after 12ms
+Rendered 47/450, time remaining: 35s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.365...1.664
+[Tab 0, delayRender()] "Extracting audio for frame 48" handle was cleared after 5ms
+[Tab 0, delayRender()] "Setting the current frame to 48" handle was cleared after 19ms
+Rendered 48/450, time remaining: 34s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.365...1.664
+[Tab 1, delayRender()] "Setting the current frame to 49" handle was cleared after 3ms
+[Tab 1, delayRender()] "Extracting audio for frame 49" handle was cleared after 4ms
+Rendered 49/450, time remaining: 34s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.365...1.664
+[Tab 0, delayRender()] "Extracting audio for frame 50" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 50" handle was cleared after 3ms
+Rendered 50/450, time remaining: 34s
+[Tab 1, delayRender()] "Setting the current frame to 51" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.493...1.749
+[Tab 1, delayRender()] "Extracting audio for frame 51" handle was cleared after 4ms
+Rendered 51/450, time remaining: 34s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.493...1.749
+[Tab 0, delayRender()] "Extracting audio for frame 52" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 52" handle was cleared after 2ms
+Rendered 52/450, time remaining: 33s
+[Tab 1, delayRender()] "Setting the current frame to 53" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.536...1.835
+[Tab 1, delayRender()] "Extracting audio for frame 53" handle was cleared after 3ms
+Rendered 53/450, time remaining: 33s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.536...1.835
+[Tab 0, delayRender()] "Extracting audio for frame 54" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 54" handle was cleared after 3ms
+Rendered 54/450, time remaining: 33s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.536...1.835
+[Tab 1, delayRender()] "Extracting audio for frame 55" handle was cleared after 6ms
+[Tab 1, delayRender()] "Setting the current frame to 55" handle was cleared after 15ms
+Rendered 55/450, time remaining: 32s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.664...1.920
+[Tab 0, delayRender()] "Extracting audio for frame 56" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 56" handle was cleared after 3ms
+Rendered 56/450, time remaining: 32s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.664...1.920
+[Tab 1, delayRender()] "Extracting audio for frame 57" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 57" handle was cleared after 16ms
+Rendered 57/450, time remaining: 32s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.707...2.005
+[Tab 0, delayRender()] "Extracting audio for frame 58" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 58" handle was cleared after 3ms
+Rendered 58/450, time remaining: 32s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.707...2.005
+[Tab 1, delayRender()] "Extracting audio for frame 59" handle was cleared after 1ms
+[Tab 1, delayRender()] "Setting the current frame to 59" handle was cleared after 16ms
+Rendered 59/450, time remaining: 32s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.707...2.005
+[Tab 0, delayRender()] "Extracting audio for frame 60" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 60" handle was cleared after 2ms
+Rendered 60/450, time remaining: 32s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.792...2.091
+[Tab 1, delayRender()] "Extracting audio for frame 61" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 61" handle was cleared after 16ms
+Rendered 61/450, time remaining: 31s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.792...2.091
+[Tab 0, delayRender()] "Extracting audio for frame 62" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 62" handle was cleared after 2ms
+Rendered 62/450, time remaining: 31s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.792...2.091
+[Tab 1, delayRender()] "Extracting audio for frame 63" handle was cleared after 7ms
+[Tab 1, delayRender()] "Setting the current frame to 63" handle was cleared after 22ms
+Rendered 63/450, time remaining: 31s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.920...2.176
+[Tab 0, delayRender()] "Extracting audio for frame 64" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 64" handle was cleared after 2ms
+Rendered 64/450, time remaining: 31s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.920...2.176
+[Tab 1, delayRender()] "Extracting audio for frame 65" handle was cleared after 5ms
+[Tab 1, delayRender()] "Setting the current frame to 65" handle was cleared after 22ms
+Rendered 65/450, time remaining: 31s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.963...2.261
+[Tab 0, delayRender()] "Extracting audio for frame 66" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 66" handle was cleared after 4ms
+Rendered 66/450, time remaining: 31s
+[Tab 1, delayRender()] "Setting the current frame to 67" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.963...2.261
+[Tab 1, delayRender()] "Extracting audio for frame 67" handle was cleared after 6ms
+Rendered 67/450, time remaining: 31s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 1.963...2.261
+[Tab 0, delayRender()] "Extracting audio for frame 68" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 68" handle was cleared after 3ms
+Rendered 68/450, time remaining: 31s
+[Tab 1, delayRender()] "Setting the current frame to 69" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.091...2.347
+[Tab 1, delayRender()] "Extracting audio for frame 69" handle was cleared after 6ms
+Rendered 69/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.091...2.347
+[Tab 0, delayRender()] "Extracting audio for frame 70" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 70" handle was cleared after 3ms
+Rendered 70/450, time remaining: 30s
+[Tab 1, delayRender()] "Setting the current frame to 71" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.133...2.432
+[Tab 1, delayRender()] "Extracting audio for frame 71" handle was cleared after 7ms
+Rendered 70/450, time remaining: 30s
+Rendered 71/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.133...2.432
+[Tab 0, delayRender()] "Extracting audio for frame 72" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 72" handle was cleared after 6ms
+Rendered 72/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.133...2.432
+[Tab 1, delayRender()] "Extracting audio for frame 73" handle was cleared after 4ms
+[Tab 1, delayRender()] "Setting the current frame to 73" handle was cleared after 17ms
+Rendered 73/450, time remaining: 30s
+[Tab 0, delayRender()] "Setting the current frame to 74" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.261...2.517
+[Tab 0, delayRender()] "Extracting audio for frame 74" handle was cleared after 1ms
+Rendered 74/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.261...2.517
+[Tab 1, delayRender()] "Setting the current frame to 75" handle was cleared after 13ms
+[Tab 1, delayRender()] "Extracting audio for frame 75" handle was cleared after 7ms
+Rendered 75/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.304...2.603
+[Tab 0, delayRender()] "Extracting audio for frame 76" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 76" handle was cleared after 14ms
+Rendered 75/450, time remaining: 30s
+Rendered 76/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.304...2.603
+[Tab 1, delayRender()] "Extracting audio for frame 77" handle was cleared after 3ms
+[Tab 1, delayRender()] "Setting the current frame to 77" handle was cleared after 6ms
+Rendered 77/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.304...2.603
+[Tab 0, delayRender()] "Extracting audio for frame 78" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 78" handle was cleared after 2ms
+Rendered 78/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.432...2.688
+[Tab 1, delayRender()] "Extracting audio for frame 79" handle was cleared after 4ms
+Rendered 79/450, time remaining: 30s
+[Tab 1, delayRender()] "Setting the current frame to 79" handle was cleared after 22ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.432...2.688
+[Tab 0, delayRender()] "Extracting audio for frame 80" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 80" handle was cleared after 3ms
+Rendered 80/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.475...2.773
+[Tab 1, delayRender()] "Extracting audio for frame 81" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 81" handle was cleared after 22ms
+Rendered 81/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.475...2.773
+[Tab 0, delayRender()] "Extracting audio for frame 82" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 82" handle was cleared after 4ms
+Rendered 81/450, time remaining: 30s
+Rendered 82/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.475...2.773
+[Tab 1, delayRender()] "Extracting audio for frame 83" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 83" handle was cleared after 15ms
+Rendered 83/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.560...2.859
+[Tab 0, delayRender()] "Extracting audio for frame 84" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 84" handle was cleared after 9ms
+Rendered 84/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.560...2.859
+[Tab 1, delayRender()] "Extracting audio for frame 85" handle was cleared after 3ms
+[Tab 1, delayRender()] "Setting the current frame to 85" handle was cleared after 14ms
+Rendered 85/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.560...2.859
+[Tab 0, delayRender()] "Extracting audio for frame 86" handle was cleared after 8ms
+[Tab 0, delayRender()] "Setting the current frame to 86" handle was cleared after 12ms
+Rendered 86/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.688...2.944
+[Tab 1, delayRender()] "Extracting audio for frame 87" handle was cleared after 10ms
+[Tab 1, delayRender()] "Setting the current frame to 87" handle was cleared after 19ms
+Rendered 87/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.688...2.944
+[Tab 0, delayRender()] "Extracting audio for frame 88" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 88" handle was cleared after 3ms
+Rendered 87/450, time remaining: 29s
+Rendered 88/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.731...3.029
+[Tab 1, delayRender()] "Extracting audio for frame 89" handle was cleared after 5ms
+[Tab 1, delayRender()] "Setting the current frame to 89" handle was cleared after 17ms
+Rendered 89/450, time remaining: 29s
+[Tab 0, delayRender()] "Setting the current frame to 90" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.731...3.029
+[Tab 0, delayRender()] "Extracting audio for frame 90" handle was cleared after 1ms
+Rendered 90/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.731...3.029
+[Tab 1, delayRender()] "Extracting audio for frame 91" handle was cleared after 7ms
+[Tab 1, delayRender()] "Setting the current frame to 91" handle was cleared after 29ms
+Rendered 91/450, time remaining: 29s
+[Tab 0, delayRender()] "Setting the current frame to 92" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.859...3.115
+[Tab 0, delayRender()] "Extracting audio for frame 92" handle was cleared after 3ms
+Rendered 91/450, time remaining: 29s
+Rendered 92/450, time remaining: 30s
+[Tab 1, delayRender()] "Setting the current frame to 93" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.859...3.115
+[Tab 1, delayRender()] "Extracting audio for frame 93" handle was cleared after 17ms
+Rendered 93/450, time remaining: 30s
+[Tab 0, delayRender()] "Setting the current frame to 94" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.901...3.200
+[Tab 0, delayRender()] "Extracting audio for frame 94" handle was cleared after 0ms
+Rendered 94/450, time remaining: 29s
+[Tab 1, delayRender()] "Setting the current frame to 95" handle was cleared after 4ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.901...3.200
+[Tab 1, delayRender()] "Extracting audio for frame 95" handle was cleared after 18ms
+Rendered 95/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 2.901...3.200
+[Tab 0, delayRender()] "Extracting audio for frame 96" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 96" handle was cleared after 3ms
+Rendered 96/450, time remaining: 30s
+[Tab 1, delayRender()] "Setting the current frame to 97" handle was cleared after 4ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.029...3.285
+[Tab 1, delayRender()] "Extracting audio for frame 97" handle was cleared after 12ms
+Rendered 97/450, time remaining: 29s
+Rendered 97/450, time remaining: 29s
+[Tab 0, delayRender()] "Setting the current frame to 98" handle was cleared after 0ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.029...3.285
+[Tab 0, delayRender()] "Extracting audio for frame 98" handle was cleared after 1ms
+Rendered 98/450, time remaining: 29s
+[Tab 1, delayRender()] "Setting the current frame to 99" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.072...3.371
+[Tab 1, delayRender()] "Extracting audio for frame 99" handle was cleared after 11ms
+Rendered 99/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.072...3.371
+[Tab 0, delayRender()] "Extracting audio for frame 100" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 100" handle was cleared after 4ms
+Rendered 100/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.072...3.371
+[Tab 0, delayRender()] "Extracting audio for frame 101" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 101" handle was cleared after 2ms
+Rendered 101/450, time remaining: 30s
+[Tab 1, delayRender()] "Setting the current frame to 102" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.157...3.456
+[Tab 1, delayRender()] "Extracting audio for frame 102" handle was cleared after 13ms
+Rendered 101/450, time remaining: 30s
+Rendered 102/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.157...3.456
+[Tab 0, delayRender()] "Extracting audio for frame 103" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 103" handle was cleared after 11ms
+Rendered 103/450, time remaining: 29s
+[Tab 1, delayRender()] "Setting the current frame to 104" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.243...3.541
+[Tab 1, delayRender()] "Extracting audio for frame 104" handle was cleared after 3ms
+Rendered 104/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.243...3.541
+[Tab 0, delayRender()] "Extracting audio for frame 105" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 105" handle was cleared after 37ms
+Rendered 105/450, time remaining: 29s
+[Tab 1, delayRender()] "Setting the current frame to 106" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.243...3.541
+Rendered 105/450, time remaining: 29s
+[Tab 1, delayRender()] "Extracting audio for frame 106" handle was cleared after 68ms
+Rendered 106/450, time remaining: 30s
+Rendered 107/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.328...3.627
+[Tab 0, delayRender()] "Extracting audio for frame 107" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 107" handle was cleared after 5ms
+[Tab 1, delayRender()] "Setting the current frame to 108" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.328...3.627
+[Tab 1, delayRender()] "Extracting audio for frame 108" handle was cleared after 7ms
+Rendered 108/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.328...3.627
+[Tab 1, delayRender()] "Extracting audio for frame 109" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 109" handle was cleared after 22ms
+Rendered 109/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.456...3.712
+[Tab 0, delayRender()] "Extracting audio for frame 110" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 110" handle was cleared after 5ms
+Rendered 109/450, time remaining: 30s
+Rendered 110/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.456...3.712
+[Tab 0, delayRender()] "Extracting audio for frame 111" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 111" handle was cleared after 22ms
+Rendered 111/450, time remaining: 30s
+[Tab 1, delayRender()] "Setting the current frame to 112" handle was cleared after 5ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.499...3.797
+[Tab 1, delayRender()] "Extracting audio for frame 112" handle was cleared after 11ms
+Rendered 112/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.499...3.797
+[Tab 0, delayRender()] "Extracting audio for frame 113" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 113" handle was cleared after 23ms
+Rendered 113/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.499...3.797
+[Tab 1, delayRender()] "Extracting audio for frame 114" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 114" handle was cleared after 6ms
+Rendered 114/450, time remaining: 30s
+Rendered 114/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.627...3.883
+[Tab 0, delayRender()] "Extracting audio for frame 115" handle was cleared after 5ms
+[Tab 0, delayRender()] "Setting the current frame to 115" handle was cleared after 8ms
+Rendered 115/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.627...3.883
+[Tab 1, delayRender()] "Extracting audio for frame 116" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 116" handle was cleared after 6ms
+Rendered 116/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.669...3.968
+[Tab 0, delayRender()] "Extracting audio for frame 117" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 117" handle was cleared after 2ms
+Rendered 117/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.669...3.968
+[Tab 1, delayRender()] "Extracting audio for frame 118" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 118" handle was cleared after 21ms
+Rendered 118/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.669...3.968
+[Tab 0, delayRender()] "Extracting audio for frame 119" handle was cleared after 12ms
+[Tab 0, delayRender()] "Setting the current frame to 119" handle was cleared after 15ms
+Rendered 118/450, time remaining: 29s
+Rendered 119/450, time remaining: 30s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.797...4.053
+[Tab 1, delayRender()] "Extracting audio for frame 120" handle was cleared after 8ms
+[Tab 1, delayRender()] "Setting the current frame to 120" handle was cleared after 20ms
+Rendered 120/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.797...4.053
+[Tab 0, delayRender()] "Extracting audio for frame 121" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 121" handle was cleared after 6ms
+Rendered 121/450, time remaining: 30s
+Rendered 122/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.883...4.139
+[Tab 1, delayRender()] "Setting the current frame to 122" handle was cleared after 6ms
+[Tab 0, delayRender()] "Extracting audio for frame 123" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 123" handle was cleared after 5ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.883...4.139
+[Tab 1, delayRender()] "Extracting audio for frame 122" handle was cleared after 38ms
+Rendered 123/450, time remaining: 29s
+Rendered 123/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.883...4.139
+[Tab 0, delayRender()] "Extracting audio for frame 124" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 124" handle was cleared after 21ms
+Rendered 124/450, time remaining: 29s
+[Tab 1, delayRender()] "Setting the current frame to 125" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.925...4.224
+[Tab 1, delayRender()] "Extracting audio for frame 125" handle was cleared after 8ms
+Rendered 125/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.925...4.224
+[Tab 0, delayRender()] "Extracting audio for frame 126" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 126" handle was cleared after 20ms
+Rendered 126/450, time remaining: 29s
+[Tab 1, delayRender()] "Setting the current frame to 127" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 3.925...4.224
+[Tab 1, delayRender()] "Extracting audio for frame 127" handle was cleared after 3ms
+Rendered 127/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.053...4.309
+[Tab 0, delayRender()] "Extracting audio for frame 128" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 128" handle was cleared after 29ms
+Rendered 128/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.053...4.309
+[Tab 1, delayRender()] "Setting the current frame to 129" handle was cleared after 2ms
+[Tab 1, delayRender()] "Extracting audio for frame 129" handle was cleared after 7ms
+Rendered 128/450, time remaining: 29s
+Rendered 129/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.096...4.395
+[Tab 0, delayRender()] "Extracting audio for frame 130" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 130" handle was cleared after 25ms
+Rendered 130/450, time remaining: 29s
+[Tab 1, delayRender()] "Setting the current frame to 131" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.096...4.395
+[Tab 1, delayRender()] "Extracting audio for frame 131" handle was cleared after 8ms
+Rendered 131/450, time remaining: 29s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.096...4.395
+[Tab 0, delayRender()] "Extracting audio for frame 132" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 132" handle was cleared after 16ms
+Rendered 132/450, time remaining: 28s
+[Tab 1, delayRender()] "Setting the current frame to 133" handle was cleared after 4ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.224...4.480
+[Tab 1, delayRender()] "Extracting audio for frame 133" handle was cleared after 7ms
+Rendered 133/450, time remaining: 28s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.224...4.480
+[Tab 0, delayRender()] "Extracting audio for frame 134" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 134" handle was cleared after 23ms
+Rendered 134/450, time remaining: 28s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.267...4.565
+[Tab 1, delayRender()] "Setting the current frame to 135" handle was cleared after 5ms
+[Tab 1, delayRender()] "Extracting audio for frame 135" handle was cleared after 4ms
+Rendered 134/450, time remaining: 28s
+Rendered 135/450, time remaining: 28s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.267...4.565
+[Tab 0, delayRender()] "Extracting audio for frame 136" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 136" handle was cleared after 18ms
+Rendered 136/450, time remaining: 28s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.267...4.565
+[Tab 1, delayRender()] "Setting the current frame to 137" handle was cleared after 1ms
+[Tab 1, delayRender()] "Extracting audio for frame 137" handle was cleared after 4ms
+Rendered 137/450, time remaining: 28s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.395...4.651
+[Tab 0, delayRender()] "Extracting audio for frame 138" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 138" handle was cleared after 6ms
+Rendered 138/450, time remaining: 28s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.395...4.651
+[Tab 1, delayRender()] "Setting the current frame to 139" handle was cleared after 4ms
+[Tab 1, delayRender()] "Extracting audio for frame 139" handle was cleared after 4ms
+Rendered 139/450, time remaining: 28s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.437...4.736
+[Tab 0, delayRender()] "Extracting audio for frame 140" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 140" handle was cleared after 13ms
+Rendered 140/450, time remaining: 28s
+[Tab 1, delayRender()] "Setting the current frame to 141" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.437...4.736
+[Tab 1, delayRender()] "Extracting audio for frame 141" handle was cleared after 10ms
+Rendered 140/450, time remaining: 28s
+Rendered 141/450, time remaining: 28s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.437...4.736
+[Tab 0, delayRender()] "Extracting audio for frame 142" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 142" handle was cleared after 17ms
+Rendered 142/450, time remaining: 27s
+[Tab 1, delayRender()] "Setting the current frame to 143" handle was cleared after 4ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.565...4.821
+[Tab 1, delayRender()] "Extracting audio for frame 143" handle was cleared after 3ms
+Rendered 143/450, time remaining: 27s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.565...4.821
+[Tab 0, delayRender()] "Extracting audio for frame 144" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 144" handle was cleared after 17ms
+Rendered 144/450, time remaining: 27s
+[Tab 1, delayRender()] "Setting the current frame to 145" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.608...4.907
+[Tab 1, delayRender()] "Extracting audio for frame 145" handle was cleared after 9ms
+Rendered 145/450, time remaining: 27s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.608...4.907
+[Tab 0, delayRender()] "Extracting audio for frame 146" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 146" handle was cleared after 17ms
+Rendered 146/450, time remaining: 27s
+[Tab 1, delayRender()] "Setting the current frame to 147" handle was cleared after 5ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.608...4.907
+[Tab 1, delayRender()] "Extracting audio for frame 147" handle was cleared after 8ms
+Rendered 146/450, time remaining: 27s
+Rendered 147/450, time remaining: 27s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.693...4.992
+[Tab 0, delayRender()] "Extracting audio for frame 148" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 148" handle was cleared after 23ms
+Rendered 148/450, time remaining: 27s
+[Tab 1, delayRender()] "Setting the current frame to 149" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.693...4.992
+[Tab 1, delayRender()] "Extracting audio for frame 149" handle was cleared after 4ms
+Rendered 149/450, time remaining: 27s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.693...4.992
+[Tab 0, delayRender()] "Extracting audio for frame 150" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 150" handle was cleared after 19ms
+Rendered 150/450, time remaining: 26s
+[Tab 1, delayRender()] "Setting the current frame to 151" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.821...5.077
+[Tab 1, delayRender()] "Extracting audio for frame 151" handle was cleared after 3ms
+Rendered 151/450, time remaining: 26s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.821...5.077
+[Tab 0, delayRender()] "Extracting audio for frame 152" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 152" handle was cleared after 15ms
+Rendered 152/450, time remaining: 25s
+[Tab 1, delayRender()] "Setting the current frame to 153" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.864...5.163
+[Tab 1, delayRender()] "Extracting audio for frame 153" handle was cleared after 9ms
+Rendered 152/450, time remaining: 25s
+Rendered 153/450, time remaining: 25s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.864...5.163
+[Tab 0, delayRender()] "Extracting audio for frame 154" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 154" handle was cleared after 17ms
+Rendered 154/450, time remaining: 25s
+[Tab 1, delayRender()] "Setting the current frame to 155" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.864...5.163
+[Tab 1, delayRender()] "Extracting audio for frame 155" handle was cleared after 13ms
+Rendered 155/450, time remaining: 25s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.992...5.248
+[Tab 0, delayRender()] "Extracting audio for frame 156" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 156" handle was cleared after 3ms
+Rendered 156/450, time remaining: 25s
+[Tab 1, delayRender()] "Setting the current frame to 157" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 4.992...5.248
+[Tab 1, delayRender()] "Extracting audio for frame 157" handle was cleared after 6ms
+Rendered 157/450, time remaining: 25s
+Rendered 158/450, time remaining: 25s
+[Tab 1, delayRender()] "Setting the current frame to 159" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.035...5.333
+[Tab 0, delayRender()] "Extracting audio for frame 158" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 158" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.035...5.333
+[Tab 1, delayRender()] "Extracting audio for frame 159" handle was cleared after 15ms
+Rendered 158/450, time remaining: 25s
+Rendered 159/450, time remaining: 25s
+Rendered 160/450, time remaining: 25s
+[Tab 1, delayRender()] "Setting the current frame to 161" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.035...5.333
+[Tab 0, delayRender()] "Extracting audio for frame 160" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 160" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.163...5.419
+[Tab 1, delayRender()] "Extracting audio for frame 161" handle was cleared after 7ms
+Rendered 161/450, time remaining: 25s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.163...5.419
+[Tab 0, delayRender()] "Extracting audio for frame 162" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 162" handle was cleared after 17ms
+Rendered 162/450, time remaining: 25s
+[Tab 1, delayRender()] "Setting the current frame to 163" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.205...5.504
+[Tab 1, delayRender()] "Extracting audio for frame 163" handle was cleared after 3ms
+Rendered 163/450, time remaining: 25s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.205...5.504
+[Tab 0, delayRender()] "Extracting audio for frame 164" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 164" handle was cleared after 21ms
+Rendered 164/450, time remaining: 24s
+[Tab 1, delayRender()] "Setting the current frame to 165" handle was cleared after 4ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.205...5.504
+[Tab 1, delayRender()] "Extracting audio for frame 165" handle was cleared after 4ms
+Rendered 165/450, time remaining: 24s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.291...5.589
+[Tab 0, delayRender()] "Extracting audio for frame 166" handle was cleared after 1ms
+Rendered 165/450, time remaining: 24s
+[Tab 0, delayRender()] "Setting the current frame to 166" handle was cleared after 22ms
+Rendered 166/450, time remaining: 24s
+[Tab 1, delayRender()] "Setting the current frame to 167" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.291...5.589
+[Tab 1, delayRender()] "Extracting audio for frame 167" handle was cleared after 19ms
+Rendered 167/450, time remaining: 24s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.376...5.675
+[Tab 0, delayRender()] "Extracting audio for frame 168" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 168" handle was cleared after 22ms
+Rendered 168/450, time remaining: 24s
+[Tab 1, delayRender()] "Setting the current frame to 169" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.376...5.675
+[Tab 1, delayRender()] "Extracting audio for frame 169" handle was cleared after 6ms
+Rendered 169/450, time remaining: 24s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.376...5.675
+[Tab 0, delayRender()] "Extracting audio for frame 170" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 170" handle was cleared after 20ms
+Rendered 170/450, time remaining: 24s
+[Tab 1, delayRender()] "Setting the current frame to 171" handle was cleared after 20ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.461...5.760
+[Tab 1, delayRender()] "Extracting audio for frame 171" handle was cleared after 7ms
+Rendered 170/450, time remaining: 24s
+Rendered 171/450, time remaining: 24s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.461...5.760
+[Tab 0, delayRender()] "Extracting audio for frame 172" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 172" handle was cleared after 22ms
+Rendered 172/450, time remaining: 24s
+[Tab 1, delayRender()] "Setting the current frame to 173" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.461...5.760
+[Tab 1, delayRender()] "Extracting audio for frame 173" handle was cleared after 3ms
+Rendered 173/450, time remaining: 24s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.589...5.845
+[Tab 0, delayRender()] "Extracting audio for frame 174" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 174" handle was cleared after 4ms
+Rendered 174/450, time remaining: 24s
+[Tab 1, delayRender()] "Setting the current frame to 175" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.589...5.845
+[Tab 1, delayRender()] "Extracting audio for frame 175" handle was cleared after 3ms
+Rendered 175/450, time remaining: 24s
+Rendered 176/450, time remaining: 24s
+[Tab 1, delayRender()] "Setting the current frame to 177" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.632...5.931
+[Tab 0, delayRender()] "Extracting audio for frame 176" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 176" handle was cleared after 6ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.632...5.931
+[Tab 1, delayRender()] "Extracting audio for frame 177" handle was cleared after 11ms
+Rendered 176/450, time remaining: 24s
+Rendered 177/450, time remaining: 24s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.632...5.931
+[Tab 1, delayRender()] "Extracting audio for frame 178" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 178" handle was cleared after 17ms
+Rendered 178/450, time remaining: 24s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.760...6.016
+[Tab 0, delayRender()] "Extracting audio for frame 179" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 179" handle was cleared after 6ms
+Rendered 179/450, time remaining: 23s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.760...6.016
+[Tab 1, delayRender()] "Extracting audio for frame 180" handle was cleared after 4ms
+[Tab 1, delayRender()] "Setting the current frame to 180" handle was cleared after 23ms
+Rendered 180/450, time remaining: 23s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.803...6.101
+[Tab 0, delayRender()] "Extracting audio for frame 181" handle was cleared after 3ms
+[Tab 0, delayRender()] "Setting the current frame to 181" handle was cleared after 4ms
+Rendered 181/450, time remaining: 23s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.803...6.101
+[Tab 1, delayRender()] "Extracting audio for frame 182" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 182" handle was cleared after 26ms
+Rendered 182/450, time remaining: 23s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.803...6.101
+[Tab 0, delayRender()] "Extracting audio for frame 183" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 183" handle was cleared after 3ms
+Rendered 182/450, time remaining: 23s
+Rendered 183/450, time remaining: 23s
+Rendered 184/450, time remaining: 23s
+[Tab 0, delayRender()] "Setting the current frame to 185" handle was cleared after 0ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.931...6.229
+[Tab 1, delayRender()] "Setting the current frame to 184" handle was cleared after 5ms
+[Tab 0, delayRender()] "Extracting audio for frame 185" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.931...6.229
+[Tab 1, delayRender()] "Extracting audio for frame 184" handle was cleared after 3ms
+Rendered 185/450, time remaining: 23s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.931...6.229
+[Tab 0, delayRender()] "Extracting audio for frame 186" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 186" handle was cleared after 2ms
+Rendered 186/450, time remaining: 23s
+[Tab 1, delayRender()] "Setting the current frame to 187" handle was cleared after 5ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 5.931...6.229
+[Tab 1, delayRender()] "Extracting audio for frame 187" handle was cleared after 30ms
+Rendered 187/450, time remaining: 23s
+Rendered 188/450, time remaining: 23s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.059...6.315
+[Tab 0, delayRender()] "Extracting audio for frame 188" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 188" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.059...6.315
+[Tab 1, delayRender()] "Setting the current frame to 189" handle was cleared after 3ms
+[Tab 1, delayRender()] "Extracting audio for frame 189" handle was cleared after 5ms
+Rendered 188/450, time remaining: 23s
+Rendered 189/450, time remaining: 23s
+Rendered 190/450, time remaining: 23s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.144...6.400
+[Tab 1, delayRender()] "Setting the current frame to 190" handle was cleared after 2ms
+[Tab 0, delayRender()] "Extracting audio for frame 191" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 191" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.144...6.400
+[Tab 1, delayRender()] "Extracting audio for frame 190" handle was cleared after 34ms
+Rendered 191/450, time remaining: 23s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.144...6.400
+[Tab 0, delayRender()] "Extracting audio for frame 192" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 192" handle was cleared after 18ms
+Rendered 192/450, time remaining: 23s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.229...6.485
+[Tab 1, delayRender()] "Setting the current frame to 193" handle was cleared after 2ms
+[Tab 1, delayRender()] "Extracting audio for frame 193" handle was cleared after 9ms
+Rendered 193/450, time remaining: 22s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.229...6.485
+[Tab 0, delayRender()] "Extracting audio for frame 194" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 194" handle was cleared after 17ms
+Rendered 194/450, time remaining: 22s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.272...6.571
+[Tab 1, delayRender()] "Setting the current frame to 195" handle was cleared after 2ms
+[Tab 1, delayRender()] "Extracting audio for frame 195" handle was cleared after 6ms
+Rendered 194/450, time remaining: 22s
+Rendered 195/450, time remaining: 22s
+Rendered 196/450, time remaining: 22s
+[Tab 1, delayRender()] "Setting the current frame to 196" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.272...6.571
+[Tab 0, delayRender()] "Extracting audio for frame 197" handle was cleared after 0ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.272...6.571
+[Tab 0, delayRender()] "Setting the current frame to 197" handle was cleared after 4ms
+[Tab 1, delayRender()] "Extracting audio for frame 196" handle was cleared after 2ms
+Rendered 197/450, time remaining: 22s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.400...6.656
+[Tab 0, delayRender()] "Extracting audio for frame 198" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 198" handle was cleared after 18ms
+Rendered 198/450, time remaining: 22s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.400...6.656
+[Tab 1, delayRender()] "Setting the current frame to 199" handle was cleared after 3ms
+[Tab 1, delayRender()] "Extracting audio for frame 199" handle was cleared after 8ms
+Rendered 199/450, time remaining: 22s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.443...6.741
+[Tab 0, delayRender()] "Extracting audio for frame 200" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 200" handle was cleared after 19ms
+Rendered 200/450, time remaining: 22s
+[Tab 1, delayRender()] "Setting the current frame to 201" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.443...6.741
+Rendered 200/450, time remaining: 22s
+[Tab 1, delayRender()] "Extracting audio for frame 201" handle was cleared after 11ms
+Rendered 201/450, time remaining: 22s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.443...6.741
+[Tab 0, delayRender()] "Extracting audio for frame 202" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 202" handle was cleared after 22ms
+Rendered 202/450, time remaining: 22s
+[Tab 1, delayRender()] "Setting the current frame to 203" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.528...6.827
+[Tab 1, delayRender()] "Extracting audio for frame 203" handle was cleared after 5ms
+Rendered 203/450, time remaining: 22s
+Rendered 204/450, time remaining: 22s
+[Tab 1, delayRender()] "Setting the current frame to 204" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.528...6.827
+[Tab 1, delayRender()] "Extracting audio for frame 204" handle was cleared after 4ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.528...6.827
+[Tab 0, delayRender()] "Extracting audio for frame 205" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 205" handle was cleared after 3ms
+Rendered 205/450, time remaining: 22s
+Rendered 206/450, time remaining: 21s
+[Tab 1, delayRender()] "Setting the current frame to 206" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.656...6.912
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.656...6.912
+[Tab 0, delayRender()] "Extracting audio for frame 207" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 207" handle was cleared after 5ms
+[Tab 1, delayRender()] "Extracting audio for frame 206" handle was cleared after 11ms
+Rendered 206/450, time remaining: 21s
+Rendered 207/450, time remaining: 22s
+Rendered 208/450, time remaining: 21s
+[Tab 1, delayRender()] "Setting the current frame to 208" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.741...7.040
+[Tab 0, delayRender()] "Extracting audio for frame 209" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 209" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.741...7.040
+[Tab 1, delayRender()] "Extracting audio for frame 208" handle was cleared after 7ms
+Rendered 209/450, time remaining: 21s
+Rendered 210/450, time remaining: 21s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.741...7.040
+[Tab 1, delayRender()] "Setting the current frame to 210" handle was cleared after 2ms
+[Tab 1, delayRender()] "Extracting audio for frame 210" handle was cleared after 4ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.741...7.040
+[Tab 0, delayRender()] "Extracting audio for frame 211" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 211" handle was cleared after 3ms
+Rendered 211/450, time remaining: 21s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.827...7.125
+[Tab 1, delayRender()] "Extracting audio for frame 212" handle was cleared after 4ms
+[Tab 1, delayRender()] "Setting the current frame to 212" handle was cleared after 20ms
+Rendered 212/450, time remaining: 21s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.827...7.125
+[Tab 0, delayRender()] "Extracting audio for frame 213" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 213" handle was cleared after 2ms
+Rendered 212/450, time remaining: 21s
+Rendered 213/450, time remaining: 21s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.827...7.125
+[Tab 1, delayRender()] "Extracting audio for frame 214" handle was cleared after 3ms
+[Tab 1, delayRender()] "Setting the current frame to 214" handle was cleared after 19ms
+Rendered 214/450, time remaining: 21s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.955...7.211
+[Tab 0, delayRender()] "Extracting audio for frame 215" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 215" handle was cleared after 3ms
+Rendered 215/450, time remaining: 21s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.955...7.211
+[Tab 1, delayRender()] "Extracting audio for frame 216" handle was cleared after 6ms
+Rendered 216/450, time remaining: 21s
+[Tab 1, delayRender()] "Setting the current frame to 216" handle was cleared after 29ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.997...7.296
+[Tab 0, delayRender()] "Extracting audio for frame 217" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 217" handle was cleared after 2ms
+Rendered 217/450, time remaining: 21s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.997...7.296
+[Tab 1, delayRender()] "Extracting audio for frame 218" handle was cleared after 3ms
+[Tab 1, delayRender()] "Setting the current frame to 218" handle was cleared after 18ms
+Rendered 218/450, time remaining: 21s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 6.997...7.296
+[Tab 0, delayRender()] "Extracting audio for frame 219" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 219" handle was cleared after 3ms
+Rendered 218/450, time remaining: 21s
+Rendered 219/450, time remaining: 21s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.125...7.381
+[Tab 1, delayRender()] "Extracting audio for frame 220" handle was cleared after 3ms
+[Tab 1, delayRender()] "Setting the current frame to 220" handle was cleared after 19ms
+Rendered 220/450, time remaining: 21s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.125...7.381
+[Tab 0, delayRender()] "Extracting audio for frame 221" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 221" handle was cleared after 6ms
+Rendered 221/450, time remaining: 20s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.168...7.467
+[Tab 1, delayRender()] "Extracting audio for frame 222" handle was cleared after 5ms
+[Tab 1, delayRender()] "Setting the current frame to 222" handle was cleared after 16ms
+Rendered 222/450, time remaining: 20s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.168...7.467
+[Tab 0, delayRender()] "Extracting audio for frame 223" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 223" handle was cleared after 3ms
+Rendered 223/450, time remaining: 20s
+[Tab 1, delayRender()] "Setting the current frame to 224" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.168...7.467
+Rendered 224/450, time remaining: 20s
+[Tab 1, delayRender()] "Extracting audio for frame 224" handle was cleared after 11ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.296...7.552
+[Tab 0, delayRender()] "Extracting audio for frame 225" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 225" handle was cleared after 2ms
+Rendered 224/450, time remaining: 20s
+Rendered 225/450, time remaining: 20s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.296...7.552
+[Tab 1, delayRender()] "Extracting audio for frame 226" handle was cleared after 3ms
+[Tab 1, delayRender()] "Setting the current frame to 226" handle was cleared after 28ms
+Rendered 226/450, time remaining: 20s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.339...7.637
+[Tab 0, delayRender()] "Extracting audio for frame 227" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 227" handle was cleared after 2ms
+Rendered 227/450, time remaining: 20s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.339...7.637
+[Tab 1, delayRender()] "Extracting audio for frame 228" handle was cleared after 3ms
+[Tab 1, delayRender()] "Setting the current frame to 228" handle was cleared after 18ms
+Rendered 228/450, time remaining: 20s
+[Tab 0, delayRender()] "Setting the current frame to 229" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.339...7.637
+[Tab 0, delayRender()] "Extracting audio for frame 229" handle was cleared after 1ms
+Rendered 229/450, time remaining: 20s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.467...7.723
+[Tab 1, delayRender()] "Extracting audio for frame 230" handle was cleared after 6ms
+[Tab 1, delayRender()] "Setting the current frame to 230" handle was cleared after 22ms
+Rendered 230/450, time remaining: 19s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.467...7.723
+[Tab 0, delayRender()] "Extracting audio for frame 231" handle was cleared after 3ms
+[Tab 0, delayRender()] "Setting the current frame to 231" handle was cleared after 7ms
+Rendered 230/450, time remaining: 19s
+Rendered 231/450, time remaining: 19s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.509...7.808
+[Tab 1, delayRender()] "Extracting audio for frame 232" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 232" handle was cleared after 20ms
+Rendered 232/450, time remaining: 19s
+[Tab 0, delayRender()] "Setting the current frame to 233" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.509...7.808
+[Tab 0, delayRender()] "Extracting audio for frame 233" handle was cleared after 0ms
+Rendered 233/450, time remaining: 19s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.509...7.808
+[Tab 1, delayRender()] "Extracting audio for frame 234" handle was cleared after 3ms
+[Tab 1, delayRender()] "Setting the current frame to 234" handle was cleared after 23ms
+Rendered 234/450, time remaining: 19s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.595...7.893
+[Tab 0, delayRender()] "Extracting audio for frame 235" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 235" handle was cleared after 3ms
+Rendered 235/450, time remaining: 19s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.595...7.893
+[Tab 1, delayRender()] "Setting the current frame to 236" handle was cleared after 2ms
+[Tab 1, delayRender()] "Extracting audio for frame 236" handle was cleared after 2ms
+Rendered 236/450, time remaining: 19s
+[Tab 0, delayRender()] "Setting the current frame to 237" handle was cleared after 0ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.595...7.893
+[Tab 0, delayRender()] "Extracting audio for frame 237" handle was cleared after 0ms
+Rendered 236/450, time remaining: 19s
+Rendered 237/450, time remaining: 19s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.723...7.979
+[Tab 1, delayRender()] "Setting the current frame to 238" handle was cleared after 3ms
+[Tab 1, delayRender()] "Extracting audio for frame 238" handle was cleared after 4ms
+Rendered 238/450, time remaining: 19s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.723...7.979
+[Tab 0, delayRender()] "Extracting audio for frame 239" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 239" handle was cleared after 22ms
+Rendered 239/450, time remaining: 19s
+[Tab 1, delayRender()] "Setting the current frame to 240" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.765...8.064
+[Tab 1, delayRender()] "Extracting audio for frame 240" handle was cleared after 7ms
+Rendered 240/450, time remaining: 18s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.765...8.064
+[Tab 0, delayRender()] "Extracting audio for frame 241" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 241" handle was cleared after 3ms
+Rendered 241/450, time remaining: 18s
+[Tab 1, delayRender()] "Setting the current frame to 242" handle was cleared after 5ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.765...8.064
+[Tab 1, delayRender()] "Extracting audio for frame 242" handle was cleared after 8ms
+Rendered 242/450, time remaining: 18s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.893...8.149
+[Tab 0, delayRender()] "Extracting audio for frame 243" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 243" handle was cleared after 5ms
+Rendered 242/450, time remaining: 18s
+Rendered 243/450, time remaining: 18s
+[Tab 1, delayRender()] "Setting the current frame to 244" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.893...8.149
+[Tab 1, delayRender()] "Extracting audio for frame 244" handle was cleared after 11ms
+Rendered 244/450, time remaining: 18s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.936...8.235
+[Tab 0, delayRender()] "Extracting audio for frame 245" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 245" handle was cleared after 15ms
+Rendered 245/450, time remaining: 18s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.936...8.235
+[Tab 1, delayRender()] "Setting the current frame to 246" handle was cleared after 3ms
+[Tab 1, delayRender()] "Extracting audio for frame 246" handle was cleared after 7ms
+Rendered 246/450, time remaining: 18s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 7.936...8.235
+[Tab 0, delayRender()] "Extracting audio for frame 247" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 247" handle was cleared after 19ms
+Rendered 247/450, time remaining: 18s
+[Tab 1, delayRender()] "Setting the current frame to 248" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.064...8.320
+[Tab 1, delayRender()] "Extracting audio for frame 248" handle was cleared after 7ms
+Rendered 247/450, time remaining: 18s
+Rendered 248/450, time remaining: 18s
+Rendered 249/450, time remaining: 17s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.064...8.320
+[Tab 0, delayRender()] "Extracting audio for frame 249" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 249" handle was cleared after 5ms
+[Tab 1, delayRender()] "Setting the current frame to 250" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.107...8.405
+[Tab 1, delayRender()] "Extracting audio for frame 250" handle was cleared after 10ms
+Rendered 250/450, time remaining: 17s
+Rendered 251/450, time remaining: 17s
+[Tab 1, delayRender()] "Setting the current frame to 252" handle was cleared after 6ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.107...8.405
+[Tab 0, delayRender()] "Extracting audio for frame 251" handle was cleared after 5ms
+[Tab 0, delayRender()] "Setting the current frame to 251" handle was cleared after 9ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.107...8.405
+[Tab 1, delayRender()] "Extracting audio for frame 252" handle was cleared after 14ms
+Rendered 252/450, time remaining: 17s
+Rendered 253/450, time remaining: 17s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.192...8.491
+[Tab 0, delayRender()] "Extracting audio for frame 253" handle was cleared after 4ms
+[Tab 0, delayRender()] "Setting the current frame to 253" handle was cleared after 6ms
+[Tab 1, delayRender()] "Setting the current frame to 254" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.192...8.491
+[Tab 1, delayRender()] "Extracting audio for frame 254" handle was cleared after 7ms
+Rendered 253/450, time remaining: 17s
+Rendered 254/450, time remaining: 17s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.192...8.491
+[Tab 0, delayRender()] "Extracting audio for frame 255" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 255" handle was cleared after 19ms
+Rendered 255/450, time remaining: 17s
+[Tab 1, delayRender()] "Setting the current frame to 256" handle was cleared after 0ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.320...8.576
+[Tab 1, delayRender()] "Extracting audio for frame 256" handle was cleared after 5ms
+Rendered 256/450, time remaining: 16s
+Rendered 257/450, time remaining: 16s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.320...8.576
+[Tab 0, delayRender()] "Extracting audio for frame 257" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 257" handle was cleared after 3ms
+[Tab 1, delayRender()] "Setting the current frame to 258" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.363...8.661
+[Tab 1, delayRender()] "Extracting audio for frame 258" handle was cleared after 10ms
+Rendered 258/450, time remaining: 16s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.363...8.661
+[Tab 0, delayRender()] "Extracting audio for frame 259" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 259" handle was cleared after 3ms
+Rendered 259/450, time remaining: 16s
+[Tab 1, delayRender()] "Setting the current frame to 260" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.363...8.661
+[Tab 1, delayRender()] "Extracting audio for frame 260" handle was cleared after 8ms
+Rendered 259/450, time remaining: 16s
+Rendered 260/450, time remaining: 16s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.491...8.747
+[Tab 0, delayRender()] "Extracting audio for frame 261" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 261" handle was cleared after 19ms
+Rendered 261/450, time remaining: 16s
+[Tab 1, delayRender()] "Setting the current frame to 262" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.491...8.747
+[Tab 1, delayRender()] "Extracting audio for frame 262" handle was cleared after 8ms
+Rendered 262/450, time remaining: 16s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.533...8.832
+[Tab 0, delayRender()] "Extracting audio for frame 263" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 263" handle was cleared after 21ms
+Rendered 263/450, time remaining: 16s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.533...8.832
+[Tab 1, delayRender()] "Setting the current frame to 264" handle was cleared after 4ms
+[Tab 1, delayRender()] "Extracting audio for frame 264" handle was cleared after 24ms
+Rendered 264/450, time remaining: 16s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.533...8.832
+[Tab 0, delayRender()] "Extracting audio for frame 265" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 265" handle was cleared after 7ms
+Rendered 264/450, time remaining: 16s
+Rendered 265/450, time remaining: 15s
+[Tab 1, delayRender()] "Setting the current frame to 266" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.661...8.917
+[Tab 1, delayRender()] "Extracting audio for frame 266" handle was cleared after 9ms
+Rendered 266/450, time remaining: 15s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.661...8.917
+[Tab 0, delayRender()] "Extracting audio for frame 267" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 267" handle was cleared after 2ms
+Rendered 267/450, time remaining: 15s
+[Tab 1, delayRender()] "Setting the current frame to 268" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.704...9.003
+[Tab 1, delayRender()] "Extracting audio for frame 268" handle was cleared after 6ms
+Rendered 268/450, time remaining: 15s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.704...9.003
+[Tab 0, delayRender()] "Extracting audio for frame 269" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 269" handle was cleared after 4ms
+Rendered 269/450, time remaining: 15s
+[Tab 1, delayRender()] "Setting the current frame to 270" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.704...9.003
+[Tab 1, delayRender()] "Extracting audio for frame 270" handle was cleared after 4ms
+Rendered 270/450, time remaining: 15s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.832...9.088
+[Tab 0, delayRender()] "Extracting audio for frame 271" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 271" handle was cleared after 15ms
+Rendered 271/450, time remaining: 15s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.832...9.088
+[Tab 1, delayRender()] "Setting the current frame to 272" handle was cleared after 9ms
+[Tab 1, delayRender()] "Extracting audio for frame 272" handle was cleared after 9ms
+Rendered 271/450, time remaining: 15s
+Rendered 272/450, time remaining: 15s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.875...9.173
+[Tab 0, delayRender()] "Extracting audio for frame 273" handle was cleared after 2ms
+Rendered 273/450, time remaining: 14s
+[Tab 0, delayRender()] "Setting the current frame to 273" handle was cleared after 21ms
+[Tab 1, delayRender()] "Setting the current frame to 274" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.875...9.173
+[Tab 1, delayRender()] "Extracting audio for frame 274" handle was cleared after 5ms
+Rendered 274/450, time remaining: 14s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.875...9.173
+[Tab 0, delayRender()] "Extracting audio for frame 275" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 275" handle was cleared after 25ms
+Rendered 275/450, time remaining: 14s
+[Tab 1, delayRender()] "Setting the current frame to 276" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.960...9.259
+[Tab 1, delayRender()] "Extracting audio for frame 276" handle was cleared after 12ms
+Rendered 276/450, time remaining: 14s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.960...9.259
+[Tab 0, delayRender()] "Extracting audio for frame 277" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 277" handle was cleared after 19ms
+Rendered 277/450, time remaining: 14s
+[Tab 1, delayRender()] "Setting the current frame to 278" handle was cleared after 1ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 8.960...9.259
+[Tab 1, delayRender()] "Extracting audio for frame 278" handle was cleared after 3ms
+Rendered 277/450, time remaining: 14s
+Rendered 278/450, time remaining: 14s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.088...9.344
+[Tab 0, delayRender()] "Extracting audio for frame 279" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 279" handle was cleared after 3ms
+Rendered 279/450, time remaining: 14s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.088...9.344
+[Tab 1, delayRender()] "Extracting audio for frame 280" handle was cleared after 5ms
+[Tab 1, delayRender()] "Setting the current frame to 280" handle was cleared after 13ms
+Rendered 280/450, time remaining: 14s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.131...9.429
+[Tab 0, delayRender()] "Extracting audio for frame 281" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 281" handle was cleared after 3ms
+Rendered 281/450, time remaining: 14s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.131...9.429
+[Tab 1, delayRender()] "Setting the current frame to 282" handle was cleared after 2ms
+[Tab 1, delayRender()] "Extracting audio for frame 282" handle was cleared after 7ms
+Rendered 282/450, time remaining: 14s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.131...9.429
+[Tab 0, delayRender()] "Extracting audio for frame 283" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 283" handle was cleared after 3ms
+Rendered 283/450, time remaining: 13s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.259...9.515
+[Tab 1, delayRender()] "Extracting audio for frame 284" handle was cleared after 3ms
+[Tab 1, delayRender()] "Setting the current frame to 284" handle was cleared after 28ms
+Rendered 284/450, time remaining: 13s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.259...9.515
+[Tab 0, delayRender()] "Extracting audio for frame 285" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 285" handle was cleared after 3ms
+Rendered 284/450, time remaining: 13s
+Rendered 285/450, time remaining: 13s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.301...9.600
+[Tab 1, delayRender()] "Extracting audio for frame 286" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 286" handle was cleared after 14ms
+Rendered 286/450, time remaining: 13s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.301...9.600
+[Tab 0, delayRender()] "Extracting audio for frame 287" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 287" handle was cleared after 3ms
+Rendered 287/450, time remaining: 13s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.301...9.600
+[Tab 1, delayRender()] "Extracting audio for frame 288" handle was cleared after 4ms
+[Tab 1, delayRender()] "Setting the current frame to 288" handle was cleared after 17ms
+Rendered 288/450, time remaining: 13s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.429...9.685
+[Tab 0, delayRender()] "Extracting audio for frame 289" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 289" handle was cleared after 2ms
+Rendered 289/450, time remaining: 13s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.429...9.685
+[Tab 1, delayRender()] "Extracting audio for frame 290" handle was cleared after 5ms
+[Tab 1, delayRender()] "Setting the current frame to 290" handle was cleared after 11ms
+Rendered 290/450, time remaining: 13s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.472...9.771
+[Tab 0, delayRender()] "Extracting audio for frame 291" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 291" handle was cleared after 3ms
+Rendered 290/450, time remaining: 13s
+Rendered 291/450, time remaining: 13s
+Rendered 292/450, time remaining: 13s
+[Tab 1, delayRender()] "Setting the current frame to 292" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.472...9.771
+[Tab 1, delayRender()] "Extracting audio for frame 292" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.472...9.771
+[Tab 0, delayRender()] "Extracting audio for frame 293" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 293" handle was cleared after 4ms
+Rendered 293/450, time remaining: 13s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.557...9.856
+[Tab 0, delayRender()] "Extracting audio for frame 294" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 294" handle was cleared after 17ms
+Rendered 294/450, time remaining: 12s
+[Tab 1, delayRender()] "Setting the current frame to 295" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.557...9.856
+[Tab 1, delayRender()] "Extracting audio for frame 295" handle was cleared after 4ms
+Rendered 295/450, time remaining: 12s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.643...9.941
+[Tab 0, delayRender()] "Extracting audio for frame 296" handle was cleared after 2ms
+[Tab 0, delayRender()] "Setting the current frame to 296" handle was cleared after 18ms
+Rendered 296/450, time remaining: 12s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.643...9.941
+[Tab 1, delayRender()] "Setting the current frame to 297" handle was cleared after 4ms
+[Tab 1, delayRender()] "Extracting audio for frame 297" handle was cleared after 8ms
+Rendered 296/450, time remaining: 12s
+Rendered 297/450, time remaining: 12s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.643...9.941
+[Tab 0, delayRender()] "Extracting audio for frame 298" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 298" handle was cleared after 16ms
+Rendered 298/450, time remaining: 12s
+[Tab 1, delayRender()] "Setting the current frame to 299" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.728...10.027
+[Tab 1, delayRender()] "Extracting audio for frame 299" handle was cleared after 7ms
+Rendered 299/450, time remaining: 12s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.728...10.027
+[Tab 0, delayRender()] "Extracting audio for frame 300" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 300" handle was cleared after 17ms
+Rendered 300/450, time remaining: 12s
+[Tab 1, delayRender()] "Setting the current frame to 301" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.728...10.027
+[Tab 1, delayRender()] "Extracting audio for frame 301" handle was cleared after 5ms
+Rendered 301/450, time remaining: 12s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.856...10.112
+[Tab 0, delayRender()] "Extracting audio for frame 302" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 302" handle was cleared after 17ms
+Rendered 302/450, time remaining: 12s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.856...10.112
+[Tab 1, delayRender()] "Setting the current frame to 303" handle was cleared after 2ms
+[Tab 1, delayRender()] "Extracting audio for frame 303" handle was cleared after 10ms
+Rendered 302/450, time remaining: 12s
+Rendered 303/450, time remaining: 12s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.899...10.197
+[Tab 0, delayRender()] "Extracting audio for frame 304" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 304" handle was cleared after 20ms
+Rendered 304/450, time remaining: 12s
+[Tab 1, delayRender()] "Setting the current frame to 305" handle was cleared after 3ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.899...10.197
+[Tab 1, delayRender()] "Extracting audio for frame 305" handle was cleared after 13ms
+Rendered 305/450, time remaining: 12s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 9.899...10.197
+[Tab 0, delayRender()] "Extracting audio for frame 306" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 306" handle was cleared after 2ms
+Rendered 306/450, time remaining: 12s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.027...10.283
+[Tab 1, delayRender()] "Extracting audio for frame 307" handle was cleared after 9ms
+[Tab 1, delayRender()] "Setting the current frame to 307" handle was cleared after 13ms
+Rendered 307/450, time remaining: 11s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.027...10.283
+[Tab 0, delayRender()] "Extracting audio for frame 308" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 308" handle was cleared after 3ms
+Rendered 308/450, time remaining: 11s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.069...10.368
+[Tab 1, delayRender()] "Extracting audio for frame 309" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 309" handle was cleared after 21ms
+Rendered 309/450, time remaining: 11s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.069...10.368
+[Tab 0, delayRender()] "Extracting audio for frame 310" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 310" handle was cleared after 6ms
+Rendered 309/450, time remaining: 11s
+Rendered 310/450, time remaining: 11s
+[Tab 1, delayRender()] "Setting the current frame to 311" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.069...10.368
+[Tab 1, delayRender()] "Extracting audio for frame 311" handle was cleared after 2ms
+Rendered 311/450, time remaining: 11s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.197...10.453
+[Tab 0, delayRender()] "Extracting audio for frame 312" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 312" handle was cleared after 16ms
+Rendered 312/450, time remaining: 11s
+[Tab 1, delayRender()] "Setting the current frame to 313" handle was cleared after 6ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.197...10.453
+[Tab 1, delayRender()] "Extracting audio for frame 313" handle was cleared after 10ms
+Rendered 313/450, time remaining: 11s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.240...10.539
+[Tab 0, delayRender()] "Extracting audio for frame 314" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 314" handle was cleared after 14ms
+Rendered 314/450, time remaining: 11s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.240...10.539
+[Tab 1, delayRender()] "Setting the current frame to 315" handle was cleared after 1ms
+[Tab 1, delayRender()] "Extracting audio for frame 315" handle was cleared after 2ms
+Rendered 315/450, time remaining: 11s
+Rendered 316/450, time remaining: 11s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.240...10.539
+[Tab 0, delayRender()] "Extracting audio for frame 316" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 316" handle was cleared after 6ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.325...10.624
+[Tab 1, delayRender()] "Setting the current frame to 317" handle was cleared after 9ms
+[Tab 1, delayRender()] "Extracting audio for frame 317" handle was cleared after 11ms
+Rendered 316/450, time remaining: 11s
+Rendered 317/450, time remaining: 11s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.325...10.624
+[Tab 0, delayRender()] "Extracting audio for frame 318" handle was cleared after 0ms
+[Tab 0, delayRender()] "Setting the current frame to 318" handle was cleared after 16ms
+Rendered 318/450, time remaining: 10s
+[Tab 1, delayRender()] "Setting the current frame to 319" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.325...10.624
+[Tab 1, delayRender()] "Extracting audio for frame 319" handle was cleared after 6ms
+Rendered 319/450, time remaining: 10s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.453...10.709
+[Tab 0, delayRender()] "Extracting audio for frame 320" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 320" handle was cleared after 15ms
+Rendered 320/450, time remaining: 10s
+[Tab 1, delayRender()] "Setting the current frame to 321" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.453...10.709
+[Tab 1, delayRender()] "Extracting audio for frame 321" handle was cleared after 4ms
+Rendered 321/450, time remaining: 10s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.496...10.795
+[Tab 0, delayRender()] "Extracting audio for frame 322" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 322" handle was cleared after 21ms
+Rendered 322/450, time remaining: 10s
+Rendered 322/450, time remaining: 10s
+[Tab 1, delayRender()] "Setting the current frame to 323" handle was cleared after 4ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.496...10.795
+[Tab 1, delayRender()] "Extracting audio for frame 323" handle was cleared after 4ms
+Rendered 323/450, time remaining: 10s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.496...10.795
+[Tab 0, delayRender()] "Extracting audio for frame 324" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 324" handle was cleared after 4ms
+Rendered 324/450, time remaining: 10s
+[Tab 1, delayRender()] "Setting the current frame to 325" handle was cleared after 2ms
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.624...10.880
+[Tab 1, delayRender()] "Extracting audio for frame 325" handle was cleared after 5ms
+Rendered 325/450, time remaining: 10s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.624...10.880
+[Tab 0, delayRender()] "Extracting audio for frame 326" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 326" handle was cleared after 3ms
+Rendered 326/450, time remaining: 10s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.667...10.965
+[Tab 1, delayRender()] "Extracting audio for frame 327" handle was cleared after 2ms
+[Tab 1, delayRender()] "Setting the current frame to 327" handle was cleared after 21ms
+Rendered 327/450, time remaining: 10s
+[Tab 0, @remotion/media] Open audio samples for src /public/studio/demo-001/score.wav 10.667...10.965
+[Tab 0, delayRender()] "Extracting audio for frame 328" handle was cleared after 1ms
+[Tab 0, delayRender()] "Setting the current frame to 328" handle was cleared after 4ms
+
+💡 Get help for this issue at https://remotion.dev/docs/timeout
+Rendered 327/450, time remaining: 10s
+Rendered 327/450, time remaining: 10s
+Rendered 327/450, time remaining: 10s
+Rendered 327/450, time remaining: 10s
+
+Rendered 327/450, time remaining: 10s
+An error occurred while rendering frame 327:
+ Error  A delayRender() "Loading font StudioInter (url: /public/studio/demo-001/fonts/StudioInter-Medium.otf, format: undefined, weight: 500, style: undefined, variant: undefined, ascentOverride: undefined, descentOverride: undefined, display: undefined, featureSettings: undefined, lineGapOverride: undefined, stretch: undefined, unicodeRange: undefined)" was called but not cleared after 28000ms. See https://remotion.dev/docs/timeout for help. 
+
+at node_modules/remotion/dist/esm/index.mjs:440
+438 │   if (environment.isClientSideRendering) {
+439 │     scope.remotion_cancelledError = getErrorStackWithMessage(Error(message));
+440 │   } else {
+441 │     cancelRenderInternal(scope, Error(message));
+442 │   }
+443 │ }, timeoutToUse)
+
+
+🕧 The delayRender() call is located at:
+
+at node_modules/remotion/dist/esm/index.mjs:421
+419 │ const handle = Math.random();
+420 │ scope.remotion_delayRenderHandles.push(handle);
+421 │ const called = Error().stack?.replace(/^Error/g, "") ?? "";
+422 │ if (environment.isRendering) {
+423 │   const timeoutToUse = (options?.timeoutInMilliseconds ?? scope.remotion_puppeteerTimeout ?? defaultTimeout) - 2000;
+424 │   const retriesLeft = (options?.retries ?? 0) - (scope.remotion_attempt - 1);
+
+at node_modules/remotion/dist/esm/index.mjs:453
+451 │   return Math.random();
+452 │ }
+453 │ return delayRenderInternal({
+454 │   scope: window,
+455 │   environment: getRemotionEnvironment(),
+456 │   label: label ?? null,
+
+at node_modules/@remotion/fonts/dist/esm/index.mjs:35
+33 │   variant
+34 │ }) => {
+35 │   const waitForFont = delayRender(`Loading font ${family} (url: ${url}, format: ${format}, weight: ${weight}, style: ${style}, variant: ${variant}, ascentOverride: ${ascentOverride}, descentOverride: ${descentOverride}, display: ${display}, featureSettings: ${featureSettings}, lineGapOverride: ${lineGapOverride}, stretch: ${stretch}, unicodeRange: ${unicodeRange})`);
+36 │   try {
+37 │     const fontFormat = format ?? getFontFormat(url);
+38 │     const font = new FontFace(family, `url('${url}') format('${fontFormat}')`, {
+
+at src/studio/demo-001/theme.ts:11
+ 9 │ export const FONT = `${FONT_FAMILY}, sans-serif`;
+10 │ 
+11 │ loadFont({family: FONT_FAMILY, url: staticFile('studio/demo-001/fonts/StudioInter-Medium.otf'), weight: '500'});
+12 │ loadFont({family: FONT_FAMILY, url: staticFile('studio/demo-001/fonts/StudioInter-Bold.otf'), weight: '700'});
+13 │ loadFont({family: FONT_FAMILY, url: staticFile('studio/demo-001/fonts/StudioInter-ExtraBold.otf'), weight: '800'});
+14 │ 
+at __webpack_require__ (webpack/bootstrap:19)
+at (webpack/startup:5)
+
+at node_modules/remotion/dist/esm/index.mjs:421
+419 │ const handle = Math.random();
+420 │ scope.remotion_delayRenderHandles.push(handle);
+421 │ const called = Error().stack?.replace(/^Error/g, "") ?? "";
+422 │ if (environment.isRendering) {
+423 │   const timeoutToUse = (options?.timeoutInMilliseconds ?? scope.remotion_puppeteerTimeout ?? defaultTimeout) - 2000;
+424 │   const retriesLeft = (options?.retries ?? 0) - (scope.remotion_attempt - 1);
+
+at node_modules/remotion/dist/esm/index.mjs:453
+451 │   return Math.random();
+452 │ }
+453 │ return delayRenderInternal({
+454 │   scope: window,
+455 │   environment: getRemotionEnvironment(),
+456 │   label: label ?? null,
+
+at node_modules/@remotion/fonts/dist/esm/index.mjs:35
+33 │   variant
+34 │ }) => {
+35 │   const waitForFont = delayRender(`Loading font ${family} (url: ${url}, format: ${format}, weight: ${weight}, style: ${style}, variant: ${variant}, ascentOverride: ${ascentOverride}, descentOverride: ${descentOverride}, display: ${display}, featureSettings: ${featureSettings}, lineGapOverride: ${lineGapOverride}, stretch: ${stretch}, unicodeRange: ${unicodeRange})`);
+36 │   try {
+37 │     const fontFormat = format ?? getFontFormat(url);
+38 │     const font = new FontFace(family, `url('${url}') format('${fontFormat}')`, {
+
+at src/studio/demo-001/theme.ts:11
+ 9 │ export const FONT = `${FONT_FAMILY}, sans-serif`;
+10 │ 
+11 │ loadFont({family: FONT_FAMILY, url: staticFile('studio/demo-001/fonts/StudioInter-Medium.otf'), weight: '500'});
+12 │ loadFont({family: FONT_FAMILY, url: staticFile('studio/demo-001/fonts/StudioInter-Bold.otf'), weight: '700'});
+13 │ loadFont({family: FONT_FAMILY, url: staticFile('studio/demo-001/fonts/StudioInter-ExtraBold.otf'), weight: '800'});
+14 │ 
+at __webpack_require__ (webpack/bootstrap:19)
+at (webpack/startup:5)
+at (node_modules/remotion/dist/esm/index.mjs:441)
+Cleaning up...
+Cleanup job "Delete /tmp/remotion-webpack-bundle-cWy6IT" done
+Cleanup job "Cleanup bundle" done
+Received SIGTERM signal. Killing browser process
+Trying to kill browser process group -20548
+Cleanup job "Closing browser instance" done
+Cleanup job "Close server" done
+Cleanup job "Delete /tmp/react-motion-renderZhttAH" done
+Cleanup done in 30ms

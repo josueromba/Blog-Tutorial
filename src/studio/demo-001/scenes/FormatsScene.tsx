@@ -1,4 +1,5 @@
 import React from 'react';
+import {useStudioFonts} from '../fonts';
 import {AbsoluteFill, interpolate, useCurrentFrame} from 'remotion';
 import {Backdrop} from '../components/Backdrop';
 import {MockDashboard} from '../components/MockDashboard';
@@ -15,6 +16,7 @@ const lerpBox = (a: Box, b: Box, t: number): Box => ({
 });
 
 export const FormatsScene: React.FC = () => {
+  useStudioFonts();
   const frame = useCurrentFrame();
   const {portrait, width, mx, my} = useFormat();
   const dur = SCENE.formats.duration;
@@ -22,7 +24,7 @@ export const FormatsScene: React.FC = () => {
   const L: Box = portrait ? {x: mx, y: 420, w: width - 2 * mx, h: 511} : {x: 300, y: 377, w: 800, h: 450};
   const P: Box = portrait ? {x: 390, y: 1020, w: 300, h: 533} : {x: 1280, y: 300, w: 340, h: 605};
 
-  const lIn = interpolate(frame, [0, 12], [0, 1], {...CLAMP, easing: EASE});
+  const lIn = interpolate(frame, [-4, 12], [0, 1], {...CLAMP, easing: EASE});
   const target = interpolate(frame, [10, 20], [0, 1], CLAMP);
   const move = interpolate(frame, [20, 50], [0, 1], {...CLAMP, easing: EASE});
   const reflow = interpolate(frame, [22, 48], [0, 1], {...CLAMP, easing: EASE});

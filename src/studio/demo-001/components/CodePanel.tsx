@@ -22,6 +22,13 @@ const ROWS: readonly (readonly Token[])[] = [
 const tokenColor = (k: string) =>
   k === 'v' ? C.violet : k === 'p' ? '#C9CCE0' : k === 'c' ? C.mint : k === 's' ? C.stroke : 'transparent';
 
+/** Caret sits at the end of the typed part of a row (after any leading indent). */
+const caretX = (row: readonly Token[], reveal: number) => {
+  const indent = row[0][1] === 'gap' ? row[0][0] + 2 : 0;
+  const end = row.reduce((a, [w]) => a + w + 2, 0) - 2;
+  return Math.min(98, indent + (end - indent) * reveal + (reveal > 0 ? 1 : 0));
+};
+
 export const EDIT_START = 35; // scene-local frame the value gets selected
 export const EDIT_END = 45;
 
@@ -107,7 +114,7 @@ export const CodePanel: React.FC<{
               <div
                 style={{
                   position: 'absolute',
-                  left: `${Math.min(98, row.reduce((a, [w]) => a + w + 2, 0))}%`,
+                  left: `${caretX(row, reveal)}%`,
                   top: -rowH * 0.15,
                   width: 5,
                   height: rowH * 1.3,

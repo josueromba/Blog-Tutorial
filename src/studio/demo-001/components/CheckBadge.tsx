@@ -5,7 +5,7 @@ import {C, CLAMP, EASE} from '../theme';
 /** Mint ring + check that draw on, with a small coral "revision loop" arrow orbiting once. */
 export const CheckBadge: React.FC<{readonly size: number; readonly style?: React.CSSProperties}> = ({size, style}) => {
   const frame = useCurrentFrame();
-  const ring = interpolate(frame, [0, 15], [0, 1], {...CLAMP, easing: EASE});
+  const ring = interpolate(frame, [-3, 15], [0, 1], {...CLAMP, easing: EASE});
   const check = interpolate(frame, [12, 24], [0, 1], {...CLAMP, easing: EASE});
   const loop = interpolate(frame, [0, 40], [0, 360], {...CLAMP, easing: EASE});
   const pop = interpolate(frame, [22, 26, 32], [1, 1.06, 1], CLAMP);

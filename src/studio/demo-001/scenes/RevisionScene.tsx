@@ -1,4 +1,5 @@
 import React from 'react';
+import {useStudioFonts} from '../fonts';
 import {AbsoluteFill} from 'remotion';
 import {Backdrop} from '../components/Backdrop';
 import {CheckBadge} from '../components/CheckBadge';
@@ -7,6 +8,7 @@ import {SCENE} from '../timing';
 import {useFormat} from '../theme';
 
 export const RevisionScene: React.FC = () => {
+  useStudioFonts();
   const {portrait, height} = useFormat();
   const size = portrait ? 112 : 132;
   return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import {useStudioFonts} from '../fonts';
 import {AbsoluteFill, interpolate, interpolateColors, useCurrentFrame} from 'remotion';
 import {Backdrop} from '../components/Backdrop';
 import {CodePanel} from '../components/CodePanel';
@@ -37,11 +38,12 @@ const PreviewCard: React.FC<{readonly w: number; readonly h: number; readonly st
 };
 
 export const SourceScene: React.FC = () => {
+  useStudioFonts();
   const frame = useCurrentFrame();
   const {portrait, width, height, mx, my} = useFormat();
   const dur = SCENE.source.duration;
   const size = portrait ? 112 : 120;
-  const panelIn = interpolate(frame, [0, 12], [0, 1], {...CLAMP, easing: EASE});
+  const panelIn = interpolate(frame, [-4, 12], [0, 1], {...CLAMP, easing: EASE});
   const prevIn = interpolate(frame, [8, 20], [0, 1], {...CLAMP, easing: EASE});
 
   const panel = portrait ? {x: mx, y: 640, w: width - 2 * mx, h: 620} : {x: width - mx - 820, y: 160, w: 820, h: 560};
