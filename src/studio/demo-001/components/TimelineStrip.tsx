@@ -8,14 +8,17 @@ import {C, CLAMP, useFormat} from '../theme';
  * playhead moving linearly over the whole video and one diamond per cut that
  * flashes coral when the cut (and its sound hit) happens. No text, no numbers.
  */
-export const TimelineStrip: React.FC = () => {
+export const TimelineStrip: React.FC<{
+  /** Cut frames incl. the final end frame. Defaults to demo-001's CUTS (unchanged behaviour). */
+  readonly cuts?: readonly number[];
+}> = ({cuts: cutsProp = CUTS}) => {
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
   const {width, height, mx, my} = useFormat();
   const trackW = width - 2 * mx;
   const y = height - my - 24;
   const playX = interpolate(frame, [0, durationInFrames - 1], [0, trackW], CLAMP);
-  const cuts = CUTS.slice(0, -1);
+  const cuts = cutsProp.slice(0, -1);
 
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>

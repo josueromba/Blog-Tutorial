@@ -1,0 +1,6 @@
+# demo-002 render commands
+npx remotion render src/studio/index.ts Demo002Landscape jobs/demo-002/qa/raw-renders/demo-002-16x9.raw.mp4 --codec=h264 --pixel-format=yuv420p --audio-codec=aac --color-space=bt709
+npx remotion render src/studio/index.ts Demo002Vertical jobs/demo-002/qa/raw-renders/demo-002-9x16.raw.mp4 --codec=h264 --pixel-format=yuv420p --audio-codec=aac --color-space=bt709
+# lossless remux trimming the 2048-sample AAC priming (constant AAC_PRIMING_SAMPLES in src/studio/demo-001/timing.ts; script reused unchanged)
+scripts/studio/demo-001/finalize-audio.sh jobs/demo-002/qa/raw-renders/demo-002-16x9.raw.mp4 jobs/demo-002/out/demo-002-16x9.mp4
+scripts/studio/demo-001/finalize-audio.sh jobs/demo-002/qa/raw-renders/demo-002-9x16.raw.mp4 jobs/demo-002/out/demo-002-9x16.mp4

@@ -1,0 +1,6 @@
+# demo-002 synth runs 2026-10-09T19:28:45Z
+{"out":"/home/user/Blog-Tutorial/public/studio/demo-002/score.wav","sampleRate":48000,"samplesPerChannel":720000,"seconds":15,"seed":20261008,"hitsAtFrames":[0,60,120,180,240,300,360],"hitSamples":[0,96000,192000,288000,384000,480000,576000],"peakDbfs":-1,"rmsDbfs":-23.54,"clippedSamples":0}
+{"out":"/tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/d2-run2.wav","sampleRate":48000,"samplesPerChannel":720000,"seconds":15,"seed":20261008,"hitsAtFrames":[0,60,120,180,240,300,360],"hitSamples":[0,96000,192000,288000,384000,480000,576000],"peakDbfs":-1,"rmsDbfs":-23.54,"clippedSamples":0}
+3cf43314077532d83dfe1a04360d81471c96f8140ede42350d784bf2a58e22a5  public/studio/demo-002/score.wav
+3cf43314077532d83dfe1a04360d81471c96f8140ede42350d784bf2a58e22a5  /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/d2-run2.wav
+DETERMINISTIC: byte-identical
