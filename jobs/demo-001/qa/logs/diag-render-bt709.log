@@ -1,0 +1,118 @@
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020290.63 MB
+Memory reported by /proc/meminfo: 15300.33 MB
+Memory reported by Node: 15300.33 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Bundling 6%
+Bundling 21%
+Bundling 51%
+Bundling 65%
+Bundling 71%
+Bundling 76%
+Bundling 81%
+Bundling 87%
+Bundling 92%
+Bundling 98%
+Bundling 100%
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020000.77 MB
+Memory reported by /proc/meminfo: 14943.85 MB
+Memory reported by Node: 14943.85 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Codec                h264
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/diag-bt709.mp4
+Concurrency          2x
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020005.45 MB
+Memory reported by /proc/meminfo: 14928.73 MB
+Memory reported by Node: 14928.73 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 0/60
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093019983.87 MB
+Memory reported by /proc/meminfo: 14916.40 MB
+Memory reported by Node: 14916.40 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093019983.87 MB
+Memory reported by /proc/meminfo: 14916.40 MB
+Memory reported by Node: 14916.40 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/60, time remaining: 31s
+Rendered 2/60, time remaining: 18s
+Rendered 3/60, time remaining: 13s
+Rendered 4/60, time remaining: 10s
+Rendered 5/60, time remaining: 9s
+Rendered 6/60, time remaining: 7s
+Rendered 7/60, time remaining: 7s
+Rendered 8/60, time remaining: 6s
+Rendered 9/60, time remaining: 6s
+Rendered 10/60, time remaining: 5s
+Rendered 11/60, time remaining: 5s
+Rendered 12/60, time remaining: 5s
+Rendered 13/60, time remaining: 4s
+Rendered 14/60, time remaining: 4s
+Rendered 15/60, time remaining: 4s
+Rendered 16/60, time remaining: 4s
+Rendered 17/60, time remaining: 4s
+Rendered 18/60, time remaining: 3s
+Rendered 19/60, time remaining: 3s
+Rendered 20/60, time remaining: 3s
+Rendered 21/60, time remaining: 3s
+Rendered 22/60, time remaining: 3s
+Rendered 23/60, time remaining: 3s
+Rendered 24/60, time remaining: 3s
+Rendered 25/60, time remaining: 3s
+Rendered 26/60, time remaining: 2s
+Rendered 27/60, time remaining: 2s
+Rendered 28/60, time remaining: 2s
+Rendered 29/60, time remaining: 2s
+Rendered 30/60, time remaining: 2s
+Rendered 31/60, time remaining: 2s
+Rendered 32/60, time remaining: 2s
+Rendered 33/60, time remaining: 2s
+Rendered 34/60, time remaining: 2s
+Rendered 35/60, time remaining: 2s
+Rendered 36/60, time remaining: 1s
+Rendered 37/60, time remaining: 1s
+Rendered 38/60, time remaining: 1s
+Rendered 39/60, time remaining: 1s
+Rendered 40/60, time remaining: 1s
+Rendered 41/60, time remaining: 1s
+Rendered 42/60, time remaining: 1s
+Rendered 43/60, time remaining: 1s
+Rendered 44/60, time remaining: 1s
+Rendered 45/60, time remaining: 1s
+Rendered 46/60, time remaining: 1s
+Rendered 47/60, time remaining: 0s
+Rendered 48/60, time remaining: 0s
+Rendered 49/60, time remaining: 0s
+Rendered 50/60, time remaining: 0s
+Rendered 51/60, time remaining: 0s
+Rendered 52/60, time remaining: 0s
+Rendered 53/60, time remaining: 0s
+Rendered 54/60, time remaining: 0s
+Rendered 55/60, time remaining: 0s
+Rendered 56/60, time remaining: 0s
+Rendered 57/60, time remaining: 0s
+Rendered 58/60, time remaining: 0s
+Rendered 59/60, time remaining: 0s
+Rendered 60/60
+Rendered 60/60
+Rendered 60/60
+Rendered 60/60
+Rendered 60/60
+Encoded 6/60
+Encoded 22/60
+Encoded 48/60
+Encoded 60/60
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/diag-bt709.mp4 691.9 kB
+stream|codec_type=video|pix_fmt=yuv420p|color_range=tv|color_space=bt709
+stream|codec_type=audio

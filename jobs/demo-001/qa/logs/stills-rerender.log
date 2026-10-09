@@ -1,0 +1,1352 @@
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020303.99 MB
+Memory reported by /proc/meminfo: 15187.12 MB
+Memory reported by Node: 15187.12 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020219.49 MB
+Memory reported by /proc/meminfo: 15121.59 MB
+Memory reported by Node: 15121.59 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f000.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020217.14 MB
+Memory reported by /proc/meminfo: 15110.51 MB
+Memory reported by Node: 15110.51 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f000.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020300.61 MB
+Memory reported by /proc/meminfo: 15240.71 MB
+Memory reported by Node: 15240.71 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020215.56 MB
+Memory reported by /proc/meminfo: 15157.18 MB
+Memory reported by Node: 15157.18 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f000.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020213.58 MB
+Memory reported by /proc/meminfo: 15125.13 MB
+Memory reported by Node: 15125.13 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f000.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020313.18 MB
+Memory reported by /proc/meminfo: 15277.46 MB
+Memory reported by Node: 15277.46 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020228.04 MB
+Memory reported by /proc/meminfo: 15197.04 MB
+Memory reported by Node: 15197.04 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f002.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020225.83 MB
+Memory reported by /proc/meminfo: 15170.46 MB
+Memory reported by Node: 15170.46 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f002.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020310.13 MB
+Memory reported by /proc/meminfo: 15177.62 MB
+Memory reported by Node: 15177.62 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020225.87 MB
+Memory reported by /proc/meminfo: 15130.37 MB
+Memory reported by Node: 15130.37 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f002.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020223.46 MB
+Memory reported by /proc/meminfo: 15121.06 MB
+Memory reported by Node: 15121.06 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f002.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020311.14 MB
+Memory reported by /proc/meminfo: 15272.87 MB
+Memory reported by Node: 15274.75 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020225.64 MB
+Memory reported by /proc/meminfo: 15191.31 MB
+Memory reported by Node: 15191.31 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f030.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020223.38 MB
+Memory reported by /proc/meminfo: 15171.51 MB
+Memory reported by Node: 15171.51 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f030.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020307.06 MB
+Memory reported by /proc/meminfo: 15227.80 MB
+Memory reported by Node: 15227.80 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020224.10 MB
+Memory reported by /proc/meminfo: 15189.68 MB
+Memory reported by Node: 15189.68 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f030.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020221.83 MB
+Memory reported by /proc/meminfo: 15164.70 MB
+Memory reported by Node: 15164.70 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f030.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020310.52 MB
+Memory reported by /proc/meminfo: 15245.57 MB
+Memory reported by Node: 15245.57 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020234.37 MB
+Memory reported by /proc/meminfo: 15190.82 MB
+Memory reported by Node: 15190.82 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f060.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020245.24 MB
+Memory reported by /proc/meminfo: 15177.07 MB
+Memory reported by Node: 15177.07 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f060.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020331.20 MB
+Memory reported by /proc/meminfo: 15225.74 MB
+Memory reported by Node: 15225.74 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020246.41 MB
+Memory reported by /proc/meminfo: 15162.14 MB
+Memory reported by Node: 15162.14 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f060.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020244.52 MB
+Memory reported by /proc/meminfo: 15139.49 MB
+Memory reported by Node: 15139.49 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f060.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020327.70 MB
+Memory reported by /proc/meminfo: 15229.71 MB
+Memory reported by Node: 15229.71 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020245.95 MB
+Memory reported by /proc/meminfo: 15191.73 MB
+Memory reported by Node: 15191.73 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f073.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020243.56 MB
+Memory reported by /proc/meminfo: 15178.32 MB
+Memory reported by Node: 15178.32 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f073.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020326.00 MB
+Memory reported by /proc/meminfo: 15224.23 MB
+Memory reported by Node: 15224.23 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020245.73 MB
+Memory reported by /proc/meminfo: 15163.79 MB
+Memory reported by Node: 15163.79 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f073.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020243.38 MB
+Memory reported by /proc/meminfo: 15144.54 MB
+Memory reported by Node: 15144.54 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f073.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020328.54 MB
+Memory reported by /proc/meminfo: 15250.36 MB
+Memory reported by Node: 15250.36 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020244.14 MB
+Memory reported by /proc/meminfo: 15191.10 MB
+Memory reported by Node: 15191.10 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f075.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020241.90 MB
+Memory reported by /proc/meminfo: 15169.41 MB
+Memory reported by Node: 15169.41 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f075.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020322.72 MB
+Memory reported by /proc/meminfo: 15221.69 MB
+Memory reported by Node: 15221.69 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020241.91 MB
+Memory reported by /proc/meminfo: 15175.76 MB
+Memory reported by Node: 15175.76 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f075.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020239.54 MB
+Memory reported by /proc/meminfo: 15159.43 MB
+Memory reported by Node: 15159.43 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f075.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020323.65 MB
+Memory reported by /proc/meminfo: 15256.41 MB
+Memory reported by Node: 15256.41 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020242.51 MB
+Memory reported by /proc/meminfo: 15192.63 MB
+Memory reported by Node: 15192.63 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f077.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020239.91 MB
+Memory reported by /proc/meminfo: 15174.99 MB
+Memory reported by Node: 15174.99 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f077.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020326.84 MB
+Memory reported by /proc/meminfo: 15304.90 MB
+Memory reported by Node: 15304.90 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020242.51 MB
+Memory reported by /proc/meminfo: 15221.62 MB
+Memory reported by Node: 15221.62 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f077.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020239.88 MB
+Memory reported by /proc/meminfo: 15205.93 MB
+Memory reported by Node: 15205.93 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f077.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020323.61 MB
+Memory reported by /proc/meminfo: 15259.55 MB
+Memory reported by Node: 15259.55 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020241.67 MB
+Memory reported by /proc/meminfo: 15221.30 MB
+Memory reported by Node: 15221.30 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f140.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020239.09 MB
+Memory reported by /proc/meminfo: 15190.23 MB
+Memory reported by Node: 15190.23 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f140.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020321.27 MB
+Memory reported by /proc/meminfo: 15233.35 MB
+Memory reported by Node: 15233.35 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020239.91 MB
+Memory reported by /proc/meminfo: 15200.75 MB
+Memory reported by Node: 15200.75 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f140.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020237.57 MB
+Memory reported by /proc/meminfo: 15181.54 MB
+Memory reported by Node: 15181.54 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f140.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020324.70 MB
+Memory reported by /proc/meminfo: 15250.96 MB
+Memory reported by Node: 15250.96 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020242.73 MB
+Memory reported by /proc/meminfo: 15193.75 MB
+Memory reported by Node: 15193.75 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f163.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020240.18 MB
+Memory reported by /proc/meminfo: 15167.39 MB
+Memory reported by Node: 15167.39 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f163.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020323.29 MB
+Memory reported by /proc/meminfo: 15273.48 MB
+Memory reported by Node: 15273.48 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020241.13 MB
+Memory reported by /proc/meminfo: 15221.54 MB
+Memory reported by Node: 15221.54 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f163.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020239.53 MB
+Memory reported by /proc/meminfo: 15191.71 MB
+Memory reported by Node: 15191.71 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f163.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020322.94 MB
+Memory reported by /proc/meminfo: 15253.19 MB
+Memory reported by Node: 15253.19 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020241.14 MB
+Memory reported by /proc/meminfo: 15210.08 MB
+Memory reported by Node: 15210.08 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f165.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020239.44 MB
+Memory reported by /proc/meminfo: 15185.26 MB
+Memory reported by Node: 15185.26 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f165.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020321.82 MB
+Memory reported by /proc/meminfo: 15256.96 MB
+Memory reported by Node: 15257.11 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020239.65 MB
+Memory reported by /proc/meminfo: 15197.27 MB
+Memory reported by Node: 15197.27 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f165.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020241.66 MB
+Memory reported by /proc/meminfo: 15181.48 MB
+Memory reported by Node: 15181.48 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f165.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020325.17 MB
+Memory reported by /proc/meminfo: 15307.28 MB
+Memory reported by Node: 15307.28 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020244.12 MB
+Memory reported by /proc/meminfo: 15230.27 MB
+Memory reported by Node: 15230.27 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f167.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020241.83 MB
+Memory reported by /proc/meminfo: 15210.31 MB
+Memory reported by Node: 15210.31 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f167.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020323.57 MB
+Memory reported by /proc/meminfo: 15208.80 MB
+Memory reported by Node: 15208.80 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020242.32 MB
+Memory reported by /proc/meminfo: 15178.04 MB
+Memory reported by Node: 15178.04 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f167.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020239.79 MB
+Memory reported by /proc/meminfo: 15174.01 MB
+Memory reported by Node: 15174.01 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f167.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020321.61 MB
+Memory reported by /proc/meminfo: 15195.84 MB
+Memory reported by Node: 15195.84 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020241.11 MB
+Memory reported by /proc/meminfo: 15150.39 MB
+Memory reported by Node: 15150.39 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f230.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020239.23 MB
+Memory reported by /proc/meminfo: 15142.31 MB
+Memory reported by Node: 15142.31 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f230.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020321.75 MB
+Memory reported by /proc/meminfo: 15255.33 MB
+Memory reported by Node: 15255.33 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020239.85 MB
+Memory reported by /proc/meminfo: 15188.96 MB
+Memory reported by Node: 15188.96 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f230.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020237.53 MB
+Memory reported by /proc/meminfo: 15170.29 MB
+Memory reported by Node: 15170.29 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f230.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020322.47 MB
+Memory reported by /proc/meminfo: 15238.69 MB
+Memory reported by Node: 15238.69 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020240.76 MB
+Memory reported by /proc/meminfo: 15176.82 MB
+Memory reported by Node: 15176.82 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f253.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020238.14 MB
+Memory reported by /proc/meminfo: 15156.30 MB
+Memory reported by Node: 15156.30 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f253.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020322.46 MB
+Memory reported by /proc/meminfo: 15210.09 MB
+Memory reported by Node: 15210.09 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020240.50 MB
+Memory reported by /proc/meminfo: 15164.86 MB
+Memory reported by Node: 15164.86 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f253.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020238.02 MB
+Memory reported by /proc/meminfo: 15149.97 MB
+Memory reported by Node: 15149.97 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f253.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020321.56 MB
+Memory reported by /proc/meminfo: 15240.91 MB
+Memory reported by Node: 15240.91 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020239.40 MB
+Memory reported by /proc/meminfo: 15171.79 MB
+Memory reported by Node: 15171.79 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f255.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020237.32 MB
+Memory reported by /proc/meminfo: 15160.32 MB
+Memory reported by Node: 15160.32 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f255.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020319.63 MB
+Memory reported by /proc/meminfo: 15206.79 MB
+Memory reported by Node: 15206.79 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020237.09 MB
+Memory reported by /proc/meminfo: 15147.02 MB
+Memory reported by Node: 15147.02 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f255.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020235.24 MB
+Memory reported by /proc/meminfo: 15144.28 MB
+Memory reported by Node: 15144.28 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f255.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020316.50 MB
+Memory reported by /proc/meminfo: 15302.42 MB
+Memory reported by Node: 15302.42 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020235.70 MB
+Memory reported by /proc/meminfo: 15225.80 MB
+Memory reported by Node: 15225.80 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f257.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020233.73 MB
+Memory reported by /proc/meminfo: 15201.82 MB
+Memory reported by Node: 15201.82 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f257.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020319.41 MB
+Memory reported by /proc/meminfo: 15233.90 MB
+Memory reported by Node: 15233.90 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020234.42 MB
+Memory reported by /proc/meminfo: 15195.40 MB
+Memory reported by Node: 15195.40 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f257.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020232.01 MB
+Memory reported by /proc/meminfo: 15182.32 MB
+Memory reported by Node: 15182.32 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f257.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020312.54 MB
+Memory reported by /proc/meminfo: 15232.72 MB
+Memory reported by Node: 15232.72 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020228.89 MB
+Memory reported by /proc/meminfo: 15197.16 MB
+Memory reported by Node: 15197.16 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f270.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020228.05 MB
+Memory reported by /proc/meminfo: 15174.98 MB
+Memory reported by Node: 15174.98 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f270.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020318.97 MB
+Memory reported by /proc/meminfo: 15278.87 MB
+Memory reported by Node: 15278.87 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020234.57 MB
+Memory reported by /proc/meminfo: 15209.29 MB
+Memory reported by Node: 15209.29 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f270.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020231.87 MB
+Memory reported by /proc/meminfo: 15190.33 MB
+Memory reported by Node: 15190.33 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f270.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020318.77 MB
+Memory reported by /proc/meminfo: 15213.86 MB
+Memory reported by Node: 15213.86 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020233.74 MB
+Memory reported by /proc/meminfo: 15190.17 MB
+Memory reported by Node: 15190.17 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f310.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020231.80 MB
+Memory reported by /proc/meminfo: 15166.91 MB
+Memory reported by Node: 15166.91 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f310.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020314.90 MB
+Memory reported by /proc/meminfo: 15231.64 MB
+Memory reported by Node: 15231.64 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020233.00 MB
+Memory reported by /proc/meminfo: 15195.48 MB
+Memory reported by Node: 15195.48 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f310.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020230.55 MB
+Memory reported by /proc/meminfo: 15174.89 MB
+Memory reported by Node: 15174.89 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f310.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020314.36 MB
+Memory reported by /proc/meminfo: 15248.75 MB
+Memory reported by Node: 15248.75 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020232.54 MB
+Memory reported by /proc/meminfo: 15192.82 MB
+Memory reported by Node: 15192.82 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f328.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020230.97 MB
+Memory reported by /proc/meminfo: 15169.66 MB
+Memory reported by Node: 15169.66 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f328.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020315.52 MB
+Memory reported by /proc/meminfo: 15225.43 MB
+Memory reported by Node: 15225.43 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020231.88 MB
+Memory reported by /proc/meminfo: 15183.82 MB
+Memory reported by Node: 15183.82 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f328.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020229.58 MB
+Memory reported by /proc/meminfo: 15158.09 MB
+Memory reported by Node: 15158.09 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f328.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020312.74 MB
+Memory reported by /proc/meminfo: 15306.13 MB
+Memory reported by Node: 15306.13 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020231.28 MB
+Memory reported by /proc/meminfo: 15228.59 MB
+Memory reported by Node: 15228.59 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f330.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020229.02 MB
+Memory reported by /proc/meminfo: 15204.40 MB
+Memory reported by Node: 15204.40 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f330.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020311.66 MB
+Memory reported by /proc/meminfo: 15298.41 MB
+Memory reported by Node: 15298.41 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020229.49 MB
+Memory reported by /proc/meminfo: 15225.34 MB
+Memory reported by Node: 15225.34 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f330.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020227.28 MB
+Memory reported by /proc/meminfo: 15204.64 MB
+Memory reported by Node: 15204.64 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f330.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020312.60 MB
+Memory reported by /proc/meminfo: 15258.23 MB
+Memory reported by Node: 15258.23 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020227.88 MB
+Memory reported by /proc/meminfo: 15190.88 MB
+Memory reported by Node: 15190.88 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f332.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020226.14 MB
+Memory reported by /proc/meminfo: 15174.22 MB
+Memory reported by Node: 15174.22 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f332.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020309.60 MB
+Memory reported by /proc/meminfo: 15207.95 MB
+Memory reported by Node: 15207.95 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020227.78 MB
+Memory reported by /proc/meminfo: 15194.87 MB
+Memory reported by Node: 15194.87 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f332.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020225.36 MB
+Memory reported by /proc/meminfo: 15186.89 MB
+Memory reported by Node: 15186.89 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f332.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020301.40 MB
+Memory reported by /proc/meminfo: 15289.79 MB
+Memory reported by Node: 15289.79 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020219.02 MB
+Memory reported by /proc/meminfo: 15213.90 MB
+Memory reported by Node: 15213.90 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f370.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020218.05 MB
+Memory reported by /proc/meminfo: 15182.62 MB
+Memory reported by Node: 15182.62 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f370.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020309.38 MB
+Memory reported by /proc/meminfo: 15255.38 MB
+Memory reported by Node: 15255.38 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020225.10 MB
+Memory reported by /proc/meminfo: 15215.52 MB
+Memory reported by Node: 15215.52 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f370.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020222.52 MB
+Memory reported by /proc/meminfo: 15196.14 MB
+Memory reported by Node: 15196.14 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f370.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020303.71 MB
+Memory reported by /proc/meminfo: 15169.89 MB
+Memory reported by Node: 15169.89 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020223.47 MB
+Memory reported by /proc/meminfo: 15140.09 MB
+Memory reported by Node: 15140.09 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f388.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020221.23 MB
+Memory reported by /proc/meminfo: 15131.45 MB
+Memory reported by Node: 15131.45 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f388.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020306.79 MB
+Memory reported by /proc/meminfo: 15164.07 MB
+Memory reported by Node: 15164.07 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020221.95 MB
+Memory reported by /proc/meminfo: 15137.23 MB
+Memory reported by Node: 15137.23 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f388.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020220.00 MB
+Memory reported by /proc/meminfo: 15121.06 MB
+Memory reported by Node: 15121.06 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f388.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020301.73 MB
+Memory reported by /proc/meminfo: 15260.49 MB
+Memory reported by Node: 15260.49 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020220.09 MB
+Memory reported by /proc/meminfo: 15188.84 MB
+Memory reported by Node: 15188.84 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f390.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020218.61 MB
+Memory reported by /proc/meminfo: 15164.24 MB
+Memory reported by Node: 15164.24 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f390.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020303.47 MB
+Memory reported by /proc/meminfo: 15237.68 MB
+Memory reported by Node: 15237.68 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020222.12 MB
+Memory reported by /proc/meminfo: 15185.59 MB
+Memory reported by Node: 15185.59 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f390.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020219.81 MB
+Memory reported by /proc/meminfo: 15159.90 MB
+Memory reported by Node: 15159.90 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f390.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020301.98 MB
+Memory reported by /proc/meminfo: 15229.25 MB
+Memory reported by Node: 15229.25 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020219.89 MB
+Memory reported by /proc/meminfo: 15165.15 MB
+Memory reported by Node: 15165.15 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f392.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020218.08 MB
+Memory reported by /proc/meminfo: 15144.56 MB
+Memory reported by Node: 15144.56 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f392.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020300.79 MB
+Memory reported by /proc/meminfo: 15213.15 MB
+Memory reported by Node: 15213.15 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020219.79 MB
+Memory reported by /proc/meminfo: 15202.60 MB
+Memory reported by Node: 15202.60 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f392.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020217.89 MB
+Memory reported by /proc/meminfo: 15184.21 MB
+Memory reported by Node: 15184.21 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f392.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020302.65 MB
+Memory reported by /proc/meminfo: 15239.89 MB
+Memory reported by Node: 15239.89 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020219.48 MB
+Memory reported by /proc/meminfo: 15185.95 MB
+Memory reported by Node: 15185.95 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f420.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020217.26 MB
+Memory reported by /proc/meminfo: 15165.99 MB
+Memory reported by Node: 15165.99 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f420.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020299.51 MB
+Memory reported by /proc/meminfo: 15294.91 MB
+Memory reported by Node: 15294.91 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020217.39 MB
+Memory reported by /proc/meminfo: 15217.92 MB
+Memory reported by Node: 15217.92 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f420.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020215.61 MB
+Memory reported by /proc/meminfo: 15192.09 MB
+Memory reported by Node: 15192.09 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f420.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020299.59 MB
+Memory reported by /proc/meminfo: 15234.89 MB
+Memory reported by Node: 15234.89 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020216.16 MB
+Memory reported by /proc/meminfo: 15186.21 MB
+Memory reported by Node: 15186.21 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Landscape
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f449.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020214.18 MB
+Memory reported by /proc/meminfo: 15164.21 MB
+Memory reported by Node: 15164.21 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-16x9-f449.png
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020296.90 MB
+Memory reported by /proc/meminfo: 15271.10 MB
+Memory reported by Node: 15271.10 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020215.27 MB
+Memory reported by /proc/meminfo: 15216.98 MB
+Memory reported by Node: 15216.98 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          Demo001Vertical
+Format               png
+Output               /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f449.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020213.44 MB
+Memory reported by /proc/meminfo: 15194.57 MB
+Memory reported by Node: 15194.57 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/stills-new/demo-001-9x16-f449.png

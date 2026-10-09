@@ -23,7 +23,7 @@ The background is Ink with a slow-drifting Violet radial glow (about 18% alpha) 
 ### Type
 - **Inter only** (one family), weights 500 / 700 / 800, `letter-spacing: -0.02em` on headlines, `font-variant-numeric: tabular-nums`.
 - **Offline bundling:** copy `Inter-Medium.otf`, `Inter-Bold.otf` and `Inter-ExtraBold.otf` from the system package `fonts-inter 4.0+ds-1` (`/usr/share/fonts/opentype/inter/`, licensed OFL-1.1) into `public/studio/demo-001/fonts/`, together with the OFL text. Load them via `loadFont()` from `@remotion/fonts` and `staticFile()`, which blocks rendering until they are ready. Nothing is fetched over the network.
-- The fonts load under the **unique family name `StudioInter`**. Inter is also installed system-wide, so a failed load would otherwise fall back silently to system Inter and the stills would still look correct. With the unique name, a failure falls back to `sans-serif` (DejaVu) and is visibly wrong.
+- The fonts load under the family name `StudioInter`. **Build correction:** on this machine the system `sans-serif` also resolves to Inter, so the name alone can't reveal a silent fallback. The build therefore uses `useStudioFonts()` in `src/studio/demo-001/fonts.ts`, which runs `delayRender` inside the component lifecycle, asserts that every face has `status === 'loaded'`, and calls `cancelRender` otherwise. This was verified with a diagnostic still that used a `serif` fallback and still rendered Inter.
 - **Not** Inter Display: `fc-list` reports it as a separate family.
 
 ### Sizes and safe area (8% margins)
@@ -68,7 +68,7 @@ The layout is chosen from `useVideoConfig()` (`height > width` means portrait) i
 
 ## 4. Sound design (original and deterministic)
 
-- **Tool:** a dependency-free Node 22 script, `scripts/studio/demo-001/synth-score.ts`, run with `node scripts/studio/demo-001/synth-score.ts` (verified: Node v22.22.0 here runs `.ts` with a `.ts` import and no flag). It imports the cut list from `src/studio/demo-001/timing.ts`, so the picture and sound share one source of timing. Output is `public/studio/demo-001/score.wav`. No samples are downloaded or used.
+- **Tool:** a dependency-free Node 22 script, `scripts/studio/demo-001/synth-score.mts`, run with `node scripts/studio/demo-001/synth-score.mts` (verified: Node v22.22.0 here runs `.ts` with a `.ts` import and no flag). It imports the cut list from `src/studio/demo-001/timing.ts`, so the picture and sound share one source of timing. Output is `public/studio/demo-001/score.wav`. No samples are downloaded or used.
 - **Format:** 48 kHz, 16-bit PCM, stereo, **exactly 720,000 samples** (15.000 s, 1600 samples per frame).
 - **Determinism:** all noise comes from a seeded `mulberry32(20261009)` PRNG, with no `Math.random()`. Re-running the script produces a byte-identical file, which gets checked by sha256 at build time.
 - **Hits (one per cut):** frames **0, 75, 165, 255, 330, 390**. Each **transient peak sits at sample `frame * 1600`**. A hit is a sine kick sweeping 160 to 48 Hz with about 220 ms decay, plus a 3 ms noise click, plus a 60 ms band-passed noise snap. Cuts 75-390 also get a pre-roll filtered-noise riser of 8 frames that ends exactly on the transient. The f390 hit is about 2 dB louder and layered with a resolve chord.
@@ -86,13 +86,13 @@ src/studio/Root.tsx                  <Folder name="demo-001">: Demo001Landscape 
 src/studio/demo-001/Demo001.tsx      Background + <Series> of 6 <Series.Sequence name=... durationInFrames=... premountFor={fps}> + TimelineStrip + <Audio>
 src/studio/demo-001/timing.ts        CUTS = [0,75,165,255,330,390,450] (erasable TS only, also imported by the synth script)
 src/studio/demo-001/theme.ts         palette, useFormat() (landscape|portrait), safe-area and type scale per format
-src/studio/demo-001/fonts.ts         loadFont() x3 for StudioInter 500/700/800 from staticFile()
+src/studio/demo-001/fonts.ts         useStudioFonts(): lifecycle delayRender + @remotion/fonts loadFont() x3 + status assertion
 src/studio/demo-001/scenes/          HookScene, OfferScene, FormatsScene, SourceScene, RevisionScene, EndCardScene
 src/studio/demo-001/components/      Background, TimelineStrip, StaggerLines, MockDashboard (landscape/portrait + reflow), CodePanel, CheckBadge
-scripts/studio/demo-001/synth-score.ts   WAV synthesiser (outside public/)
+scripts/studio/demo-001/synth-score.mts  WAV synthesiser (outside public/)
 public/studio/demo-001/fonts/        StudioInter-{Medium,Bold,ExtraBold}.otf + OFL.txt
 public/studio/demo-001/score.wav     generated
-jobs/demo-001/assets/SOURCES.md      origins: Inter OTFs (fonts-inter 4.0+ds-1, OFL-1.1, system package), score.wav (synth-score.ts, seed 20261009), all visuals generated in code
+jobs/demo-001/assets/SOURCES.md      origins: Inter OTFs (fonts-inter 4.0+ds-1, OFL-1.1, system package), score.wav (synth-score.mts, seed 20261009), all visuals generated in code
 ```
 
 **npm packages to add at build time** (none installed yet), pinned **exactly** to the installed `4.0.438`, added with `npx remotion add` and then checked in `package.json` and the lockfile:

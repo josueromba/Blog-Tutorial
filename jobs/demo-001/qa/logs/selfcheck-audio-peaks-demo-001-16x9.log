@@ -1,0 +1,10 @@
+frames_with_audio_stats: 452
+cut f0    peak    -inf dBFS at f0   bed(max f-14..f-9) n/a
+cut f75   peak   -3.53 dBFS at f76   bed(max f61..f66) -16.779764
+cut f165  peak   -3.12 dBFS at f166   bed(max f151..f156) -17.125867
+cut f255  peak   -3.15 dBFS at f256   bed(max f241..f246) -17.626753
+cut f330  peak   -2.44 dBFS at f331   bed(max f316..f321) -18.303662
+cut f390  peak   -1.07 dBFS at f391   bed(max f376..f381) -17.543306
+overall max per-frame peak: -inf dBFS at f0
+last 6 frames:
+446 -151.560865 447 -inf 448 -inf 449 -inf 450 -inf 451 -inf 
