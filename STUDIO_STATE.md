@@ -10,6 +10,7 @@
 | 5. CLAUDE.md + this file | Done |
 | 6. Gate | **STOPPED** - setup session observed as `claude-opus-5-5` (get_session: `session_context.model` and `last_served_model`), not Sonnet 5.5; the advisor tool only attached mid-session; the session started before `.claude/agents/` existed. Writing `.claude/settings.json` did not change this session's model. Restart required (see Restart below). **Overridden by the owner on 2026-10-09; the studio ran from this session.** |
 | Job demo-001 | Done: 2 MP4s pass ffprobe acceptance; 1 revision round; scene review OK; playback not reviewed. See jobs/demo-001/REPORT.md |
+| Job demo-002 | In progress - owner request 2026-10-09: Claude Dashboards + Claude Motion launch, as an unofficial explainer. Facts verified from claude.com. Brief written; storyboard next. |
 | Clients (leads, proposals) | leads.csv 9 rows; 3 proposal drafts in proposals/ (not sent) |
 | Deliver | README + jobs/demo-001/REPORT.md written; owner decisions listed there |
 
