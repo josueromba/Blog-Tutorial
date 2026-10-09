@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>learn. · Launch video</title>
+<link rel="stylesheet" href="assets/fonts.css">
+<style>
+  :root{
+    --noir:#000000; --ebene:#172033; --bleu:#1565C0; --bleu-fonce:#0D47A1;
+    --bleu-clair:#90CAF9; --or:#E8AC35; --blanc:#FFFFFF; --ciel:#E3F2FD;
+    --givre:#BBDEFB; --gris:#53657A; --bordure:#D7E3EF;
+    --display:"Plus Jakarta Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+    --sans:"DM Sans", Arial, Helvetica, sans-serif;
+    --mono:"DM Mono", ui-monospace, Menlo, monospace;
+    --u:1px;           /* 1 design px, set from stage width */
+    --padT:200px; --padB:300px; --padX:80px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#000;overflow:hidden}
+  body{display:flex;align-items:center;justify-content:center;min-height:100vh}
+  #stage{position:relative;overflow:hidden;background:var(--noir);font-family:var(--sans);color:var(--blanc);
+    -webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+  .scene{position:absolute;inset:0;opacity:0;will-change:opacity}
+  .col{position:absolute;inset:0;display:flex;flex-direction:column;
+    padding:var(--padT) var(--padX) var(--padB)}
+  .el{will-change:transform,opacity}
+  .bg{position:absolute;inset:-2%;background-size:cover;background-position:center;will-change:transform}
+  .veil{position:absolute;inset:0}
+  .logo{height:calc(var(--u)*64);width:auto;display:block;align-self:flex-start;object-fit:contain}
+  .h1{font-family:var(--display);font-weight:800;letter-spacing:-0.035em;line-height:1.04;
+    font-size:calc(var(--u)*128)}
+  .h2{font-family:var(--display);font-weight:800;letter-spacing:-0.03em;line-height:1.06;
+    font-size:calc(var(--u)*92)}
+  .h3{font-family:var(--display);font-weight:800;letter-spacing:-0.02em;line-height:1.12;
+    font-size:calc(var(--u)*46)}
+  .sub{font-size:calc(var(--u)*40);line-height:1.5;color:rgba(255,255,255,.72)}
+  .sub.dark{color:var(--gris)}
+  .mono{font-family:var(--mono);text-transform:uppercase;letter-spacing:.16em;font-size:calc(var(--u)*25)}
+  .word{display:inline-block;white-space:pre}
+  .word .caret{margin-right:calc(var(--u)*-40)}
+  .caret{display:inline-block;width:calc(var(--u)*7);height:.9em;background:var(--bleu-clair);
+    vertical-align:-0.08em;margin-left:calc(var(--u)*8)}
+  .chip{display:inline-flex;align-items:center;gap:calc(var(--u)*12);border:1px solid rgba(255,255,255,.28);
+    border-radius:999px;padding:calc(var(--u)*16) calc(var(--u)*28)}
+  .pill{display:inline-flex;align-items:center;gap:calc(var(--u)*18);border-radius:999px;
+    font-family:var(--display);font-weight:700;font-size:calc(var(--u)*38);padding:calc(var(--u)*30) calc(var(--u)*54)}
+
+  /* glass product window */
+  .glass{background:rgba(23,32,51,.55);border:1px solid rgba(255,255,255,.16);border-radius:calc(var(--u)*24);
+    backdrop-filter:blur(28px) saturate(1.1);-webkit-backdrop-filter:blur(28px) saturate(1.1);
+    box-shadow:0 calc(var(--u)*40) calc(var(--u)*90) rgba(0,0,0,.45)}
+  .win-bar{display:flex;align-items:center;gap:calc(var(--u)*12);padding:calc(var(--u)*22) calc(var(--u)*28);
+    border-bottom:1px solid rgba(255,255,255,.1)}
+  .dot{width:calc(var(--u)*14);height:calc(var(--u)*14);border-radius:50%;background:rgba(255,255,255,.22)}
+  .url{margin-left:calc(var(--u)*16);flex:1;font-family:var(--mono);font-size:calc(var(--u)*22);color:rgba(255,255,255,.62);
+    background:rgba(255,255,255,.06);border-radius:999px;padding:calc(var(--u)*10) calc(var(--u)*22);white-space:nowrap;overflow:hidden}
+  .search{display:flex;align-items:center;gap:calc(var(--u)*18);background:rgba(255,255,255,.96);color:var(--ebene);
+    border-radius:calc(var(--u)*16);padding:calc(var(--u)*26) calc(var(--u)*28);font-size:calc(var(--u)*36);
+    border:calc(var(--u)*3) solid transparent}
+  .search .ph{color:#8796a8}
+  .search .tcaret{display:inline-block;width:calc(var(--u)*3);height:1.05em;background:var(--bleu);vertical-align:-0.15em}
+  .card{position:relative;background:rgba(10,14,24,.72);border:1px solid rgba(255,255,255,.14);border-radius:calc(var(--u)*16);
+    padding:calc(var(--u)*30) calc(var(--u)*32)}
+  .card .t{font-family:var(--display);font-weight:800;font-size:calc(var(--u)*38);line-height:1.15;letter-spacing:-0.015em;margin:calc(var(--u)*12) 0 calc(var(--u)*18)}
+  .card .meta{display:flex;justify-content:space-between;align-items:flex-end}
+  .card .price{font-family:var(--display);font-weight:700;color:var(--bleu-clair);font-size:calc(var(--u)*36)}
+  .card .small{font-size:calc(var(--u)*24);color:rgba(255,255,255,.6)}
+  .lbl-or{color:var(--or)} .lbl-bc{color:var(--bleu-clair)}
+  .ring{position:absolute;inset:-1px;border-radius:calc(var(--u)*16);border:calc(var(--u)*3) solid var(--bleu);opacity:0}
+
+  /* checklist */
+  .check-row{display:flex;align-items:center;gap:calc(var(--u)*30);padding:calc(var(--u)*36) 0;border-bottom:1px solid var(--bordure)}
+  .check-row:last-child{border-bottom:0}
+  .tick{flex:none;width:calc(var(--u)*88);height:calc(var(--u)*88);border-radius:50%;background:var(--ciel);display:grid;place-items:center}
+  .tick svg{width:56%;height:56%}
+  .check-row .txt{font-family:var(--display);font-weight:700;font-size:calc(var(--u)*46);color:var(--ebene);line-height:1.2}
+  .check-row .txt small{display:block;font-family:var(--sans);font-weight:400;font-size:calc(var(--u)*31);color:var(--gris);margin-top:calc(var(--u)*6)}
+
+  /* steps */
+  .step{border-radius:calc(var(--u)*16);padding:calc(var(--u)*50) calc(var(--u)*48);color:#fff}
+  .step .n{font-family:var(--mono);font-size:calc(var(--u)*30);opacity:.8}
+  .step .st{font-family:var(--display);font-weight:800;font-size:calc(var(--u)*50);letter-spacing:-0.02em;margin:calc(var(--u)*10) 0 calc(var(--u)*12);line-height:1.1}
+  .step .sb{font-size:calc(var(--u)*33);line-height:1.5;color:rgba(255,255,255,.74)}
+  .tile{flex:1;border:1px solid rgba(255,255,255,.16);border-radius:calc(var(--u)*16);padding:calc(var(--u)*30) calc(var(--u)*26)}
+  .tile b{display:block;font-family:var(--display);font-weight:800;font-size:calc(var(--u)*64);letter-spacing:-0.03em;color:#fff}
+  .tile span{display:block;margin-top:calc(var(--u)*8)}
+  .bar{height:calc(var(--u)*8);border-radius:999px;background:rgba(255,255,255,.12);overflow:hidden}
+  .bar i{display:block;height:100%;width:0;background:var(--bleu-clair)}
+
+  /* numbers */
+  .num{font-family:var(--display);font-weight:800;letter-spacing:-0.045em;line-height:.9;font-size:calc(var(--u)*270);font-variant-numeric:tabular-nums}
+
+  /* format court (4:5, 16:9) */
+  .short #c3, .short #s3-head .mono{display:none}
+  .short #s3-head .h2 br{display:none}
+  .short .check-row{padding:calc(var(--u)*16) 0}
+  .short #s4-head{margin-bottom:calc(var(--u)*20)!important}
+  .short #s4-logo{margin-bottom:calc(var(--u)*30)!important}
+  .short .step{padding:calc(var(--u)*30) calc(var(--u)*40)}
+  .pointer{position:absolute;left:0;top:0;width:calc(var(--u)*54);height:calc(var(--u)*54);opacity:0;z-index:20;will-change:transform}
+</style>
+</head>
+<body>
+<div id="stage">
+
+  <!-- S1 + S2 · 0-9s · hook + africaine (hero) -->
+  <section class="scene" id="s1">
+    <div class="bg" id="s1-photo" style="background-image:url(assets/img/young-african.jpg);background-position:70% center;opacity:0"></div>
+    <div class="veil" id="s1-veil" style="background:linear-gradient(180deg,rgba(0,0,0,.62) 0%,rgba(0,0,0,.35) 40%,rgba(0,0,0,.92) 78%,#000 100%);opacity:0"></div>
+    <div class="col" style="justify-content:space-between">
+      <img class="logo el" id="s1-logo" src="assets/img/logo-learn-blanc.png" alt="">
+      <div id="s1-head" class="el">
+        <div class="h1" id="s1-typed"></div>
+        <div class="h1 el" id="s1-afr" style="margin-top:calc(var(--u)*6)">une expertise<br>africaine<span style="color:var(--bleu-clair)">.</span></div>
+        <div class="sub el" id="s1-sub" style="margin-top:calc(var(--u)*40);max-width:calc(var(--u)*880)">38 parcours certifiants pensés pour les professionnels africains.</div>
+        <div id="s1-chips" style="display:flex;gap:calc(var(--u)*16);margin-top:calc(var(--u)*44);flex-wrap:wrap">
+          <span class="chip mono el lbl-bc">PECB</span><span class="chip mono el">ISC2</span><span class="chip mono el">ISACA</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 · 9-17s · le produit -->
+  <section class="scene" id="s3">
+    <div class="bg" id="s3-photo" style="background-image:url(assets/img/certifications-image.jpg);filter:saturate(.35) brightness(.55)"></div>
+    <div class="veil" style="background:rgba(0,0,0,.55)"></div>
+    <div class="col" style="justify-content:center;gap:calc(var(--u)*44)">
+      <div class="el" id="s3-head">
+        <div class="mono lbl-bc" style="margin-bottom:calc(var(--u)*20)">Catalogue · 38 parcours</div>
+        <div class="h2">Trouvez <br>la vôtre.</div>
+      </div>
+      <div class="glass el" id="s3-win">
+        <div class="win-bar"><i class="dot"></i><i class="dot"></i><i class="dot"></i>
+          <div class="url">learn.cybersecuriteenafrique.com/certifications</div></div>
+        <div style="padding:calc(var(--u)*34) calc(var(--u)*32) calc(var(--u)*36)">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:calc(var(--u)*22)">
+            <div class="h3">Certifications</div>
+            <div class="mono" style="font-size:calc(var(--u)*22);color:rgba(255,255,255,.6)" id="s3-count">38 résultats</div>
+          </div>
+          <div class="search" id="s3-search">
+            <svg viewBox="0 0 24 24" width="1.1em" height="1.1em" fill="none" stroke="#53657A" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <span id="s3-q"></span>
+          </div>
+          <div id="s3-cards" style="display:flex;flex-direction:column;gap:calc(var(--u)*18);margin-top:calc(var(--u)*24)">
+            <div class="card el" id="c1"><div class="ring" id="c1-ring"></div>
+              <div class="mono" style="font-size:calc(var(--u)*21)"><span class="lbl-or">Best-seller</span>&nbsp;&nbsp;SMSI</div>
+              <div class="mono lbl-bc" style="font-size:calc(var(--u)*21);margin-top:calc(var(--u)*14)">PECB&nbsp;&nbsp;<span style="color:rgba(255,255,255,.55)">ISO/IEC · 27001</span></div>
+              <div class="t">ISO/IEC 27001 Lead&nbsp;Implementer</div>
+              <div class="meta"><div><div class="price">400 000 FCFA</div><div class="small">À partir de · Avancé · 5 jours</div></div>
+                <div class="chip" style="font-size:calc(var(--u)*24);font-weight:700;padding:calc(var(--u)*12) calc(var(--u)*22);border-color:rgba(255,255,255,.4)" id="c1-btn">Découvrir →</div></div>
+            </div>
+            <div class="card el" id="c2">
+              <div class="mono" style="font-size:calc(var(--u)*21)">SMSI</div>
+              <div class="mono lbl-bc" style="font-size:calc(var(--u)*21);margin-top:calc(var(--u)*14)">PECB&nbsp;&nbsp;<span style="color:rgba(255,255,255,.55)">ISO/IEC · 27001</span></div>
+              <div class="t">ISO/IEC 27001 Lead&nbsp;Auditor</div>
+              <div class="meta"><div><div class="price">400 000 FCFA</div><div class="small">À partir de · Avancé · 5 jours</div></div></div>
+            </div>
+            <div class="card el" id="c3">
+              <div class="mono" style="font-size:calc(var(--u)*21)">SMSI</div>
+              <div class="mono lbl-bc" style="font-size:calc(var(--u)*21);margin-top:calc(var(--u)*14)">PECB&nbsp;&nbsp;<span style="color:rgba(255,255,255,.55)">ISO/IEC · 27001</span></div>
+              <div class="t" style="margin-bottom:0">ISO/IEC 27001 Foundation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg class="pointer" id="s3-ptr" viewBox="0 0 24 24"><path d="M5 3l13 7.2-5.6 1.6 3.4 6.4-2.6 1.4-3.4-6.4L5 17.6z" fill="#fff" stroke="#172033" stroke-width="1.3" stroke-linejoin="round"/></svg>
+  </section>
+
+  <!-- S4 · 17-22s · tout est inclus -->
+  <section class="scene" id="s4" style="background:#fff;color:var(--ebene)">
+    <div class="col" style="justify-content:flex-start">
+      <img class="logo el" id="s4-logo" src="assets/img/logo-learn.png" alt="" style="margin-bottom:auto">
+      <div class="el" id="s4-head" style="margin-bottom:calc(var(--u)*50)">
+        <div class="mono" style="color:var(--bleu);margin-bottom:calc(var(--u)*20)">ISO/IEC 27001 Lead Implementer</div>
+        <div class="h2" style="color:var(--ebene)">Tout est<br>inclus<span style="color:var(--bleu)">.</span></div>
+      </div>
+      <div id="s4-list" style="margin-bottom:auto">
+        <div class="check-row el"><div class="tick"><svg viewBox="0 0 24 24"><path class="ck" d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#1565C0" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="txt">Supports officiels PECB<small>Plus de 400 pages</small></div></div>
+        <div class="check-row el"><div class="tick"><svg viewBox="0 0 24 24"><path class="ck" d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#1565C0" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="txt">Coupon d'examen<small>Seconde tentative gratuite</small></div></div>
+        <div class="check-row el"><div class="tick"><svg viewBox="0 0 24 24"><path class="ck" d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#1565C0" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="txt">Fiches de révision premium<small>Signées learn.</small></div></div>
+        <div class="check-row el"><div class="tick"><svg viewBox="0 0 24 24"><path class="ck" d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#1565C0" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="txt">31 crédits CPD<small>Certificat de participation</small></div></div>
+        <div class="check-row el"><div class="tick"><svg viewBox="0 0 24 24"><path class="ck" d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#1565C0" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="txt">Une année d'accompagnement<small>Après la formation</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S5 · 22-32s · comment ça marche, puis examen blanc -->
+  <section class="scene" id="s5" style="background:#fff;color:var(--ebene)">
+    <div class="col" id="s5a" style="justify-content:center;gap:calc(var(--u)*24)">
+      <div class="el" id="s5-head" style="margin-bottom:calc(var(--u)*26)">
+        <div class="mono" style="color:var(--bleu);margin-bottom:calc(var(--u)*20)">Étape par étape</div>
+        <div class="h2">De l'ambition à la certification<span style="color:var(--bleu)">.</span></div>
+      </div>
+      <div class="step el" style="background:#000"><div class="n">01</div><div class="st">Choisissez votre certification</div>
+        <div class="sb">Le parcours adapté à votre métier, votre niveau et vos objectifs.</div></div>
+      <div class="step el" style="background:var(--bleu)"><div class="n">02</div><div class="st">Apprenez par la pratique</div>
+        <div class="sb">En ligne avec formateur, en autoformation ou en intra-entreprise.</div></div>
+      <div class="step el" style="background:var(--bleu)"><div class="n">03</div><div class="st">Passez à la certification</div>
+        <div class="sb">L'examen international, préparé avec des examens blancs.</div></div>
+    </div>
+    <div class="scene" id="s5b" style="background:#000;color:#fff">
+      <div class="bg" id="s5b-photo" style="background-image:url(assets/img/auto-formation.jpg);filter:saturate(.3) brightness(.4);background-position:30% center"></div>
+      <div class="veil" style="background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,.9) 60%,#000)"></div>
+      <div class="col" style="justify-content:center;gap:calc(var(--u)*50)">
+        <div class="el" id="s5b-head">
+          <div class="mono lbl-bc" style="margin-bottom:calc(var(--u)*20)">Examen blanc</div>
+          <div class="h2">Entraînez-vous dans les conditions réelles<span style="color:var(--bleu-clair)">.</span></div>
+        </div>
+        <div class="glass el" id="s5b-win" style="padding:calc(var(--u)*36) calc(var(--u)*34)">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <div class="mono" style="font-size:calc(var(--u)*21);color:rgba(255,255,255,.6)">Simulateur · plein écran</div>
+            <div class="mono lbl-bc" style="font-size:calc(var(--u)*21)" id="s5b-rec">● Chronométré</div>
+          </div>
+          <div class="h3" style="margin:calc(var(--u)*26) 0 calc(var(--u)*30)">PECB ISO/IEC 27001<br>Lead Implementer</div>
+          <div style="display:flex;gap:calc(var(--u)*16)">
+            <div class="tile el"><b>80</b><span class="mono" style="font-size:calc(var(--u)*20);color:rgba(255,255,255,.6)">Questions</span></div>
+            <div class="tile el"><b>3 h</b><span class="mono" style="font-size:calc(var(--u)*20);color:rgba(255,255,255,.6)">Durée</span></div>
+            <div class="tile el"><b>QCM</b><span class="mono" style="font-size:calc(var(--u)*20);color:rgba(255,255,255,.6)">Livre ouvert</span></div>
+          </div>
+          <div class="bar" style="margin-top:calc(var(--u)*34)"><i id="s5b-bar"></i></div>
+          <div class="sub" style="font-size:calc(var(--u)*28);margin-top:calc(var(--u)*22)">Une simulation chronométrée, avec surveillance des sorties et score final.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S6 · 32-38s · le chiffre -->
+  <section class="scene" id="s6">
+    <div class="bg" id="s6-photo" style="background-image:url(assets/img/formation-enligne.jpg);filter:saturate(.35) brightness(.5);background-position:62% center"></div>
+    <div class="veil" style="background:linear-gradient(180deg,rgba(0,0,0,.7) 0%,rgba(0,0,0,.45) 35%,rgba(0,0,0,.92) 70%,#000)"></div>
+    <div class="col" style="justify-content:space-between">
+      <div class="el" id="s6-head">
+        <div class="mono lbl-bc" style="margin-bottom:calc(var(--u)*20)">Des cas pratiques africains</div>
+        <div class="h2">Formés sur des incidents réels<span style="color:var(--bleu-clair)">.</span></div>
+      </div>
+      <div>
+        <div class="el" id="s6-n1"><div class="num"><span id="s6-v1">0</span><span id="s6-plus" style="color:var(--bleu-clair)">+</span></div>
+          <div class="mono" style="margin-top:calc(var(--u)*18);color:rgba(255,255,255,.75)">Organisations africaines touchées depuis 2020</div></div>
+        <div class="el" id="s6-n2" style="margin-top:calc(var(--u)*56);display:flex;align-items:baseline;gap:calc(var(--u)*30)">
+          <div class="num" style="font-size:calc(var(--u)*170)"><span id="s6-v2">0</span></div>
+          <div class="mono" style="color:rgba(255,255,255,.75)">Pays africains<br>documentés</div></div>
+        <div class="el mono" id="s6-src" style="margin-top:calc(var(--u)*56);font-size:calc(var(--u)*19);color:rgba(255,255,255,.5);line-height:1.6">
+          Source · observatoire des ransomwares<br>de cybersecuriteenafrique.com</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S7 · 38-45s · appel à l'action -->
+  <section class="scene" id="s7" style="background:var(--bleu-fonce)">
+    <div class="col" style="justify-content:space-between">
+      <img class="logo el" id="s7-logo" src="assets/img/logo-learn-blanc.png" alt="" style="height:calc(var(--u)*80)">
+      <div>
+        <div class="h1 el" id="s7-h" style="font-size:calc(var(--u)*120)">Votre certification commence maintenant<span style="color:var(--bleu-clair)">.</span></div>
+        <div class="sub el" id="s7-sub" style="margin-top:calc(var(--u)*36)">Formateurs certifiés PECB Trainer. Examen et certification inclus.</div>
+        <div class="el" id="s7-btn" style="margin-top:calc(var(--u)*56)">
+          <span class="pill" style="background:#fff;color:var(--bleu-fonce)">Voir les certifications <span>→</span></span></div>
+      </div>
+      <div class="el mono" id="s7-url" style="font-size:calc(var(--u)*30);letter-spacing:.08em;text-transform:none;color:#fff">learn.cybersecuriteenafrique.com</div>
+    </div>
+  </section>
+</div>
+
+<script>
+(function(){
+  const params = new URLSearchParams(location.search);
+  const W = +params.get('w') || 1080, H = +params.get('h') || 1920;
+  const RENDER = params.has('render');
+  const DUR = 45;
+  const stage = document.getElementById('stage');
+  stage.style.width = W + 'px'; stage.style.height = H + 'px';
+  const r = document.documentElement.style;
+  const u = W / 1080; r.setProperty('--u', u + 'px');
+  const tall = H / W > 1.5;
+  if (!tall) stage.classList.add('short');
+  r.setProperty('--padT', (tall ? 200 : 96) * u + 'px');
+  r.setProperty('--padB', (tall ? 300 : 96) * u + 'px');
+  r.setProperty('--padX', 80 * u + 'px');
+  if (!RENDER) { const fit = () => { const s = Math.min(innerWidth / W, innerHeight / H); stage.style.transform = `scale(${s})`; }; fit(); addEventListener('resize', fit); }
+
+  // ---------- easing (MOTION.md) ----------
+  function bez(x1, y1, x2, y2) {
+    const A = (a, b) => 1 - 3 * b + 3 * a, B = (a, b) => 3 * b - 6 * a, C = a => 3 * a;
+    const f = (t, a, b) => ((A(a, b) * t + B(a, b)) * t + C(a)) * t;
+    const d = (t, a, b) => 3 * A(a, b) * t * t + 2 * B(a, b) * t + C(a);
+    return x => { if (x <= 0) return 0; if (x >= 1) return 1; let t = x;
+      for (let i = 0; i < 8; i++) { const e = f(t, x1, x2) - x; const s = d(t, x1, x2); if (Math.abs(e) < 1e-6 || !s) break; t -= e / s; }
+      return f(t, y1, y2); };
+  }
+  const OUT = bez(.22, 1, .36, 1);   // entrée
+  const IO = bez(.4, 0, .2, 1);      // sortie
+  const cl = x => Math.max(0, Math.min(1, x));
+  const p = (t, a, d) => cl((t - a) / d);
+  const $ = id => document.getElementById(id);
+
+  // entrée : opacité + montée de 36 px en 0,7 s
+  function enter(el, t, at, dy = 36, dur = .7, scaleFrom = 1) {
+    const k = OUT(p(t, at, dur));
+    el.style.opacity = k;
+    const s = scaleFrom + (1 - scaleFrom) * k;
+    el.style.transform = `translateY(${(1 - k) * dy * u}px) scale(${s})`;
+    return k;
+  }
+  // visibilité d'une scène : fondu d'entrée (0,4 s) et de sortie (0,4 s)
+  function scene(el, t, a, b, fin = .4, fout = .4) {
+    let o = 0;
+    if (t >= a && t < b) o = Math.min(fin ? IO(p(t, a, fin)) : 1, fout ? 1 - IO(p(t, b - fout, fout)) : 1);
+    el.style.opacity = o; el.style.visibility = o > 0 ? 'visible' : 'hidden';
+    return o > 0;
+  }
+  const blink = (t, at) => ((t - at) % 1) < .55 ? 1 : 0;
+
+  // ---------- S1 : texte tapé mot par mot ----------
+  const typedWords = ['Des', 'certifications', 'internationales,'];
+  const typedEl = $('s1-typed');
+  typedEl.innerHTML = typedWords.map((w, i) => `<span class="word" data-i="${i}">${w}${i < typedWords.length - 1 ? ' ' : ''}</span>`).join('') + '<span class="caret" id="s1-caret"></span>';
+  const wordEls = [...typedEl.querySelectorAll('.word')];
+  const WORD_AT = [0.55, 0.9, 1.35];
+
+  // ---------- S3 : saisie dans la recherche ----------
+  const QUERY = '27001';
+  const Q_AT = 10.35, Q_STEP = .14;
+
+  function seek(t) {
+    t = ((t % DUR) + DUR) % DUR;
+
+    // S1 + S2 (0 - 9 s)
+    if (scene($('s1'), t, 0, 9, 0, .45)) {
+      enter($('s1-logo'), t, .1, 0, .9, 1.08);
+      wordEls.forEach((w, i) => { w.style.display = t >= WORD_AT[i] ? 'inline-block' : 'none'; });
+      const typedDone = t >= WORD_AT[2] + .2;
+      const caret = $('s1-caret');
+      caret.style.display = t < 4.1 ? 'inline-block' : 'none'; caret.style.opacity = blink(t, 0);
+      const lastVis = wordEls.filter((w, i) => t >= WORD_AT[i]).pop();
+      if (lastVis && caret.parentNode !== lastVis) lastVis.appendChild(caret);
+      if (!lastVis && caret.parentNode !== typedEl) typedEl.appendChild(caret);
+      // phase 2 : la photo arrive, la phrase continue
+      const ph = IO(p(t, 3.9, 1.1));
+      $('s1-photo').style.opacity = ph;
+      $('s1-photo').style.transform = `scale(${1 + .06 * p(t, 3.9, 5.1)})`;
+      $('s1-veil').style.opacity = ph;
+      enter($('s1-afr'), t, 4.2, 40);
+      enter($('s1-sub'), t, 5.3);
+      [...$('s1-chips').children].forEach((c, i) => enter(c, t, 5.9 + i * .1, 24));
+      // le bloc du titre se recentre doucement avant l'arrivée de la suite
+      const lift = OUT(p(t, 3.9, .9));
+      $('s1-head').style.transform = `translateY(${(1 - lift) * 150 * u * (tall ? 1 : .35)}px)`;
+      $('s1-afr').style.visibility = t >= 4.2 ? 'visible' : 'hidden';
+    }
+
+    // S3 (9 - 17 s)
+    if (scene($('s3'), t, 9, 17)) {
+      $('s3-photo').style.transform = `scale(${1 + .06 * p(t, 9, 8)})`;
+      enter($('s3-head'), t, 9.1);
+      const kw = enter($('s3-win'), t, 9.3, 60);
+      // poussée lente de la caméra
+      $('s3-win').style.transform += ` scale(${1 + .03 * IO(p(t, 10, 7))})`;
+      // saisie
+      const n = Math.max(0, Math.min(QUERY.length, Math.floor((t - Q_AT) / Q_STEP) + 1));
+      const typing = t >= Q_AT;
+      $('s3-q').innerHTML = typing
+        ? `${QUERY.slice(0, n)}<span class="tcaret" style="opacity:${t < 15 ? blink(t, Q_AT) : 0}"></span>`
+        : `<span class="tcaret" style="opacity:${t > 10.05 ? blink(t, 10.05) : 0}"></span><span class="ph">Rechercher une certification…</span>`;
+      $('s3-search').style.borderColor = t > 10.05 ? 'rgba(21,101,192,.9)' : 'transparent';
+      const filtered = t >= Q_AT + QUERY.length * Q_STEP + .15;
+      $('s3-count').textContent = filtered ? '3 résultats' : '38 résultats';
+      $('s3-count').style.color = filtered ? '#90CAF9' : 'rgba(255,255,255,.6)';
+      const cardAt = Q_AT + QUERY.length * Q_STEP + .25;
+      ['c1', 'c2', 'c3'].forEach((id, i) => {
+        const el = $(id);
+        if (t < cardAt) { el.style.opacity = 0; return; }
+        enter(el, t, cardAt + i * .1, 40);
+      });
+      // pointeur : vers la recherche, clic, puis vers « Découvrir »
+      const ptr = $('s3-ptr');
+      const sr = $('s3-search').getBoundingClientRect(), stR = stage.getBoundingClientRect(), br = $('c1-btn').getBoundingClientRect();
+      const sc = stR.width / W;
+      const P0 = { x: W * .78, y: H * .9 };
+      const P1 = { x: (sr.left - stR.left) / sc + 300 * u, y: (sr.top - stR.top) / sc + sr.height / sc * .55 };
+      const P2 = { x: (br.left - stR.left) / sc + br.width / sc * .6, y: (br.top - stR.top) / sc + br.height / sc * .6 };
+      let pos = P0, op = 0, press = 0;
+      if (t >= 9.5) {
+        op = Math.min(IO(p(t, 9.5, .3)), 1 - IO(p(t, 16.3, .3)));
+        const a = IO(p(t, 9.5, .55)); pos = { x: P0.x + (P1.x - P0.x) * a, y: P0.y + (P1.y - P0.y) * a };
+        if (t >= 14.3) { const b = IO(p(t, 14.3, .8)); pos = { x: P1.x + (P2.x - P1.x) * b, y: P1.y + (P2.y - P1.y) * b }; }
+        press = Math.max(1 - Math.abs(t - 10.05) / .12, 1 - Math.abs(t - 15.25) / .12, 0);
+      }
+      ptr.style.opacity = op;
+      ptr.style.transform = `translate(${pos.x}px, ${pos.y}px) scale(${1 - .14 * press})`;
+      $('c1-ring').style.opacity = IO(p(t, 15.25, .3));
+      $('c1-btn').style.background = t >= 15.25 ? '#1565C0' : 'transparent';
+      $('c1-btn').style.borderColor = t >= 15.25 ? '#1565C0' : 'rgba(255,255,255,.4)';
+    }
+
+    // S4 (17 - 22 s)
+    if (scene($('s4'), t, 17, 22)) {
+      enter($('s4-logo'), t, 17.1, 0, .7, 1.05);
+      enter($('s4-head'), t, 17.2);
+      [...$('s4-list').children].forEach((row, i) => {
+        const at = 17.75 + i * .32;
+        enter(row, t, at, 30);
+        const ck = row.querySelector('.ck'); const L = 22;
+        ck.style.strokeDasharray = L; ck.style.strokeDashoffset = L * (1 - OUT(p(t, at + .25, .45)));
+      });
+    }
+
+    // S5 (22 - 32 s)
+    if (scene($('s5'), t, 22, 32)) {
+      const a = $('s5a');
+      a.style.opacity = 1 - IO(p(t, 27.2, .4));
+      enter($('s5-head'), t, 22.1);
+      [...a.querySelectorAll('.step')].forEach((s, i) => enter(s, t, 22.6 + i * .5, 60));
+      const b = $('s5b');
+      const ob = IO(p(t, 27.3, .45));
+      b.style.opacity = ob; b.style.visibility = ob > 0 ? 'visible' : 'hidden';
+      $('s5b-photo').style.transform = `scale(${1 + .06 * p(t, 27.3, 4.7)})`;
+      enter($('s5b-head'), t, 27.45);
+      enter($('s5b-win'), t, 27.75, 60);
+      [...b.querySelectorAll('.tile')].forEach((el, i) => enter(el, t, 28.2 + i * .1, 28));
+      $('s5b-bar').style.width = (100 * IO(p(t, 28.6, 3.2))) + '%';
+      $('s5b-rec').style.opacity = .55 + .45 * blink(t, 27.3);
+    }
+
+    // S6 (32 - 38 s)
+    if (scene($('s6'), t, 32, 38)) {
+      $('s6-photo').style.transform = `scale(${1 + .06 * p(t, 32, 6)})`;
+      enter($('s6-head'), t, 32.1);
+      enter($('s6-n1'), t, 32.6, 40);
+      $('s6-v1').textContent = Math.round(330 * OUT(p(t, 32.6, 1.8)));
+      $('s6-plus').style.opacity = IO(p(t, 34.3, .3));
+      enter($('s6-n2'), t, 34.1, 40);
+      $('s6-v2').textContent = Math.round(37 * OUT(p(t, 34.1, 1.3)));
+      enter($('s6-src'), t, 35.2, 20);
+    }
+
+    // S7 (38 - 45 s) : tient jusqu'à la fin
+    if (scene($('s7'), t, 38, 45.01, .4, 0)) {
+      enter($('s7-logo'), t, 38.2, 0, .9, 1.08);
+      enter($('s7-h'), t, 38.4, 40);
+      enter($('s7-sub'), t, 38.95);
+      enter($('s7-btn'), t, 39.15);
+      enter($('s7-url'), t, 39.35, 20);
+    }
+  }
+  window.seek = seek;
+  window.DURATION = DUR;
+
+  Promise.all([document.fonts.ready, ...[...document.images].map(i => i.complete ? 0 : new Promise(r => { i.onload = i.onerror = r; }))]).then(() => {
+    // précharge les images de fond
+    const urls = [...document.querySelectorAll('.bg')].map(b => b.style.backgroundImage.slice(5, -2));
+    return Promise.all(urls.map(src => new Promise(r => { const im = new Image(); im.onload = im.onerror = r; im.src = src; })));
+  }).then(() => {
+    seek(0); window.__ready = true;
+    if (!RENDER) { const t0 = performance.now(); const loop = now => { seek((now - t0) / 1000); requestAnimationFrame(loop); }; requestAnimationFrame(loop); }
+  });
+})();
+</script>
+</body>
+</html>
