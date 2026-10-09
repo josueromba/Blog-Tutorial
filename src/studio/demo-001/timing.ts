@@ -32,3 +32,12 @@ export const CUES = {
   // Revision: check mark completes
   chime: 352,
 } as const;
+
+// ---------- Audio delivery ----------
+// Remotion 4.0.438 encodes AAC to ADTS and stream-copies it into the MP4, so the
+// encoder priming lands in-band with no edit list. Measured on this pipeline by
+// cross-correlating the decoded MP4 against score.wav: exactly 2048 samples
+// (42.67 ms) late. scripts/studio/demo-001/finalize-audio.sh remuxes losslessly
+// with this negative offset so the MP4 edit list skips the priming.
+export const AUDIO_SAMPLE_RATE = 48000;
+export const AAC_PRIMING_SAMPLES = 2048;

@@ -17,10 +17,10 @@
             "has_b_frames": 2,
             "sample_aspect_ratio": "1:1",
             "display_aspect_ratio": "16:9",
-            "pix_fmt": "yuvj420p",
+            "pix_fmt": "yuv420p",
             "level": 40,
-            "color_range": "pc",
-            "color_space": "bt470bg",
+            "color_range": "tv",
+            "color_space": "bt709",
             "chroma_location": "center",
             "field_order": "progressive",
             "refs": 4,
@@ -34,7 +34,7 @@
             "start_time": "0.000000",
             "duration_ts": 1350000,
             "duration": "15.000000",
-            "bit_rate": "1476373",
+            "bit_rate": "1360780",
             "bits_per_raw_sample": "8",
             "nb_frames": "450",
             "nb_read_frames": "450",
@@ -64,12 +64,7 @@
                 "language": "und",
                 "handler_name": "VideoHandler",
                 "vendor_id": "[0][0][0][0]"
-            },
-            "side_data_list": [
-                {
-                    "side_data_type": "ICC Profile"
-                }
-            ]
+            }
         },
         {
             "index": 1,
@@ -91,11 +86,11 @@
             "time_base": "1/48000",
             "start_pts": 0,
             "start_time": "0.000000",
-            "duration_ts": 722944,
-            "duration": "15.061333",
+            "duration_ts": 720912,
+            "duration": "15.019000",
             "bit_rate": "317375",
             "nb_frames": "706",
-            "nb_read_frames": "706",
+            "nb_read_frames": "704",
             "extradata_size": 2,
             "disposition": {
                 "default": 1,
@@ -132,16 +127,14 @@
         "nb_stream_groups": 0,
         "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
         "start_time": "0.000000",
-        "duration": "15.061333",
-        "size": "3384007",
-        "bit_rate": "1797454",
+        "duration": "15.019000",
+        "size": "3166749",
+        "bit_rate": "1686796",
         "probe_score": 100,
         "tags": {
             "major_brand": "isom",
             "minor_version": "512",
-            "compatible_brands": "isomiso2avc1mp41",
-            "encoder": "Lavf61.7.100",
-            "comment": "Made with Remotion 4.0.438"
+            "compatible_brands": "isomiso2avc1mp41"
         }
     }
 }

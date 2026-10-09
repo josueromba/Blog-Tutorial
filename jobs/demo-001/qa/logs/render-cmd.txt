@@ -1,0 +1,10 @@
+# demo-001 final render commands (revision round 1)
+# Step 1 - Remotion render with the brief's flags plus the approved --color-space=bt709:
+npx remotion render src/studio/index.ts Demo001Landscape jobs/demo-001/qa/raw-renders/demo-001-16x9.raw.mp4 --codec=h264 --pixel-format=yuv420p --audio-codec=aac --color-space=bt709
+npx remotion render src/studio/index.ts Demo001Vertical jobs/demo-001/qa/raw-renders/demo-001-9x16.raw.mp4 --codec=h264 --pixel-format=yuv420p --audio-codec=aac --color-space=bt709
+# Step 2 - lossless remux that trims the 2048-sample AAC priming via an MP4 edit list
+# (constant AAC_PRIMING_SAMPLES in src/studio/demo-001/timing.ts; stream copy, no re-encode):
+scripts/studio/demo-001/finalize-audio.sh jobs/demo-001/qa/raw-renders/demo-001-16x9.raw.mp4 jobs/demo-001/out/demo-001-16x9.mp4
+scripts/studio/demo-001/finalize-audio.sh jobs/demo-001/qa/raw-renders/demo-001-9x16.raw.mp4 jobs/demo-001/out/demo-001-9x16.mp4
+# Inside step 2, ffmpeg runs:
+# ffmpeg -y -i RAW -itsoffset -0.042666666667 -i RAW -map 0:v:0 -map 1:a:0 -c copy -map_metadata -1 -fflags +bitexact -movflags +faststart FINAL
