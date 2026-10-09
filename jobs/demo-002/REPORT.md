@@ -39,3 +39,16 @@ All four are logged in `qa/advisor-log.md`.
 3. **Facts are dated 2026-10-08/09**, and both features are in beta. Re-check the source before posting.
 
 Nothing was published or sent.
+
+## French version (2026-10-09)
+| Item | Path | Status |
+|---|---|---|
+| MP4 FR 16:9 | `jobs/demo-002/out/demo-002-fr-16x9.mp4` | ffprobe acceptance PASS (`qa/acceptance-fr.md`) |
+| MP4 FR 9:16 | `jobs/demo-002/out/demo-002-fr-9x16.mp4` | ffprobe acceptance PASS |
+| Copy | `jobs/demo-002/brief-fr.md` (main-owned), `src/studio/demo-002/copy.ts` | copy check PASS (`qa/copy-check-fr.md`, codepoints + frames) |
+
+- Scene review (motion-maker, 54 frames): no issues. FR revisions used: 0 of 2. Minor: the hyphen in "Modifiez-la" shows Inter's normal side spacing at 80 px.
+- French typography: U+202F before every ":". The corner tag "Explication non officielle" sits at 56 px without overlapping anything.
+- EN integrity: the EN stills are byte-identical before and after the locale refactor (`qa/logs/fr-integrity.log`, motion-maker). Main verified with git that the demo-001 and EN demo-002 MP4s and the WAVs are unchanged since commit c08d18c.
+- Same score as EN. Sync is 0 samples late at all 7 cuts, measured not listened to. **Playback not reviewed.**
+- The same owner decisions apply (trademark, studio name, beta facts dated 2026-10-08).
