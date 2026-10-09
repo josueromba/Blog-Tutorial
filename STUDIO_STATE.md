@@ -9,8 +9,8 @@
 | 4. Agents | Done: `motion-maker`, `studio-worker` |
 | 5. CLAUDE.md + this file | Done |
 | 6. Gate | **STOPPED** - setup session observed as `claude-opus-5-5` (get_session: `session_context.model` and `last_served_model`), not Sonnet 5.5; the advisor tool only attached mid-session; the session started before `.claude/agents/` existed. Writing `.claude/settings.json` did not change this session's model. Restart required (see Restart below). |
-| Job demo-001 | In progress - owner overrode the gate on 2026-10-09 ("continue quand même ici, lance demo-001"). Main session is claude-opus-5-5, not Sonnet 5.5; advisor attached. Brief written; motion-maker drafting storyboard. |
-| Clients (leads, proposals) | In progress - 4 studio-workers searching (job boards, Remotion-specific, forums, launch prospects) -> research/leads/*.md; merge into leads.csv pending |
+| Job demo-001 | In progress - owner overrode the gate on 2026-10-09 ("continue quand même ici, lance demo-001"). Main session is claude-opus-5-5, not Sonnet 5.5; advisor attached. Storyboard approved after an advisor review (advisor log #3). motion-maker is building and rendering. |
+| Clients (leads, proposals) | leads.csv merged: 9 rows (3 unverified requests, 6 prospects). Reddit is a coverage gap (network-blocked). Proposals wait for the demo MP4s. See research/leads/README.md. |
 | Deliver | Not started |
 
 ### Environment check
@@ -23,6 +23,13 @@
 
 ### Advisor log (setup)
 - 2026-10-09, gate review: the advisor confirmed the stop at the gate and asked for branch-aware restart steps, accurate gate wording, a version note, and a check of the agent frontmatter against the sub-agents docs. All were applied; `skills` is now a YAML list.
+
+## Observed models (transcript metadata, grep of `"model":"..."` in each agent's transcript)
+| Agent | Configured | Observed |
+|---|---|---|
+| main session | claude-sonnet-5-5 (project setting) | claude-opus-5-5 (get_session: session_context.model and last_served_model). The gate was overridden by the owner. |
+| motion-maker (storyboard) | claude-opus-5-5 | claude-opus-5-5 x37 |
+| studio-worker x4 (leads) | claude-haiku-5-5 | claude-haiku-5-5 (18-36 entries each), plus 1 claude-opus-5-5 entry per transcript, probably parent/session metadata (not verified) |
 
 ## Restart
 1. Get this branch: `git fetch origin claude/beautiful-dirac-48xhh5 && git checkout claude/beautiful-dirac-48xhh5` (or pick that branch when starting a session).

@@ -1,0 +1,28 @@
+Bundling code        ━                  6%
+Bundling code        ━━                 14%
+Bundling code        ━━━━╸              27%
+Bundling code        ━━━━━━━━━━━╸       65%
+Bundling code        ━━━━━━━━━━━━╸      71%
+Bundling code        ━━━━━━━━━━━━━╸     76%
+Bundling code        ━━━━━━━━━━━━━━╸    81%
+Bundling code        ━━━━━━━━━━━━━━━╸   87%
+Bundling code        ━━━━━━━━━━━━━━━━╸  92%
+Bundling code        ━━━━━━━━━━━━━━━━━╸ 98%
+Bundling code        ━━━━━━━━━━━━━━━━━━ 100%
+Bundled code         ━━━━━━━━━━━━━━━━━━ 3737ms
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020409.47 MB
+Memory reported by /proc/meminfo: 15130.94 MB
+Memory reported by Node: 15130.94 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020495.60 MB
+Memory reported by /proc/meminfo: 15194.87 MB
+Memory reported by Node: 15194.87 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+
+The following compositions are available:
+
+RSSIAfrique    30      1920x1080      1300 (43.33 sec)

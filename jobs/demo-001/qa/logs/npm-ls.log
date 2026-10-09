@@ -1,0 +1,29 @@
+blog-tutorial@1.0.0 /home/user/Blog-Tutorial
++-- @remotion/bundler@4.0.438
+| +-- @remotion/studio-shared@4.0.438
+| | `-- remotion@4.0.438 deduped
+| +-- @remotion/studio@4.0.438
+| | +-- @remotion/web-renderer@4.0.438
+| | | `-- remotion@4.0.438 deduped
+| | +-- @remotion/zod-types@4.0.438
+| | | `-- remotion@4.0.438 deduped
+| | `-- remotion@4.0.438 deduped
+| `-- remotion@4.0.438 deduped
++-- @remotion/cli@4.0.438
+| +-- @remotion/bundler@4.0.438 deduped
+| +-- @remotion/media-utils@4.0.438
+| | `-- remotion@4.0.438 deduped
+| +-- @remotion/player@4.0.438
+| | `-- remotion@4.0.438 deduped
+| +-- @remotion/renderer@4.0.438
+| | `-- remotion@4.0.438 deduped
+| +-- @remotion/studio-server@4.0.438
+| | +-- @remotion/bundler@4.0.438 deduped
+| | `-- remotion@4.0.438 deduped
+| `-- remotion@4.0.438 deduped
++-- @remotion/fonts@4.0.438
+| `-- remotion@4.0.438 deduped
++-- @remotion/media@4.0.438
+| `-- remotion@4.0.438 deduped
+`-- remotion@4.0.438
+
