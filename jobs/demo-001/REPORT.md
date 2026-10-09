@@ -21,17 +21,17 @@
 Observed means the `"model"` entries in each agent's transcript metadata, plus get_session for the main session. Nothing here is self-reported.
 | Role | Configured | Observed |
 |---|---|---|
-| Main session | claude-sonnet-5-5 | **claude-opus-5-5**. The owner overrode the gate, so the studio ran from the setup session. |
+| Main session | claude-sonnet-5-5 | **claude-opus-5-5** (get_session at delivery: session_context.model and last_served_model). The owner overrode the gate, so the studio ran from the setup session. |
 | motion-maker | claude-opus-5-5 | claude-opus-5-5 (364 entries) |
-| studio-worker (4 lead searches + 1 acceptance check) | claude-haiku-5-5 | claude-haiku-5-5, plus 1 claude-opus-5-5 entry per transcript (probably parent metadata, not verified) |
+| studio-worker (4 lead searches + 1 acceptance check) | claude-haiku-5-5 | claude-haiku-5-5. The single claude-opus-5-5 entry per transcript is an `advisor_tool` attachment (advisor available, model opus), not the serving model. 0 advisor calls observed. |
 /usage and /tasks were not run (unavailable from this session).
 
-## Advisor calls (real): 4
+## Advisor calls (real): 5
 1. Main, at the setup gate.
 2. motion-maker, on the storyboard.
 3. Main, approving the approach.
 4. motion-maker, after a font-load render failure.
-Calls 2 and 4 are counted from transcript metadata (`"name":"advisor"`); their content is as reported by motion-maker. Call 5 (main, before delivery) is in `qa/advisor-log.md`.
+Calls 2 and 4 are counted from transcript metadata (`"name":"advisor"`); their content is as reported by motion-maker. 5. Main, before delivery. All five are logged in `qa/advisor-log.md`.
 
 ## Owner decisions needed before anything is published or sent
 1. Using "Claude Code" (an Anthropic product name) in the studio name/end card, and naming "Remotion" in the ad.

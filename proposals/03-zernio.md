@@ -13,7 +13,7 @@ Hi Zernio team,
 - The editable Remotion (React) source code, which suits a dev-facing team: change the copy or the data, then re-render.
 - One revision round.
 
-**Reference:** our 15 s studio demo uses this pipeline. Both formats come from one component tree, the sound is synthesised and frame-locked to the cuts, and every render passes an automated technical check. Files available on request.
+**Reference:** our 15 s studio demo uses this pipeline. Both formats come from one component tree, the sound is synthesised and frame-locked to the cuts, and both renders passed an automated technical check. Files available on request.
 
 Could you share a budget range and any launch date you're working toward?
 
