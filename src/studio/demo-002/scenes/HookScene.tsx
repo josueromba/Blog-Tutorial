@@ -4,6 +4,7 @@ import {useStudioFonts} from '../../demo-001/fonts';
 import {Backdrop} from '../../demo-001/components/Backdrop';
 import {C, CLAMP, EASE, headline, reveal, useFormat} from '../../demo-001/theme';
 import {SCENE} from '../timing';
+import {useCopy} from '../copy';
 
 const MiniChartCard: React.FC<{readonly w: number; readonly h: number}> = ({w, h}) => (
   <div style={{width: w, height: h, borderRadius: 20, backgroundColor: C.surface, border: `3px solid ${C.stroke}`, boxSizing: 'border-box', position: 'relative'}}>
@@ -33,6 +34,7 @@ const MiniEditorCard: React.FC<{readonly w: number; readonly h: number; readonly
 
 export const HookScene: React.FC = () => {
   useStudioFonts();
+  const copy = useCopy();
   const frame = useCurrentFrame();
   const {portrait, width, mx} = useFormat();
   const dur = SCENE.hook.duration;
@@ -62,22 +64,16 @@ export const HookScene: React.FC = () => {
           transformOrigin: portrait ? 'left center' : 'center center',
         }}
       >
-        {portrait ? (
-          <>
-            <div>{word(0, C.paper, 'New in Claude:')}</div>
-            <div>
-              {word(4, C.violet, 'Dashboards')} {word(6, C.paper, '+')}
-            </div>
-            <div>{word(8, C.violet, 'Motion')}</div>
-          </>
-        ) : (
-          <>
-            <div>{word(0, C.paper, 'New in Claude:')}</div>
-            <div>
-              {word(4, C.violet, 'Dashboards')} {word(4, C.paper, '+')} {word(4, C.violet, 'Motion')}
-            </div>
-          </>
-        )}
+        {(portrait ? copy.hook.portrait : copy.hook.landscape).map((ws, i) => (
+          <div key={i}>
+            {ws.map((w, j) => (
+              <React.Fragment key={j}>
+                {j > 0 ? ' ' : null}
+                {word(w.start, w.violet ? C.violet : C.paper, w.t)}
+              </React.Fragment>
+            ))}
+          </div>
+        ))}
       </div>
       {/* two generic cards lock together */}
       {portrait ? (

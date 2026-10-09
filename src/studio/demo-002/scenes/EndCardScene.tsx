@@ -5,10 +5,12 @@ import {Backdrop} from '../../demo-001/components/Backdrop';
 import {Line} from '../../demo-001/components/Line';
 import {C, CLAMP, EASE, FONT, reveal, useFormat} from '../../demo-001/theme';
 import {SCENE} from '../timing';
+import {useCopy} from '../copy';
 
 /** End card: studio sign-off + tag, then disclaimer and source (56 px). All land by local 22 (f382). */
 export const EndCardScene: React.FC = () => {
   useStudioFonts();
+  const copy = useCopy();
   const frame = useCurrentFrame();
   const {portrait} = useFormat();
   const mark = interpolate(frame, [-4, 10], [0, 1], {...CLAMP, easing: EASE});
@@ -69,24 +71,19 @@ export const EndCardScene: React.FC = () => {
             whiteSpace: 'nowrap',
           }}
         >
-          studio demo
+          {copy.end.tag}
         </div>
         <div style={{width: 360, height: 2, backgroundColor: C.stroke, margin: '32px 0 22px', opacity: tag}} />
-        {portrait ? (
-          <>
-            <div style={small(8)}>Unofficial explainer ·</div>
-            <div style={small(10)}>not affiliated</div>
-            <div style={small(12)}>with Anthropic</div>
-            <div style={{...small(12, '#C9CCE0'), marginTop: 14}}>Source: claude.com,</div>
-            <div style={small(14, '#C9CCE0')}>Oct 8, 2026</div>
-          </>
-        ) : (
-          <>
-            <div style={small(8)}>Unofficial explainer ·</div>
-            <div style={small(10)}>not affiliated with Anthropic</div>
-            <div style={{...small(12, '#C9CCE0'), marginTop: 12}}>Source: claude.com, Oct 8, 2026</div>
-          </>
-        )}
+        {(portrait ? copy.end.portrait : copy.end.landscape).disc.map((l, i) => (
+          <div key={`d${i}`} style={small(l.start)}>
+            {l.t}
+          </div>
+        ))}
+        {(portrait ? copy.end.portrait : copy.end.landscape).src.map((l, i) => (
+          <div key={`s${i}`} style={i === 0 ? {...small(l.start, '#C9CCE0'), marginTop: portrait ? 14 : 12} : small(l.start, '#C9CCE0')}>
+            {l.t}
+          </div>
+        ))}
       </div>
     </AbsoluteFill>
   );

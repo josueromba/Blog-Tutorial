@@ -5,6 +5,7 @@ import {Backdrop} from '../../demo-001/components/Backdrop';
 import {Line} from '../../demo-001/components/Line';
 import {C, CLAMP, useFormat} from '../../demo-001/theme';
 import {SCENE} from '../timing';
+import {useCopy} from '../copy';
 
 const Row: React.FC<{readonly start: number; readonly size: number; readonly children: React.ReactNode}> = ({start, size, children}) => {
   const frame = useCurrentFrame();
@@ -35,6 +36,7 @@ const Row: React.FC<{readonly start: number; readonly size: number; readonly chi
 
 export const BetaScene: React.FC = () => {
   useStudioFonts();
+  const copy = useCopy();
   const frame = useCurrentFrame();
   const {portrait, width, height, mx} = useFormat();
   const dur = SCENE.beta.duration;
@@ -58,14 +60,14 @@ export const BetaScene: React.FC = () => {
         }}
       />
       <div style={{position: 'absolute', left: mx, top: portrait ? 330 : 300}}>
-        <Line start={0} size={portrait ? 112 : 120}>
-          Both in beta
+        <Line start={0} size={portrait ? copy.beta.headlineSize9x16 : 120}>
+          {copy.beta.headline}
         </Line>
         <Row start={4} size={rs}>
-          Dashboards: paid plans
+          {copy.beta.row1}
         </Row>
         <Row start={8} size={rs}>
-          Motion: Team &amp; Enterprise
+          {copy.beta.row2}
         </Row>
       </div>
     </AbsoluteFill>

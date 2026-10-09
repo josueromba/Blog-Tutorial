@@ -8,11 +8,13 @@ import {C, CLAMP, EASE, useFormat} from '../../demo-001/theme';
 import {Cursor} from '../components/Cursor';
 import {QueryPanel} from '../components/QueryPanel';
 import {SCENE} from '../timing';
+import {useCopy} from '../copy';
 
 const CLICK = 18; // local -> f138
 
 export const QueryScene: React.FC = () => {
   useStudioFonts();
+  const copy = useCopy();
   const frame = useCurrentFrame();
   const {portrait, width, mx} = useFormat();
   const dur = SCENE.query.duration;
@@ -37,18 +39,11 @@ export const QueryScene: React.FC = () => {
     <AbsoluteFill>
       <Backdrop glowX={portrait ? 0.4 : 0.35} glowY={portrait ? 0.55 : 0.6} duration={dur} driftY={-0.03} />
       <div style={{position: 'absolute', left: mx, top: portrait ? 290 : 230}}>
-        {portrait ? (
-          <>
-            <Line start={0} size={80} style={{fontWeight: 700, letterSpacing: '-0.01em'}}>Click any number</Line>
-            <Line start={4} size={80} style={{fontWeight: 700, letterSpacing: '-0.01em'}}>to see the query</Line>
-            <Line start={8} size={80} style={{fontWeight: 700, letterSpacing: '-0.01em'}}>behind it</Line>
-          </>
-        ) : (
-          <>
-            <Line start={0} size={72} style={{fontWeight: 700, letterSpacing: '-0.01em'}}>Click any number to see</Line>
-            <Line start={4} size={72} style={{fontWeight: 700, letterSpacing: '-0.01em'}}>the query behind it</Line>
-          </>
-        )}
+        {(portrait ? copy.query.portrait : copy.query.landscape).map((t, i) => (
+          <Line key={i} start={i * 4} size={portrait ? 80 : 72} style={{fontWeight: 700, letterSpacing: '-0.01em'}}>
+            {t}
+          </Line>
+        ))}
       </div>
       <MockDashboard width={dash.w} height={dash.h} p={portrait ? 1 : 0} grow={1} draw={1} style={{left: dash.x, top: dash.y, opacity: dashIn}} />
       {/* selection ring on the clicked value pill */}

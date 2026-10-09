@@ -1,0 +1,5 @@
+# demo-002 FR render commands (shared EN score public/studio/demo-002/score.wav, unchanged)
+npx remotion render src/studio/index.ts Demo002FrLandscape jobs/demo-002/qa/raw-renders/demo-002-fr-16x9.raw.mp4 --codec=h264 --pixel-format=yuv420p --audio-codec=aac --color-space=bt709
+npx remotion render src/studio/index.ts Demo002FrVertical jobs/demo-002/qa/raw-renders/demo-002-fr-9x16.raw.mp4 --codec=h264 --pixel-format=yuv420p --audio-codec=aac --color-space=bt709
+scripts/studio/demo-001/finalize-audio.sh jobs/demo-002/qa/raw-renders/demo-002-fr-16x9.raw.mp4 jobs/demo-002/out/demo-002-fr-16x9.mp4
+scripts/studio/demo-001/finalize-audio.sh jobs/demo-002/qa/raw-renders/demo-002-fr-9x16.raw.mp4 jobs/demo-002/out/demo-002-fr-9x16.mp4

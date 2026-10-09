@@ -1,0 +1,40 @@
+hook 16:9 L1                1307px  budget  1612  OK  | Nouveau dans Claude :
+hook 16:9 L2                1224px  budget  1612  OK  | Dashboards + Motion
+hook 9:16 L1                 714px  budget   908  OK  | Nouveau dans
+hook 9:16 L2                 398px  budget   908  OK  | Claude :
+hook 9:16 L1alt             1133px  budget   908  OVER  | Nouveau dans Claude :
+dash 16:9 body1 60           688px  budget   872  OK  | Vos données en tableau
+dash 16:9 body1b 60          940px  budget   872  OVER  | Vos données en tableau de bord,
+dash body2 60                663px  budget   908  OK  | de bord, toujours à jour
+dash 9:16 body1 60           940px  budget   908  OVER  | Vos données en tableau de bord,
+dash 9:16 body2 60           413px  budget   908  OK  | toujours à jour
+query 16:9 72 L1             736px  budget  1612  OK  | Cliquez sur un chiffre
+query 16:9 72 L1full        1062px  budget  1612  OK  | Cliquez sur un chiffre pour voir
+query 16:9 L2                364px  budget  1612  OK  | sa requête
+query 9:16 80 L1             818px  budget   908  OK  | Cliquez sur un chiffre
+query 9:16 80 L2             766px  budget   908  OK  | pour voir sa requête
+motion 16:9 64 L1            726px  budget   822  OK  | Tapez /motion pour une
+motion 16:9 64 L2            758px  budget   822  OK  | vidéo explicative animée
+motion 9:16 64 L1            726px  budget   908  OK  | Tapez /motion pour une
+motion 9:16 64 L2            758px  budget   908  OK  | vidéo explicative animée
+edit 16:9 80 L1              644px  budget   792  OK  | Modifiez-la, puis
+edit 16:9 80 L2              766px  budget   792  OK  | téléchargez un MP4
+edit 9:16 80 L2              766px  budget   908  OK  | téléchargez un MP4
+edit pill 56                 734px  budget   670  OVER  | Aucune séquence générée
+beta 16:9 120                959px  budget  1612  OK  | Les deux en bêta
+beta 9:16 112                895px  budget   908  OK  | Les deux en bêta
+beta row1 9:16 58            812px  budget   864  OK  | Dashboards : offres payantes
+beta row2 9:16 58            758px  budget   864  OK  | Motion : Team et Enterprise
+beta row2 16:9 64            836px  budget  1146  OK  | Motion : Team et Enterprise
+end tag 56                   331px  budget   908  OK  | démo studio
+end disc 16:9 L1             685px  budget  1612  OK  | Explication non officielle ·
+end disc 16:9 L2             654px  budget  1612  OK  | sans lien avec Anthropic
+end disc 16:9 full          1354px  budget  1612  OK  | Explication non officielle · sans lien avec Anthropic
+end disc 9:16 L1             685px  budget   908  OK  | Explication non officielle ·
+end src 16:9                 882px  budget  1612  OK  | Source : claude.com, 8 oct. 2026
+end src 9:16 L1              560px  budget   908  OK  | Source : claude.com,
+end src 9:16 L2              307px  budget   908  OK  | 8 oct. 2026
+corner 56                    653px  budget     0  OK  | Explication non officielle
+corner 48                    560px  budget     0  OK  | Explication non officielle
+corner 44                    513px  budget     0  OK  | Explication non officielle
+corner EN 56                 517px  budget     0  OK  | Unofficial explainer

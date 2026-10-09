@@ -1,0 +1,47 @@
+# FR build integrity log
+## BEFORE (no source touched) 2026-10-09T23:02:36Z
+afa3b8885d235f2d37d2c178f30d62c8ee008b7fff2a42eccd05d7693ce75839  jobs/demo-001/out/demo-001-16x9.mp4
+69becb825bb4d5c56720645093277df5d06725f73b3d31a41f2261f868a3a835  jobs/demo-001/out/demo-001-9x16.mp4
+df73855b22a3810caa5a89f3a7231a5e5c0d7475bebe8b478ac026c19dae65fe  jobs/demo-002/out/demo-002-16x9.mp4
+613b4c8305cdf933eec0314769a57f2d42e65d3c285e26d973696a502051551e  jobs/demo-002/out/demo-002-9x16.mp4
+42423e932c9627bc6d175bfeff8fa4e8f33bdc69b54252f8c29d950806a4aea9  public/studio/demo-001/score.wav
+3cf43314077532d83dfe1a04360d81471c96f8140ede42350d784bf2a58e22a5  public/studio/demo-002/score.wav
+## Glyph coverage (fc-query charset) 2026-10-09T23:03:56Z
+StudioInter-Bold.otf U+202F NNBSP=Y U+00A0 NBSP=Y é=Y è=Y ê=Y à=Y ·=Y É=Y
+StudioInter-ExtraBold.otf U+202F NNBSP=Y U+00A0 NBSP=Y é=Y è=Y ê=Y à=Y ·=Y É=Y
+StudioInter-Medium.otf U+202F NNBSP=Y U+00A0 NBSP=Y é=Y è=Y ê=Y à=Y ·=Y É=Y
+## EN still identity after locale refactor 2026-10-09T23:06:49Z
+IDENTICAL demo-002-16x9-f059.png
+IDENTICAL demo-002-16x9-f119.png
+IDENTICAL demo-002-16x9-f179.png
+IDENTICAL demo-002-16x9-f239.png
+IDENTICAL demo-002-16x9-f299.png
+IDENTICAL demo-002-16x9-f359.png
+IDENTICAL demo-002-16x9-f449.png
+IDENTICAL demo-002-9x16-f059.png
+IDENTICAL demo-002-9x16-f119.png
+IDENTICAL demo-002-9x16-f179.png
+IDENTICAL demo-002-9x16-f239.png
+IDENTICAL demo-002-9x16-f299.png
+IDENTICAL demo-002-9x16-f359.png
+IDENTICAL demo-002-9x16-f449.png
+IDENTICAL demo-001-16x9-f000.png
+IDENTICAL demo-001-16x9-f165.png
+IDENTICAL demo-001-16x9-f449.png
+IDENTICAL demo-001-9x16-f000.png
+IDENTICAL demo-001-9x16-f165.png
+IDENTICAL demo-001-9x16-f449.png
+
+## AFTER FR build 2026-10-09T23:11:43Z
+afa3b8885d235f2d37d2c178f30d62c8ee008b7fff2a42eccd05d7693ce75839  jobs/demo-001/out/demo-001-16x9.mp4
+69becb825bb4d5c56720645093277df5d06725f73b3d31a41f2261f868a3a835  jobs/demo-001/out/demo-001-9x16.mp4
+df73855b22a3810caa5a89f3a7231a5e5c0d7475bebe8b478ac026c19dae65fe  jobs/demo-002/out/demo-002-16x9.mp4
+613b4c8305cdf933eec0314769a57f2d42e65d3c285e26d973696a502051551e  jobs/demo-002/out/demo-002-9x16.mp4
+42423e932c9627bc6d175bfeff8fa4e8f33bdc69b54252f8c29d950806a4aea9  public/studio/demo-001/score.wav
+3cf43314077532d83dfe1a04360d81471c96f8140ede42350d784bf2a58e22a5  public/studio/demo-002/score.wav
+UNCHANGED jobs/demo-001/out/demo-001-16x9.mp4
+UNCHANGED jobs/demo-001/out/demo-001-9x16.mp4
+UNCHANGED jobs/demo-002/out/demo-002-16x9.mp4
+UNCHANGED jobs/demo-002/out/demo-002-9x16.mp4
+UNCHANGED public/studio/demo-001/score.wav
+UNCHANGED public/studio/demo-002/score.wav

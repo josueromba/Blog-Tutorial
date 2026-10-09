@@ -1,9 +1,12 @@
 import React from 'react';
 import {AbsoluteFill} from 'remotion';
 import {C, FONT, useFormat} from '../../demo-001/theme';
+import {useCopy} from '../copy';
 
 /** Persistent "Unofficial explainer" tag, top-left inside the safe area, drawn above every scene (f0-f449). */
-export const CornerTag: React.FC<{readonly size?: number}> = ({size = 56}) => {
+export const CornerTag: React.FC<{readonly size?: number}> = ({size: sizeProp}) => {
+  const copy = useCopy();
+  const size = sizeProp ?? copy.cornerSize;
   const {mx, my} = useFormat();
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
@@ -24,7 +27,7 @@ export const CornerTag: React.FC<{readonly size?: number}> = ({size = 56}) => {
           whiteSpace: 'nowrap',
         }}
       >
-        Unofficial explainer
+        {copy.cornerTag}
       </div>
     </AbsoluteFill>
   );

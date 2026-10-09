@@ -6,6 +6,7 @@ import {Line} from '../../demo-001/components/Line';
 import {MockDashboard} from '../../demo-001/components/MockDashboard';
 import {C, CLAMP, EASE, useFormat} from '../../demo-001/theme';
 import {SCENE} from '../timing';
+import {useCopy} from '../copy';
 
 const Refresh: React.FC<{readonly size: number; readonly spin: number; readonly style?: React.CSSProperties}> = ({size, spin, style}) => (
   <svg width={size} height={size} viewBox="0 0 40 40" style={{position: 'absolute', rotate: `${spin}deg`, ...style}}>
@@ -16,6 +17,7 @@ const Refresh: React.FC<{readonly size: number; readonly spin: number; readonly 
 
 export const DashboardsScene: React.FC = () => {
   useStudioFonts();
+  const copy = useCopy();
   const frame = useCurrentFrame();
   const {portrait, width, mx} = useFormat();
   const dur = SCENE.dashboards.duration;
@@ -34,8 +36,8 @@ export const DashboardsScene: React.FC = () => {
         <Line start={0} size={hs}>Claude</Line>
         <Line start={4} size={hs} style={{color: C.violet}}>Dashboards</Line>
         <div style={{height: 28}} />
-        <Line start={8} size={bs} style={{fontWeight: 700, letterSpacing: '-0.01em'}}>Your data, as a dashboard</Line>
-        <Line start={12} size={bs} style={{fontWeight: 700, letterSpacing: '-0.01em'}}>that stays current</Line>
+        <Line start={8} size={bs} style={{fontWeight: 700, letterSpacing: '-0.01em'}}>{copy.dashboards.body[0]}</Line>
+        <Line start={12} size={bs} style={{fontWeight: 700, letterSpacing: '-0.01em'}}>{copy.dashboards.body[1]}</Line>
       </div>
       <MockDashboard
         width={card.w}

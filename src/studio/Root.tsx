@@ -8,6 +8,7 @@ import {SourceScene} from './demo-001/scenes/SourceScene';
 import {RevisionScene} from './demo-001/scenes/RevisionScene';
 import {EndCardScene} from './demo-001/scenes/EndCardScene';
 import {Demo002} from './demo-002/Demo002';
+import {Demo002Fr} from './demo-002/Demo002Fr';
 import {HookScene as D2Hook} from './demo-002/scenes/HookScene';
 import {DashboardsScene as D2Dashboards} from './demo-002/scenes/DashboardsScene';
 import {QueryScene as D2Query} from './demo-002/scenes/QueryScene';
@@ -34,6 +35,10 @@ export const StudioRoot: React.FC = () => {
       <Folder name="demo-002">
         <Composition id="Demo002Landscape" component={Demo002} width={1920} height={1080} fps={30} durationInFrames={450} />
         <Composition id="Demo002Vertical" component={Demo002} width={1080} height={1920} fps={30} durationInFrames={450} />
+      </Folder>
+      <Folder name="demo-002-fr">
+        <Composition id="Demo002FrLandscape" component={Demo002Fr} width={1920} height={1080} fps={30} durationInFrames={450} />
+        <Composition id="Demo002FrVertical" component={Demo002Fr} width={1080} height={1920} fps={30} durationInFrames={450} />
       </Folder>
       <Folder name="demo-002-scenes">
         <Composition id="Demo002-Hook" component={D2Hook} width={1920} height={1080} fps={30} durationInFrames={60} />
