@@ -32,6 +32,7 @@ Check a file: `npx remotion ffprobe -v error -show_streams -show_format -of json
 npx remotion render src/studio/index.ts Demo002Landscape jobs/demo-002/qa/raw-renders/demo-002-16x9.raw.mp4 --codec=h264 --pixel-format=yuv420p --audio-codec=aac --color-space=bt709
 # then the finalize-audio step listed in jobs/demo-002/qa/logs/render-cmd.txt -> jobs/demo-002/out/demo-002-16x9.mp4
 # Vertical: Demo002Vertical -> demo-002-9x16
+# French: Demo002FrLandscape / Demo002FrVertical -> jobs/demo-002/out/demo-002-fr-16x9.mp4 / demo-002-fr-9x16.mp4 (commands in jobs/demo-002/qa/logs/render-cmd-fr.txt)
 ```
 
 ### Example prompts

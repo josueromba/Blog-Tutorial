@@ -51,4 +51,8 @@ Nothing was published or sent.
 - French typography: U+202F before every ":". The corner tag "Explication non officielle" sits at 56 px without overlapping anything.
 - EN integrity: the EN stills are byte-identical before and after the locale refactor (`qa/logs/fr-integrity.log`, motion-maker). Main verified with git that the demo-001 and EN demo-002 MP4s and the WAVs are unchanged since commit c08d18c.
 - Same score as EN. Sync is 0 samples late at all 7 cuts, measured not listened to. **Playback not reviewed.**
+- Hyphen check (main): `Line` in `EditScene.tsx` renders "Modifiez-la, puis" as one text node with letterSpacing -0.01em, with no split or gap on "-". The spacing comes from the Inter glyph.
+- Advisor calls for FR: #5 (main, intake) and #6 (main, before delivery). motion-maker made no new calls (transcript count still 3). demo-002 total: 6.
+- Observed models for FR: motion-maker claude-opus-5-5; acceptance worker claude-haiku-5-5 (the single opus entry is the advisor_tool attachment); main claude-opus-5-5.
+- **The translation was written by the main session, not by Anthropic.** The owner should proofread it against the English source before publishing, especially « vidéo explicative animée », « offres payantes » and « Aucune séquence générée ».
 - The same owner decisions apply (trademark, studio name, beta facts dated 2026-10-08).
