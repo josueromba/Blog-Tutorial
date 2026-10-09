@@ -1,5 +1,5 @@
 // Single source of timing for picture AND sound (imported by
-// scripts/studio/demo-001/synth-score.ts). Keep this file to erasable TS only
+// scripts/studio/demo-001/synth-score.mts). Keep this file to erasable TS only
 // (no enums/namespaces) so Node can run it with native type stripping.
 
 export const FPS = 30;

@@ -1,0 +1,15 @@
+# synth runs 2026-10-09T18:23:17Z (script: scripts/studio/demo-001/synth-score.mts)
+node v22.22.0
+{"out":"/home/user/Blog-Tutorial/public/studio/demo-001/score.wav","sampleRate":48000,"samplesPerChannel":720000,"seconds":15,"seed":20261009,"hitsAtFrames":[0,75,165,255,330,390],"hitSamples":[0,120000,264000,408000,528000,624000],"peakDbfs":-1,"rmsDbfs":-23.93,"clippedSamples":0}
+(node:1828) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/user/Blog-Tutorial/src/studio/demo-001/timing.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/user/Blog-Tutorial/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"out":"/tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/score-run2.wav","sampleRate":48000,"samplesPerChannel":720000,"seconds":15,"seed":20261009,"hitsAtFrames":[0,75,165,255,330,390],"hitSamples":[0,120000,264000,408000,528000,624000],"peakDbfs":-1,"rmsDbfs":-23.93,"clippedSamples":0}
+(node:1835) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/user/Blog-Tutorial/src/studio/demo-001/timing.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/user/Blog-Tutorial/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+42423e932c9627bc6d175bfeff8fa4e8f33bdc69b54252f8c29d950806a4aea9  public/studio/demo-001/score.wav
+42423e932c9627bc6d175bfeff8fa4e8f33bdc69b54252f8c29d950806a4aea9  /tmp/claude-0/-home-user-Blog-Tutorial/d4861fdc-d574-5363-9cc8-7327ce2c68fe/scratchpad/score-run2.wav
+DETERMINISTIC: byte-identical (cmp exit 0)
