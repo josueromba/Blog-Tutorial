@@ -2,7 +2,7 @@
 
 À lire en entier avant de concevoir, générer ou animer quoi que ce soit pour cette marque.
 
-Source : 5 captures du site https://learn.cybersecuriteenafrique.com/ (dossier `examples/`) et le CSS du site. Quand je n'ai pas pu trancher, c'est marqué **ASK ME**.
+Source : 5 captures du site https://learn.cybersecuriteenafrique.com/ (dossier `examples/`) et le CSS du site. Les points restés ouverts ont été tranchés le 2026-10-09 (cadence, terracotta, interdit, logo).
 
 ## 1. Couleurs
 
@@ -18,7 +18,8 @@ Source : 5 captures du site https://learn.cybersecuriteenafrique.com/ (dossier `
 | #E3F2FD / #BBDEFB | Ciel / givre | Surfaces bleutées très légères derrière les icônes. |
 | #53657A | Gris | Texte courant sur fond clair. Sur fond sombre, le texte courant passe en blanc à environ 70 % d'opacité. |
 | #D7E3EF | Bordure | Séparateurs fins de 1 px sur fond clair. |
-| #C4512D | Terracotta | Présent dans le CSS mais absent des captures. **ASK ME** avant de l'utiliser. |
+| #0044CD → #00AFC6 | Dégradé du logo | Uniquement à l'intérieur du logo. Jamais en fond ni sur du texte. |
+| #C4512D | Terracotta | Absent des captures : on ne l'utilise pas en vidéo. |
 
 ## 2. Typographie
 
@@ -39,12 +40,12 @@ Source : 5 captures du site https://learn.cybersecuriteenafrique.com/ (dossier `
 
 ## 4. Mouvement
 
-- Images par seconde : **ASK ME** (30 i/s par défaut avec Remotion).
+- Images par seconde : **30 i/s**, comme les compositions Remotion existantes du projet. Pour des ressorts Remotion, choisir un amortissement élevé (`damping` ≥ 200) afin d'éviter tout rebond.
 - Mouvement propre, numérique et précis. Pas d'effet fait main ni d'animation par saccades.
 - Photos : lent zoom avant (de 1,00 à 1,06) sous un voile sombre en dégradé.
 - Les chiffres défilent jusqu'à leur valeur réelle, puis se posent.
 - Les cartes arrivent en cascade, comme la rangée bleue 01 → 04.
-- Sur fond noir, le logo avance doucement et en grand, puis se pose.
+- Sur fond noir, le logo blanc avance doucement et en grand, puis se pose. Sur fond clair, on utilise `logo-learn.webp`.
 
 ## 5. Texture et finition
 
@@ -55,12 +56,11 @@ Source : 5 captures du site https://learn.cybersecuriteenafrique.com/ (dossier `
 
 ## 6. Cinq interdits
 
-1. Pas d'esthétique « hacker » cliché : pluie de code façon Matrix, néon vert, glitch, cagoules.
-2. Pas plus d'une couleur d'accent vive par scène. L'or reste rare.
-3. Pas de dégradés arc-en-ciel ou multicolores, pas de lueurs.
+1. Jamais de cybersécurité par la peur ni de clichés de hacker : pas de cagoules, de crânes, d'alarmes rouges, de pluie de code façon Matrix, de néon vert ni de glitch.
+2. Pas de rebond, d'effet élastique ou d'animation cartoon. Le mouvement se pose, il ne rebondit pas.
+3. Pas plus d'une couleur d'accent vive par scène. L'or reste rare. Pas de dégradés multicolores ni de lueurs.
 4. Pas d'autres polices que Plus Jakarta Sans, DM Sans et DM Mono.
 5. Pas de chiffres ni de prix inventés. Uniquement ceux du site.
-6. L'interdit propre à la marque : **ASK ME** (réponse à la question 7 en attente).
 
 ## 7. Exemple bien fait (reel 1080 × 1920, 15 s)
 

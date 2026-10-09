@@ -31,11 +31,15 @@ Couleurs relevées dans le CSS du site :
 - ciel #E3F2FD
 - gris #53657A
 - blanc #FFFFFF
-- terracotta (secondaire) #C4512D
+- dégradé du logo, du bleu #0044CD au turquoise #00AFC6, et point turquoise #0096B7 (relevés sur le logo, donc approximatifs)
+- terracotta #C4512D : présent dans le CSS, mais exclu des vidéos
 
 Polices : Plus Jakarta Sans pour les titres, DM Sans pour le texte, DM Mono pour les étiquettes.
 
-Logos : `assets/brand/logo-learn-blanc.webp` (avec une copie `.png`) et `assets/brand/icone.ico`.
+Logos (chaque `.webp` a sa copie `.png`) :
+- `assets/brand/logo-learn.webp` : version couleur, pour fonds clairs ;
+- `assets/brand/logo-learn-blanc.webp` : version blanche, pour fonds sombres ;
+- `assets/brand/icone.ico` : icône.
 
 ## Never
-ASK ME : il manque la réponse à la question 7.
+Jamais de cybersécurité par la peur ni de clichés de hacker : pas de cagoules, de crânes, d'alarmes rouges ni de pluie de code. learn. forme et rassure, elle n'effraie pas.
