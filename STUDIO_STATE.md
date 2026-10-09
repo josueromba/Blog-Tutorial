@@ -9,7 +9,7 @@
 | 4. Agents | Done: `motion-maker`, `studio-worker` |
 | 5. CLAUDE.md + this file | Done |
 | 6. Gate | **STOPPED** - setup session observed as `claude-opus-5-5` (get_session: `session_context.model` and `last_served_model`), not Sonnet 5.5; the advisor tool only attached mid-session; the session started before `.claude/agents/` existed. Writing `.claude/settings.json` did not change this session's model. Restart required (see Restart below). |
-| Job demo-001 | Not started |
+| Job demo-001 | In progress - owner overrode the gate on 2026-10-09 ("continue quand même ici, lance demo-001"). Main session is claude-opus-5-5, not Sonnet 5.5; advisor attached. Brief written; motion-maker drafting storyboard. |
 | Clients (leads, proposals) | Not started |
 | Deliver | Not started |
 

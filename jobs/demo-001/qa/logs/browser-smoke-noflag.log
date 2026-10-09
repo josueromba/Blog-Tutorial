@@ -1,0 +1,39 @@
+Bundling code        ━                  6%
+Bundling code        ━━━                18%
+Bundling code        ━━━━━━━━━━━╸       65%
+Bundling code        ━━━━━━━━━━━━╸      71%
+Bundling code        ━━━━━━━━━━━━━╸     76%
+Bundling code        ━━━━━━━━━━━━━━╸    81%
+Bundling code        ━━━━━━━━━━━━━━━╸   87%
+Bundling code        ━━━━━━━━━━━━━━━━╸  92%
+Bundling code        ━━━━━━━━━━━━━━━━━╸ 98%
+Bundling code        ━━━━━━━━━━━━━━━━━━ 100%
+Bundled code         ━━━━━━━━━━━━━━━━━━ 1590ms
+Downloading Chrome Headless Shell https://www.remotion.dev/chrome-headless-shell
+Downloading from: https://remotion.media/chromium-headless-shell-linux-x64-144.0.7559.20.zip?clearcache
+Getting Headless Shell - 9.5 Mb/86.6 Mb
+Getting Headless Shell - 19.1 Mb/86.6 Mb
+Getting Headless Shell - 28.6 Mb/86.6 Mb
+Getting Headless Shell - 38.2 Mb/86.6 Mb
+Getting Headless Shell - 47.7 Mb/86.6 Mb
+Getting Headless Shell - 57.3 Mb/86.6 Mb
+Getting Headless Shell - 66.8 Mb/86.6 Mb
+Getting Headless Shell - 76.4 Mb/86.6 Mb
+Getting Headless Shell - 85.9 Mb/86.6 Mb
+Got Headless Shell
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020773.12 MB
+Memory reported by /proc/meminfo: 15287.43 MB
+Memory reported by Node: 15287.43 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020624.75 MB
+Memory reported by /proc/meminfo: 15251.02 MB
+Memory reported by Node: 15251.02 MB
+You might have inadvertenly set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+
+The following compositions are available:
+
+RSSIAfrique    30      1920x1080      1300 (43.33 sec)
